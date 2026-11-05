@@ -1,0 +1,27 @@
+--- cols fact_indicator ---
+('iso3', 'character')
+('indicator_code', 'text')
+('year', 'integer')
+('value', 'numeric')
+
+--- cols dim_indicator ---
+('code', 'text')
+('name_id', 'text')
+('name_en', 'text')
+('unit', 'text')
+('topic', 'text')
+('source', 'text')
+
+--- row count ---
+(38216,)
+
+--- sample ---
+('IDN', 'NY.GDP.PCAP.CD', 2012, Decimal('3632.27254030331'))
+('IDN', 'NY.GDP.PCAP.CD', 2011, Decimal('3579.46442466152'))
+('IDN', 'NY.GDP.PCAP.CD', 2010, Decimal('3065.68348377765'))
+
+--- probe exact query from builder ---
+SELECT f.value FROM fact_indicator f WHERE f.indicator_code = 'NY.GDP.PCAP.CD' AND f.country_iso3 = 'IDN' AND f.year = 2024
+FAILED: UndefinedColumn column f.country_iso3 does not exist
+LINE 1: ...r f WHERE f.indicator_code = 'NY.GDP.PCAP.CD' AND f.country_...
+                                                             ^

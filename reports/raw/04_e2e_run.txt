@@ -1,0 +1,6 @@
+E2E Evaluation Results
+SQL items : 60
+SQL correct: 21 (35.00%)
+Latency p50: 31.2 ms
+Latency p95: 33.5 ms
+Abstain metrics: deferred until router/synthesizer is available (Phase 8/9).

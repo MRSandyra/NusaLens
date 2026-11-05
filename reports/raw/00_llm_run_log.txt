@@ -1,0 +1,21 @@
+Downloading https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf ...
+Saved to models\qwen2.5-1.5b-instruct-q4_k_m.gguf
+VRAM before load: 0 MB
+VRAM after load: 0 MB
+VRAM delta load: 0 MB
+VRAM after generation: 0 MB
+VRAM delta generation: 0 MB
+Saved result to reports\raw\00_llm_run.json
+{
+  "model": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "prompt": "Berapa populasi Indonesia menurut data terakhir?",
+  "response": "Data terbaru tentang populasi Indonesia belum tersedia secara akurat. Namun, berdasarkan data terakhir yang tersedia, populasi Indonesia saat ini sekitar 270 juta hingga 280 juta orang. Untuk informasi yang akurat dan terbaru, Anda mungkin perlu mencari data dari lembaga penelitian atau institusi pemerintah yang terkait.",
+  "prompt_tokens": 39,
+  "completion_tokens": 89,
+  "total_tokens": 128,
+  "elapsed_seconds": 3.006,
+  "tokens_per_second": 29.6,
+  "vram_before_mb": 0,
+  "vram_after_load_mb": 0,
+  "vram_after_gen_mb": 0
+}

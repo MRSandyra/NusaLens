@@ -1,0 +1,36 @@
+id: judge
+version: 5
+notes: >
+  Two-call judge: the first call analyzes evidence only, then the second call makes the boolean
+  decision from that analysis. This separates evidence review from label selection to avoid a
+  contradictory reason and grounded field in a single small-model response.
+variables: [question, context, answer]
+template: |
+  Kamu menilai apakah JAWABAN didukung oleh KONTEKS untuk menjawab PERTANYAAN.
+
+  Tulis analisis bukti yang memeriksa setiap klaim faktual penting. Jika jawaban menolak menjawab
+  tanpa mengarang angka atau fakta pengganti, perlakukan itu sebagai penolakan jujur. Penolakan jujur
+  didukung, kecuali jawaban secara salah menyatakan bahwa konteks tidak memiliki fakta yang sebenarnya
+  ada di konteks. Jangan memilih label akhir pada langkah ini.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban yang dinilai: {answer}
+
+  Keluarkan HANYA JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"analysis": "<analisis bukti singkat>", "score": <1 sampai 5>}}
+decision_template: |
+  Gunakan ANALISIS BUKTI di bawah untuk membuat keputusan akhir.
+
+  Nilai true jika analisis menyimpulkan bahwa seluruh klaim faktual jawaban didukung oleh konteks,
+  ATAU jawaban adalah penolakan jujur yang tidak secara keliru menyangkal fakta yang ada di konteks.
+  Nilai false jika analisis menemukan klaim faktual yang tidak didukung, angka yang dibuat-buat, atau
+  penolakan yang keliru terhadap fakta yang sebenarnya ada di konteks.
+
+  ANALISIS BUKTI:
+  {analysis}
+
+  Keluarkan HANYA JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"grounded": true | false}}

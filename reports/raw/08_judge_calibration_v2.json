@@ -1,0 +1,146 @@
+{
+  "agreement_rate": 0.6,
+  "n_items": 20,
+  "rows": [
+    {
+      "qid": "doc-041",
+      "human": false,
+      "judge": true,
+      "score": 4,
+      "agree": false
+    },
+    {
+      "qid": "doc-008",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true
+    },
+    {
+      "qid": "doc-002",
+      "human": false,
+      "judge": true,
+      "score": 4,
+      "agree": false
+    },
+    {
+      "qid": "doc-018",
+      "human": true,
+      "judge": true,
+      "score": 4,
+      "agree": true
+    },
+    {
+      "qid": "doc-016",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true
+    },
+    {
+      "qid": "doc-015",
+      "human": true,
+      "judge": true,
+      "score": 5,
+      "agree": true
+    },
+    {
+      "qid": "doc-009",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true
+    },
+    {
+      "qid": "doc-007",
+      "human": true,
+      "judge": true,
+      "score": 3,
+      "agree": true
+    },
+    {
+      "qid": "doc-035",
+      "human": false,
+      "judge": true,
+      "score": 3,
+      "agree": false
+    },
+    {
+      "qid": "doc-006",
+      "human": false,
+      "judge": false,
+      "score": 0,
+      "agree": true
+    },
+    {
+      "qid": "hybrid-099",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true
+    },
+    {
+      "qid": "hybrid-094",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true
+    },
+    {
+      "qid": "hybrid-082",
+      "human": true,
+      "judge": true,
+      "score": 3,
+      "agree": true
+    },
+    {
+      "qid": "hybrid-081",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true
+    },
+    {
+      "qid": "hybrid-083",
+      "human": true,
+      "judge": true,
+      "score": 3,
+      "agree": true
+    },
+    {
+      "qid": "abstain-109",
+      "human": true,
+      "judge": false,
+      "score": 1,
+      "agree": false
+    },
+    {
+      "qid": "abstain-120",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false
+    },
+    {
+      "qid": "abstain-114",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false
+    },
+    {
+      "qid": "abstain-115",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false
+    },
+    {
+      "qid": "abstain-106",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false
+    }
+  ]
+}

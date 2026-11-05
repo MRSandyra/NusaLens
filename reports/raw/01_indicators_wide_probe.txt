@@ -1,0 +1,175 @@
+total rows: 38216
+distinct indicators: 53
+distinct countries: 16
+year range: 1960 - 2024
+
+rows per indicator:
+  SP.DYN.LE00.IN: 1040
+  SP.URB.TOTL.IN.ZS: 1040
+  SP.POP.TOTL: 1040
+  SP.DYN.TFRT.IN: 1040
+  SP.ADO.TFRT: 1040
+  SP.POP.GROW: 1023
+  EN.POP.DNST: 1008
+  AG.LND.TOTL.K2: 1008
+  AG.PRD.FOOD.XD: 992
+  SH.DYN.MORT: 986
+  SP.DYN.IMRT.IN: 985
+  NY.GDP.PCAP.CD: 964
+  NY.GDP.DEFL.ZS: 962
+  AG.YLD.CREL.KG: 950
+  NY.GDP.PCAP.KD.ZG: 947
+  NY.GDP.MKTP.KD.ZG: 947
+  FP.CPI.TOTL: 893
+  FP.CPI.TOTL.ZG: 885
+  NE.EXP.GNFS.CD: 828
+  NE.IMP.GNFS.CD: 828
+  NE.TRD.GNFS.ZS: 824
+  BX.KLT.DINV.WD.GD.ZS: 821
+  IS.AIR.PSGR: 818
+  NE.CON.PRVT.ZS: 804
+  NV.AGR.TOTL.ZS: 799
+  NV.IND.TOTL.ZS: 799
+  NE.GDI.TOTL.ZS: 794
+  NV.SRV.TOTL.ZS: 731
+  FS.AST.PRVT.GD.ZS: 695
+  SE.PRM.ENRR: 636
+  SH.STA.MMRT: 624
+  SH.IMM.IBCG: 603
+  FR.INR.RINR: 555
+  SE.TER.ENRR: 547
+  SL.UEM.TOTL.ZS: 544
+  AG.LND.FRST.ZS: 544
+  EN.ATM.PM25.MC.M3: 544
+  SL.AGR.EMPL.ZS: 544
+  SL.IND.EMPL.ZS: 544
+  SL.SRV.EMPL.ZS: 544
+  SE.SEC.ENRR: 535
+  EG.USE.PCAP.KG.OE: 533
+  ER.H2O.FWTL.ZS: 533
+  IT.NET.USER.ZS: 511
+  EG.FEC.RNEW.ZS: 508
+  GC.TAX.TOTL.GD.ZS: 496
+  EG.ELC.ACCS.ZS: 495
+  CM.MKT.TRAD.GD.ZS: 465
+  CM.MKT.LCAP.GD.ZS: 429
+  SH.XPD.GHED.PC.CD: 385
+  GC.DOD.TOTL.GD.ZS: 246
+  SI.POV.GINI: 180
+  SI.POV.DDAY: 180
+
+rows per country:
+  AUS: 2504
+  BRN: 2195
+  CHN: 2531
+  IDN: 2561
+  IND: 2674
+  JPN: 2355
+  KHM: 1940
+  KOR: 2626
+  LAO: 1973
+  MMR: 2010
+  MYS: 2671
+  NZL: 2381
+  PHL: 2560
+  SGP: 2523
+  THA: 2652
+  VNM: 2060
+
+skipped entries: 96
+  {'country': 'IDN', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MYS', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'THA', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'VNM', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'PHL', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'SGP', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KHM', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'LAO', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MMR', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'BRN', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'CHN', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'JPN', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KOR', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IND', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'AUS', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'NZL', 'indicator': 'BM.TRF.GOVF.XP.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IDN', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MYS', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'THA', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'VNM', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'PHL', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'SGP', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KHM', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'LAO', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MMR', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'BRN', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'CHN', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'JPN', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KOR', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IND', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'AUS', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'NZL', 'indicator': 'SE.XPD.TOTL.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IDN', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MYS', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'THA', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'VNM', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'PHL', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'SGP', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KHM', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'LAO', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MMR', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'BRN', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'CHN', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'JPN', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KOR', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IND', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'AUS', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'NZL', 'indicator': 'SE.XPD.SECO.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IDN', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MYS', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'THA', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'VNM', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'PHL', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'SGP', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KHM', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'LAO', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MMR', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'BRN', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'CHN', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'JPN', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KOR', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IND', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'AUS', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'NZL', 'indicator': 'SE.XPD.TERT.SE.ZS', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IDN', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MYS', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'THA', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'VNM', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'PHL', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'SGP', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KHM', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'LAO', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MMR', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'BRN', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'CHN', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'JPN', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KOR', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IND', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'AUS', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'NZL', 'indicator': 'SH.XPD.CHEX.PT.CD', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IDN', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MYS', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'THA', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'VNM', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'PHL', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'SGP', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KHM', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'LAO', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'MMR', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'BRN', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'CHN', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'JPN', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'KOR', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'IND', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'AUS', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}
+  {'country': 'NZL', 'indicator': 'EN.ATM.CO2E.PC', 'page': 1, 'reason': 'malformed_or_empty_envelope'}

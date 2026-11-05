@@ -1,0 +1,12 @@
+query='benzena' hits=5
+  wikipedia:Benzena_2590 score=0.0979 text='Tidak ada tingkat paparan yang aman; bahkan jumlah kecil dap'
+  wikipedia:Benzena_1850 score=0.0978 text='pirolisis dapat dicampur dengan hidrokarbon lain sebagai adi'
+query='universitas' hits=5
+  wikipedia:Prefektur_Aichi_1110 score=0.0988 text='oleh Frank Lloyd Wright (yang awalnya berdiri di Tokyo dari '
+  wikipedia:Prefektur_Chiba_1850 score=0.0984 text='270 juta), dan merupakan yang terbesar kelima di Jepang. 70%'
+query='PDB Indonesia' hits=5
+  wikipedia:Produk_domestik_bruto_0 score=0.3918 text='Produk domestik bruto (PDB) atau dalam bahasa Inggris gross '
+  wikipedia:Produk_domestik_bruto_370 score=0.3918 text='menurut PDB Daftar negara menurut PDB (Nominal) Daftar negar'
+query='cuaca Jakarta' hits=5
+  wikipedia:Harry_Roesli_370 score=0.1149 text='pemberontakan terhadap kekuasaan Orde Baru. Bersama DKSB dan'
+  wikipedia:Kota_Bandung_740 score=0.0991 text='menunjukkan bahwa pada masa lalu kota Bandung memang merupak'

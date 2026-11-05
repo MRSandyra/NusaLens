@@ -1,0 +1,1464 @@
+{
+  "v1": {
+    "version": "v1",
+    "n_items": 120,
+    "accuracy": 0.625,
+    "abstain_precision": 0.225,
+    "abstain_recall": 0.6,
+    "latency_p50_ms": 2120.2338999974017,
+    "latency_p95_ms": 2270.4876999996486,
+    "per_item": [
+      {
+        "qid": "doc-001",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-002",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-003",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-004",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-005",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-006",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-007",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-008",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-009",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-010",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-011",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-012",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-013",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-014",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-015",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-016",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-017",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-018",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-019",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-020",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-021",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-022",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-023",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-024",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-025",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-026",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-027",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-028",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-029",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-030",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-031",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-032",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-033",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-034",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-035",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-036",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-037",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-038",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-039",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-040",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-041",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-042",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-043",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-044",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-045",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "sql-046",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-047",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-048",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-049",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-050",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-051",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-052",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-053",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-054",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-055",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-056",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-057",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-058",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-059",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-060",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-061",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-062",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-063",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-064",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-065",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-066",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-067",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-068",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-069",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-070",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-071",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-072",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-073",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-074",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-075",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-076",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-077",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-078",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-079",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-080",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-081",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-082",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-083",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-084",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-085",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-086",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-087",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-088",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-089",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-090",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-091",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-092",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-093",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-094",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-095",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-096",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-097",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-098",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-099",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-100",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-101",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-102",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-103",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-104",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-105",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "abstain-106",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-107",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-108",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-109",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-110",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-111",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "abstain-112",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-113",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-114",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-115",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "abstain-116",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-117",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-118",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-119",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-120",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      }
+    ]
+  },
+  "v2": {
+    "version": "v2",
+    "n_items": 120,
+    "accuracy": 0.55,
+    "abstain_precision": 0.3333333333333333,
+    "abstain_recall": 0.5333333333333333,
+    "latency_p50_ms": 2471.9895999987784,
+    "latency_p95_ms": 2631.7617000022437,
+    "per_item": [
+      {
+        "qid": "doc-001",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-002",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-003",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-004",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-005",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-006",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-007",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-008",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-009",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-010",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-011",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-012",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-013",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-014",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-015",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-016",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-017",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-018",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-019",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-020",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-021",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-022",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-023",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-024",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-025",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-026",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-027",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-028",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-029",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-030",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-031",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-032",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-033",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-034",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-035",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-036",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-037",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-038",
+        "gold_type": "DOC",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "doc-039",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-040",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-041",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-042",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-043",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "doc-044",
+        "gold_type": "DOC",
+        "predicted_type": "DOC",
+        "correct": true
+      },
+      {
+        "qid": "doc-045",
+        "gold_type": "DOC",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-046",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-047",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-048",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-049",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-050",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-051",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-052",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-053",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-054",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-055",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-056",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-057",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-058",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-059",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-060",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-061",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-062",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-063",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-064",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-065",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-066",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-067",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-068",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-069",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-070",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-071",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-072",
+        "gold_type": "SQL",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "sql-073",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-074",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-075",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "sql-076",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-077",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-078",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-079",
+        "gold_type": "SQL",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "sql-080",
+        "gold_type": "SQL",
+        "predicted_type": "SQL",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-081",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-082",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-083",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-084",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-085",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-086",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-087",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-088",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-089",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-090",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-091",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-092",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-093",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-094",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-095",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-096",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-097",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-098",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-099",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-100",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-101",
+        "gold_type": "HYBRID",
+        "predicted_type": "ABSTAIN",
+        "correct": false
+      },
+      {
+        "qid": "hybrid-102",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-103",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-104",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "hybrid-105",
+        "gold_type": "HYBRID",
+        "predicted_type": "HYBRID",
+        "correct": true
+      },
+      {
+        "qid": "abstain-106",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-107",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-108",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-109",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-110",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-111",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-112",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-113",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-114",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-115",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "HYBRID",
+        "correct": false
+      },
+      {
+        "qid": "abstain-116",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-117",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-118",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "ABSTAIN",
+        "correct": true
+      },
+      {
+        "qid": "abstain-119",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      },
+      {
+        "qid": "abstain-120",
+        "gold_type": "ABSTAIN",
+        "predicted_type": "SQL",
+        "correct": false
+      }
+    ]
+  }
+}

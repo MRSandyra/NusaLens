@@ -1,0 +1,166 @@
+{
+  "agreement_rate": 0.5,
+  "n_items": 20,
+  "rows": [
+    {
+      "qid": "doc-041",
+      "human": false,
+      "judge": false,
+      "score": 0,
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "qid": "doc-008",
+      "human": false,
+      "judge": true,
+      "score": 3,
+      "agree": false,
+      "reason": "Artikel tidak menjelaskan kaitan antara pembaca dan rutenium"
+    },
+    {
+      "qid": "doc-002",
+      "human": false,
+      "judge": false,
+      "score": 4,
+      "agree": true,
+      "reason": "Teks asli tidak menyebutkan istilah 'akrab' dan tidak mencantumkan penjelasan tentang istilah tersebut dalam konteks artikel yang diberikan."
+    },
+    {
+      "qid": "doc-018",
+      "human": true,
+      "judge": true,
+      "score": 4,
+      "agree": true,
+      "reason": "Jawaban mengikuti fakta dan interpretasi yang dapat didukung oleh artikel yang diberikan, tetapi tidak mencantumkan semua detail yang disebutkan dalam artikel asli."
+    },
+    {
+      "qid": "doc-016",
+      "human": false,
+      "judge": true,
+      "score": 5,
+      "agree": false,
+      "reason": "Teks tidak mencakup informasi tentang Williamina Fleming, Antonia, atau kaitannya dengan Fleming dan Antonia dalam konteks Astrofisika yang diberikan"
+    },
+    {
+      "qid": "doc-015",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false,
+      "reason": ""
+    },
+    {
+      "qid": "doc-009",
+      "human": false,
+      "judge": false,
+      "score": 0,
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "qid": "doc-007",
+      "human": true,
+      "judge": false,
+      "score": 4,
+      "agree": false,
+      "reason": "Teks asli tidak menyebutkan hubungan antara Kanada dan Amerika Serikat, serta tidak menyebutkan bahwa Kanada adalah anggota UN atau mendapatkan kemerdekaan konstitusional pada tahun 1982."
+    },
+    {
+      "qid": "doc-035",
+      "human": false,
+      "judge": false,
+      "score": 3,
+      "agree": true,
+      "reason": "Teks asli tidak menyebutkan tahun secara spesifik untuk curah hujan, hanya menyebutkan data untuk provinsi pada tahun 2003."
+    },
+    {
+      "qid": "doc-006",
+      "human": false,
+      "judge": false,
+      "score": 5,
+      "agree": true,
+      "reason": "Teks tidak menyediakan informasi tentang duduk, menit, atau suasana dalam konteks waktu yang diminta."
+    },
+    {
+      "qid": "hybrid-099",
+      "human": false,
+      "judge": false,
+      "score": 4,
+      "agree": true,
+      "reason": "Pertanyaan mengenai Pulau Kolepom tidak ada dalam artikel dan data tentang pengguna internet Indonesia tidak disebutkan untuk tahun 2024"
+    },
+    {
+      "qid": "hybrid-094",
+      "human": false,
+      "judge": false,
+      "score": 4,
+      "agree": true,
+      "reason": "Teks asli tidak menyediakan informasi tentang Uni Afrika atau Life expectancy at birth untuk Indonesia tahun 2024"
+    },
+    {
+      "qid": "hybrid-082",
+      "human": true,
+      "judge": false,
+      "score": 4,
+      "agree": false,
+      "reason": "Jawaban tidak mencantumkan nilai Access to electricity (% of population) Indonesia tahun 2024 yang diminta dalam pertanyaan"
+    },
+    {
+      "qid": "hybrid-081",
+      "human": false,
+      "judge": false,
+      "score": 3,
+      "agree": true,
+      "reason": "Jawaban menggabungkan dua topik yang tidak berhubungan dan memberikan informasi yang tidak tepat atau tidak valid."
+    },
+    {
+      "qid": "hybrid-083",
+      "human": true,
+      "judge": false,
+      "score": 1,
+      "agree": false,
+      "reason": "Artikel tidak membahas tentang Maternal mortality ratio atau nilai tersebut."
+    },
+    {
+      "qid": "abstain-109",
+      "human": true,
+      "judge": true,
+      "score": 5,
+      "agree": true,
+      "reason": "Bank Dunia tidak menyediakan data untuk negara fiksi"
+    },
+    {
+      "qid": "abstain-120",
+      "human": true,
+      "judge": false,
+      "score": 4,
+      "agree": false,
+      "reason": "Tidak ada data historis yang diberikan untuk menentukan nilai PDB per kapita Indonesia pada tahun 1850. Jawaban yang diberikan adalah konstruksi data berdasarkan informasi yang diberikan dalam pertanyaan."
+    },
+    {
+      "qid": "abstain-114",
+      "human": true,
+      "judge": false,
+      "score": 5,
+      "agree": false,
+      "reason": "Tidak ada data yang dapat diarsipkan untuk Atlantis pada tahun 2015 atau tahun lainnya."
+    },
+    {
+      "qid": "abstain-115",
+      "human": true,
+      "judge": false,
+      "score": 5,
+      "agree": false,
+      "reason": "Jawaban tidak didasarkan pada informasi yang diberikan dan bertentangan dengan fakta yang ada dalam teks yang diberikan."
+    },
+    {
+      "qid": "abstain-106",
+      "human": true,
+      "judge": false,
+      "score": 5,
+      "agree": false,
+      "reason": "Tidak ada data nyata tentang PDB per kapita Wakanda yang dapat diukur atau diberikan dalam konteks ini."
+    }
+  ]
+}

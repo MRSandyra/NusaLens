@@ -1,0 +1,9 @@
+{
+  "sql_total": 60,
+  "sql_correct": 21,
+  "sql_accuracy": 0.35,
+  "latency_p50_ms": 31.15819999948144,
+  "latency_p95_ms": 33.486500000435626,
+  "abstain_count": 15,
+  "abstain_deferred": true
+}

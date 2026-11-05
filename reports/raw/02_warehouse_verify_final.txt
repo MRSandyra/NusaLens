@@ -1,0 +1,23 @@
+-- row counts --
+dim_country: 6
+dim_indicator: 24
+fact_indicator: 6686
+documents: 15000
+chunks: 0
+-- GDP per capita 2023 across countries --
+('Singapore', 'GDP per capita (current US$)', 2023, Decimal('86382.5900499252'))
+('Malaysia', 'GDP per capita (current US$)', 2023, Decimal('11386.0395636528'))
+('Thailand', 'GDP per capita (current US$)', 2023, Decimal('7210.54130832685'))
+('Indonesia', 'GDP per capita (current US$)', 2023, Decimal('4876.2992959843'))
+('Vietnam', 'GDP per capita (current US$)', 2023, Decimal('4322.82572261566'))
+('Philippines', 'GDP per capita (current US$)', 2023, Decimal('3804.08274131718'))
+('Philippines', 'GDP per capita growth (annual %)', 2023, Decimal('4.66769736272362'))
+('Vietnam', 'GDP per capita growth (annual %)', 2023, Decimal('4.27616318968813'))
+('Indonesia', 'GDP per capita growth (annual %)', 2023, Decimal('4.16733948268603'))
+('Thailand', 'GDP per capita growth (annual %)', 2023, Decimal('2.2957417568134'))
+('Malaysia', 'GDP per capita growth (annual %)', 2023, Decimal('2.26723785284469'))
+('Singapore', 'GDP per capita growth (annual %)', 2023, Decimal('-3.36069477894166'))
+-- read-only role enforcement --
+ro SELECT ok, rows: 6686
+ro DELETE blocked: ReadOnlySqlTransaction cannot execute DELETE in a read-only transaction
+ro CREATE blocked: ReadOnlySqlTransaction cannot execute CREATE TABLE in a read-only transaction

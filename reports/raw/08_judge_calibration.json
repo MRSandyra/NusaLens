@@ -1,0 +1,186 @@
+{
+  "agreement_rate": 0.55,
+  "n_items": 20,
+  "rows": [
+    {
+      "qid": "doc-041",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Jawaban tersebut menggambarkan dengan tepat kaitan antara keterlibatan Belanda dengan mobilisasi (dikerahkan) dan Kaum Padri, serta kontribusinya terhadap perjuangan reformasi Islam. Namun, klaim tentang mobilisasi oleh Kaum Padri yang mengancam stabilitas sosial dan politik tidak didukung secara langsung dalam artikel tersebut.",
+      "agree": false
+    },
+    {
+      "qid": "doc-008",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Artikel tidak menjelaskan kaitan antara pembaca dan rutenium",
+      "agree": true
+    },
+    {
+      "qid": "doc-002",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Klaim-klaim utama tentang Banyumasan dan ngapak didukung oleh konteks artikel, meskipun klaim tentang istilah akrab tidak disebutkan dan mungkin salah penulisan.",
+      "agree": false
+    },
+    {
+      "qid": "doc-018",
+      "type": "DOC",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Jawaban mengikuti dan mempertahankan semua klaim utama dari pertanyaan dan konteks yang diberikan, meski dengan sedikit penyesuaian struktural.",
+      "agree": true
+    },
+    {
+      "qid": "doc-016",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Teks tidak menyediakan informasi tentang Williamina dan kaitannya dengan Fleming dan Antonia dalam konteks astrofisika",
+      "agree": true
+    },
+    {
+      "qid": "doc-015",
+      "type": "DOC",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Jawaban tersebut menggambarkan benar bahwa 'Pius' adalah gelar resmi dalam bahasa Latin yang berarti 'suci' dan 'Giovanni' adalah nama asli dalam bahasa Italia yang berarti 'John'. Jawaban tersebut juga mengaitkan keduanya dengan Paus Pius IX.",
+      "agree": true
+    },
+    {
+      "qid": "doc-009",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Teks tidak menyebutkan kaitan pemuda dengan dhibaa dan rusa di Abu Dhabi.",
+      "agree": true
+    },
+    {
+      "qid": "doc-007",
+      "type": "DOC",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Jawaban tersebut menggambarkan kaitan negara Kanada dengan Kanada dan Kanada secara akurat, namun tidak mencakup semua aspek yang disebutkan dalam pertanyaan seperti sejarah kolonial dan status hukumnya sebagai anggota UN.",
+      "agree": true
+    },
+    {
+      "qid": "doc-035",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Jawaban mengacu pada informasi yang tepat dari teks yang diberikan dan menjawab pertanyaan dengan tepat",
+      "agree": false
+    },
+    {
+      "qid": "doc-006",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 0,
+      "judge_reason": "",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-099",
+      "type": "HYBRID",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 2,
+      "judge_reason": "Hanya skor terkait persentase pengguna internet di Indonesia tahun 2024 yang didukung, namun klaim lain tidak didukung oleh konteks yang diberikan.",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-094",
+      "type": "HYBRID",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Teks asli tidak menyediakan informasi tentang Uni Afrika atau Life expectancy at birth untuk Indonesia tahun 2024",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-082",
+      "type": "HYBRID",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Ringkasan pembahasan Selandia Baru dalam artikel Tokelau didukung oleh konteks artikel. Namun, nilai Access to electricity (% of population) Indonesia tahun 2024 tidak dapat dijawab karena data tidak tersedia dalam konteks artikel yang diberikan.",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-081",
+      "type": "HYBRID",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 3,
+      "judge_reason": "Jawaban menyatakan dengan tepat bahwa artikel tidak membahas Antarktika dan nilai Gini index Indonesia tahun 2024 belum tersedia.",
+      "agree": false
+    },
+    {
+      "qid": "hybrid-083",
+      "type": "HYBRID",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 5,
+      "judge_reason": "Semua klaim didukung oleh konteks artikel Energi Gelombang dan nilai Maternal mortality ratio Indonesia tahun 2023 dinyatakan dengan tepat.",
+      "agree": true
+    },
+    {
+      "qid": "abstain-109",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 2,
+      "judge_reason": "Konteks menyediakan data tentang Gabon, bukan Gondor. Tetapi klaim tentang Bank Dunia tidak selalu memiliki data untuk semua negara, termasuk negara fiksi.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-120",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Tidak ada data spesifik tentang PDB per kapita Indonesia pada tahun 1850 dalam konteks yang diberikan.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-114",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Konteks hanya menyebutkan tentang Atlantis sebagai tempat mitologis dan tidak memiliki status negara, tanpa menyebutkan PDBnya.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-115",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Konteks hanya membahas tentang tambang emas di Indonesia dan tidak menyentuh Narnia atau produksi emas di sana.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-106",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Informasi tentang PDB per kapita Wakanda tidak ada dalam konteks yang diberikan",
+      "agree": false
+    }
+  ]
+}

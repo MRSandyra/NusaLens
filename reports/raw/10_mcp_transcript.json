@@ -1,0 +1,1188 @@
+{
+  "calls": [
+    {
+      "tool": "list_indicators",
+      "arguments": {},
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": true,
+          "indicators": [
+            {
+              "code": "EG.ELC.ACCS.ZS",
+              "name_id": "Access to electricity (% of population)",
+              "name_en": "Access to electricity (% of population)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.ADO.TFRT",
+              "name_id": "Adolescent fertility rate (births per 1,000 women ages 15-19)",
+              "name_en": "Adolescent fertility rate (births per 1,000 women ages 15-19)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NV.AGR.TOTL.ZS",
+              "name_id": "Agriculture, forestry, and fishing, value added (% of GDP)",
+              "name_en": "Agriculture, forestry, and fishing, value added (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "IS.AIR.PSGR",
+              "name_id": "Air transport, passengers carried",
+              "name_en": "Air transport, passengers carried",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "ER.H2O.FWTL.ZS",
+              "name_id": "Annual freshwater withdrawals, total (% of internal resources)",
+              "name_en": "Annual freshwater withdrawals, total (% of internal resources)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "GC.DOD.TOTL.GD.ZS",
+              "name_id": "Central government debt, total (% of GDP)",
+              "name_en": "Central government debt, total (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "AG.YLD.CREL.KG",
+              "name_id": "Cereal yield (kg per hectare)",
+              "name_en": "Cereal yield (kg per hectare)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "FP.CPI.TOTL",
+              "name_id": "Consumer price index (2010 = 100)",
+              "name_en": "Consumer price index (2010 = 100)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "FS.AST.PRVT.GD.ZS",
+              "name_id": "Domestic credit to private sector (% of GDP)",
+              "name_en": "Domestic credit to private sector (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SH.XPD.GHED.PC.CD",
+              "name_id": "Domestic general government health expenditure per capita (current US$)",
+              "name_en": "Domestic general government health expenditure per capita (current US$)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SL.AGR.EMPL.ZS",
+              "name_id": "Employment in agriculture (% of total employment) (modeled ILO estimate)",
+              "name_en": "Employment in agriculture (% of total employment) (modeled ILO estimate)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SL.IND.EMPL.ZS",
+              "name_id": "Employment in industry (% of total employment) (modeled ILO estimate)",
+              "name_en": "Employment in industry (% of total employment) (modeled ILO estimate)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SL.SRV.EMPL.ZS",
+              "name_id": "Employment in services (% of total employment) (modeled ILO estimate)",
+              "name_en": "Employment in services (% of total employment) (modeled ILO estimate)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "EG.USE.PCAP.KG.OE",
+              "name_id": "Energy use (kg of oil equivalent per capita)",
+              "name_en": "Energy use (kg of oil equivalent per capita)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NE.EXP.GNFS.CD",
+              "name_id": "Exports of goods and services (current US$)",
+              "name_en": "Exports of goods and services (current US$)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.DYN.TFRT.IN",
+              "name_id": "Fertility rate, total (births per woman)",
+              "name_en": "Fertility rate, total (births per woman)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "AG.PRD.FOOD.XD",
+              "name_id": "Food production index (2014-2016 = 100)",
+              "name_en": "Food production index (2014-2016 = 100)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "BX.KLT.DINV.WD.GD.ZS",
+              "name_id": "Foreign direct investment, net inflows (% of GDP)",
+              "name_en": "Foreign direct investment, net inflows (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "AG.LND.FRST.ZS",
+              "name_id": "Forest area (% of land area)",
+              "name_en": "Forest area (% of land area)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NY.GDP.DEFL.ZS",
+              "name_id": "GDP deflator (base year varies by country)",
+              "name_en": "GDP deflator (base year varies by country)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NY.GDP.MKTP.KD.ZG",
+              "name_id": "GDP growth (annual %)",
+              "name_en": "GDP growth (annual %)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NY.GDP.PCAP.CD",
+              "name_id": "GDP per capita (current US$)",
+              "name_en": "GDP per capita (current US$)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NY.GDP.PCAP.KD.ZG",
+              "name_id": "GDP per capita growth (annual %)",
+              "name_en": "GDP per capita growth (annual %)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SI.POV.GINI",
+              "name_id": "Gini index",
+              "name_en": "Gini index",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NE.GDI.TOTL.ZS",
+              "name_id": "Gross capital formation (% of GDP)",
+              "name_en": "Gross capital formation (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NE.CON.PRVT.ZS",
+              "name_id": "Households and NPISHs final consumption expenditure (% of GDP)",
+              "name_en": "Households and NPISHs final consumption expenditure (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SH.IMM.IBCG",
+              "name_id": "Immunization, BCG (% of one-year-old children)",
+              "name_en": "Immunization, BCG (% of one-year-old children)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NE.IMP.GNFS.CD",
+              "name_id": "Imports of goods and services (current US$)",
+              "name_en": "Imports of goods and services (current US$)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "IT.NET.USER.ZS",
+              "name_id": "Individuals using the Internet (% of population)",
+              "name_en": "Individuals using the Internet (% of population)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NV.IND.TOTL.ZS",
+              "name_id": "Industry (including construction), value added (% of GDP)",
+              "name_en": "Industry (including construction), value added (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "FP.CPI.TOTL.ZG",
+              "name_id": "Inflation, consumer prices (annual %)",
+              "name_en": "Inflation, consumer prices (annual %)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "AG.LND.TOTL.K2",
+              "name_id": "Land area (sq. km)",
+              "name_en": "Land area (sq. km)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.DYN.LE00.IN",
+              "name_id": "Life expectancy at birth, total (years)",
+              "name_en": "Life expectancy at birth, total (years)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "CM.MKT.LCAP.GD.ZS",
+              "name_id": "Market capitalization of listed domestic companies (% of GDP)",
+              "name_en": "Market capitalization of listed domestic companies (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SH.STA.MMRT",
+              "name_id": "Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+              "name_en": "Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.DYN.IMRT.IN",
+              "name_id": "Mortality rate, infant (per 1,000 live births)",
+              "name_en": "Mortality rate, infant (per 1,000 live births)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SH.DYN.MORT",
+              "name_id": "Mortality rate, under-5 (per 1,000 live births)",
+              "name_en": "Mortality rate, under-5 (per 1,000 live births)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "EN.ATM.PM25.MC.M3",
+              "name_id": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
+              "name_en": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "EN.POP.DNST",
+              "name_id": "Population density (people per sq. km of land area)",
+              "name_en": "Population density (people per sq. km of land area)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.POP.GROW",
+              "name_id": "Population growth (annual %)",
+              "name_en": "Population growth (annual %)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.POP.TOTL",
+              "name_id": "Population, total",
+              "name_en": "Population, total",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SI.POV.DDAY",
+              "name_id": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)",
+              "name_en": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "FR.INR.RINR",
+              "name_id": "Real interest rate (%)",
+              "name_en": "Real interest rate (%)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "EG.FEC.RNEW.ZS",
+              "name_id": "Renewable energy consumption (% of total final energy consumption)",
+              "name_en": "Renewable energy consumption (% of total final energy consumption)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SE.PRM.ENRR",
+              "name_id": "School enrollment, primary (% gross)",
+              "name_en": "School enrollment, primary (% gross)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SE.SEC.ENRR",
+              "name_id": "School enrollment, secondary (% gross)",
+              "name_en": "School enrollment, secondary (% gross)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SE.TER.ENRR",
+              "name_id": "School enrollment, tertiary (% gross)",
+              "name_en": "School enrollment, tertiary (% gross)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NV.SRV.TOTL.ZS",
+              "name_id": "Services, value added (% of GDP)",
+              "name_en": "Services, value added (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "CM.MKT.TRAD.GD.ZS",
+              "name_id": "Stocks traded, total value (% of GDP)",
+              "name_en": "Stocks traded, total value (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "GC.TAX.TOTL.GD.ZS",
+              "name_id": "Tax revenue (% of GDP)",
+              "name_en": "Tax revenue (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "NE.TRD.GNFS.ZS",
+              "name_id": "Trade (% of GDP)",
+              "name_en": "Trade (% of GDP)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SL.UEM.TOTL.ZS",
+              "name_id": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+              "name_en": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+              "unit": "",
+              "topic": ""
+            },
+            {
+              "code": "SP.URB.TOTL.IN.ZS",
+              "name_id": "Urban population (% of total population)",
+              "name_en": "Urban population (% of total population)",
+              "unit": "",
+              "topic": ""
+            }
+          ],
+          "n": 53
+        }
+      }
+    },
+    {
+      "tool": "search_documents",
+      "arguments": {
+        "params": {
+          "query": "Apa itu rutenium?",
+          "k": 3
+        }
+      },
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": true,
+          "chunks": [
+            {
+              "chunk_id": "wikipedia:Rutenium_0",
+              "text": "Rutenium adalah sebuah unsur kimia dengan lambang Ru dan nomor atom 44. Ia adalah sebuah logam transisi langka yang termasuk dalam golongan platina pada tabel periodik. Seperti logam lain dari golongan platina, rutenium tidak bereaksi terhadap sebagian besar bahan kimia lainnya. Ilmuwan kelahiran Rusia keturunan Baltik-Jerman Karl E. Claus menemukan unsur tersebut pada tahun 1844 di Universitas Negeri Kazan dan menamainya rutenium untuk menghormati Rusia. Rutenium biasanya ditemukan sebagai komponen minor dari bijih platina; produksi rutenium tahunan telah meningkat dari sekitar 19 ton pada tahun 2009 menjadi sekitar 35,5 ton pada tahun 2017. Sebagian besar rutenium yang diproduksi digunakan dalam kontak listrik tahan aus dan resistor film tebal. Sebuah aplikasi kecil untuk rutenium ialah dalam paduan platina dan sebagai katalis kimia. Aplikasi baru rutenium adalah sebagai lapisan penutup untuk fotomasker ultraungu ekstrem. Rutenium umumnya ditemukan dalam bijih dengan logam golongan platina lainnya di Pegunungan Ural serta di Amerika Utara dan Selatan. Jumlah rutenium yang kecil tapi penting secara komersial juga ditemukan pada pentlandit yang diekstraksi dari Sudbury, Ontario dan di deposit piroksenit di Afrika Selatan. Karakteristik Sifat fisik Rutenium, sebuah logam putih keras polivalen, adalah anggota dari golongan platina dan berada di golongan 8 dari tabel periodik: Saat semua unsur golongan 8 lainnya memiliki dua elektron di kulit terluarnya, kulit terluar rutenium hanya memiliki satu elektron (elektron terakhir berada di kulit yang lebih rendah). Anomali ini juga dapat diamati pada logam tetangga niobium (41), molibdenum (42), dan rodium (45). Sifat kimia Rutenium memiliki empat modifikasi kristal dan tidak akan ternoda pada kondisi sekitar; ia akan teroksidasi pada pemanasan hingga suhu . Ruthenium dapat larut dalam alkali yang menyatu untuk menghasilkan rutenat (). Ia tidak dapat diserang oleh asam (bahkan air raja) tetapi dapat diserang oleh halogen pada suhu tinggi. Memang, rutenium paling mudah diserang oleh zat pengoksidasi. Rutenium dalam jumlah kecil dapat meningkatkan kekerasan platina dan paladium. Ketahanan korosi titanium meningkat secara nyata dengan penambahan sejumlah kecil rutenium. Logam ini dapat disepuh melalui penyepuhan dan dengan dekomposisi termal. Sebuah paduan rutenium–molibdenum dikenal bersifat superkonduktif pada suhu di bawah 10,6 K. Rutenium adalah satu-satunya logam transisi 4d yang dapat mengambil keadaan oksidasi +8 golongannya, dan bahkan kemudian ia kurang stabil di sana daripada kongenernya yang lebih berat osmium: ini adalah golongan pertama dari kiri tabel periodik di mana logam transisi baris kedua dan ketiga menunjukkan perbedaan mencolok dalam perilaku kimia. Seperti besi tetapi tidak seperti osmium, rutenium dapat membentuk kation berair dalam keadaan oksidasi yang lebih rendah yaitu +2 dan +3. Rutenium adalah unsur pertama dalam tren penurunan titik lebur dan titik didih serta entalpi atomisasi pada logam transisi 4d setelah maksimum yang terlihat pada molibdenum, karena subkulit 4d-nya lebih dari setengah penuh dan elektronnya berkontribusi lebih sedikit pada ikatan logam.",
+              "title": "Rutenium",
+              "url": "https://id.wikipedia.org/wiki/Rutenium"
+            },
+            {
+              "chunk_id": "wikipedia:Teknesium_0",
+              "text": "Teknesium adalah sebuah unsur kimia dengan lambang Tc dan nomor atom 43. Ia adalah unsur paling ringan dimana semua isotopnya bersifat radioaktif. Semua teknesium yang tersedia diproduksi sebagai unsur sintetis. Teknesium alami adalah produk fisi spontan dalam bijih uranium dan bijih torium, sumbernya yang paling umum, atau produk penangkapan neutron dalam bijih molibdenum. Logam transisi kristalin berwarna abu-abu keperakan ini berada di antara mangan dan renium pada golongan 7 tabel periodik, dan sifat kimianya merupakan intermediat antara kedua unsur yang berdekatan. Isotop alami yang paling umum adalah 99Tc, hanya dalam jumlah renik. Banyak sifat teknesium telah diprediksi oleh Dmitri Mendeleev sebelum ia ditemukan. Mendeleev menyadari bahwa ada celah dalam tabel periodiknya dan memberi unsur yang belum ditemukan itu nama sementara ekamangan (Em). Pada tahun 1937, teknesium (khususnya isotop teknesium-97) menjadi unsur buatan pertama yang diproduksi, sehingga menjadi asal namanya (dari bahasa Yunani , technetos, dari techne, seperti dalam \"kerajinan\", \"seni\" dan memiliki arti \"buatan\", + Satu isomer nuklir pemancar sinar gama berumur pendek, teknesium-99m, digunakan dalam kedokteran nuklir untuk berbagai macam tes, seperti diagnosis kanker tulang. Keadaan dasar nuklida itu, teknesium-99, digunakan sebagai sumber partikel beta bebas sinar gama. Isotop teknesium berumur panjang yang diproduksi secara komersial adalah produk sampingan dari fisi uranium-235 dalam reaktor nuklir dan diekstraksi dari batang bahan bakar nuklir. Karena isotop teknesium yang paling lama hidup pun memiliki waktu paruh yang relatif singkat (4,21 juta tahun), deteksi teknesium dalam raksasa merah pada tahun 1952 membantu membuktikan bahwa bintang dapat menghasilkan unsur yang lebih berat. Sejarah Pencarian unsur 43 Dari tahun 1860-an hingga 1871, bentuk awal tabel periodik yang diusulkan oleh Dmitri Mendeleev berisi celah antara molibdenum (unsur 42) dan rutenium (unsur 44). Pada tahun 1871, Mendeleev meramalkan unsur yang hilang ini akan menempati tempat kosong di bawah mangan dan memiliki sifat kimia yang serupa. Mendeleev memberinya nama sementara ekamangan (dari eka-, kata Sanskerta untuk \"satu\") karena unsur yang diprediksi ini berada satu tingkat di bawah unsur mangan yang telah diketahui. Misidentifikasi awal Banyak peneliti awal, baik sebelum maupun sesudah tabel periodik diterbitkan, sangat ingin menjadi yang pertama menemukan dan menamai unsur yang hilang tersebut. Lokasinya di tabel periodik membuatnya seperti lebih mudah ditemukan daripada unsur lain yang belum ditemukan. Hasil yang tak dapat direproduksi Kimiawan Jerman Walter Noddack, Otto Berg, dan Ida Tacke melaporkan penemuan unsur 75 dan unsur 43 pada tahun 1925, dan menamai unsur 43 dengan masurium (dari Masuria di Prusia timur, sekarang di Polandia, wilayah asal keluarga Walter Noddack). Nama ini menimbulkan kebencian yang signifikan dalam komunitas ilmiah, karena diartikan mengacu pada kemenangan tentara Jerman atas tentara Rusia di wilayah Masuria selama Perang Dunia I; karena Noddack tetap dalam posisi akademis mereka saat Nazi berkuasa, kecurigaan dan permusuhan terhadap klaim mereka atas penemuan",
+              "title": "Teknesium",
+              "url": "https://id.wikipedia.org/wiki/Teknesium"
+            },
+            {
+              "chunk_id": "wikipedia:Paladium_0",
+              "text": "Ia merupakan logam langka berwarna putih berkilau keperakan yang ditemukan pada tahun 1803 oleh William Hyde Wollaston. Dia menamakannya sesuai nama asteroid Pallas, julukan dewi Yunani Athena, yang diperolehnya ketika dia membunuh Pallas. Paladium, platina, rodium, rutenium, iridium, dan osmium membentuk golongan unsur yang dirujuk sebagai logam golongan platina (platinum group metal, PGM). Mereka memiliki kemiripan sifat kimia, tetapi paladium memiliki titik lebur paling dan kerapatan paling rendah di antara golongan ini. Lebih dari setengah dari pasokan paladium dan serupa platinum masuk ke dalam pengubah katalitik, yang mengkonversi sampai 90% gas berbahaya dari gas buang kendaraan bermotor (hidrokarbon, karbon monoksida, dan nitrogen dioksida) menjadi zat yang kurang berbahaya (nitrogen, karbon dioksida dan uap air). Paladium juga digunakan dalam elektronik, kedokteran gigi, kedokteran, pemurnian hidrogen, aplikasi kimia, pemulihan air tanah dan perhiasan. Paladium memainkan peran kunci dalam teknologi yang digunakan untuk sel bahan bakar, yang menggabungkan hidrogen dan oksigen untuk menghasilkan listrik, panas, dan air. Deposit bijih paladium dan PGM lainnya termasuk langka, dan deposit yang paling banyak telah ditemukan di sabuk norit Bushveld Igneous Complex yang meliputi Transvaal Basin di Afrika Selatan, Stillwater Complex di Montana, Amerika Serikat, Thunder Bay District di Ontario, Canada, dan Norilsk Complex di Rusia. Karakteristik Paladium berada dalam golongan 10 tabel periodik, namun memiliki konfigurasi yang sangat menyimpang di kulit elektron terluarnya dibandingkan dengan anggota lain golongan 10 (lihat juga niobium (41), rutenium (44), dan rodium (45)), yaitu memiliki lebih sedikit kulit elektron terisi daripada unsur-unsur sebelumnya (fenomena unik untuk paladium). Hal ini membuat kulit valensi memiliki delapan belas elektron - sepuluh lebih banyak daripada delapan yang dijumpai dalam kulit valensi gas mulia dari neon seterusnya. Paladium adalah logam lunak putih keperakan yang menyerupai platina. Ini adalah yang paling kurang padat dan memiliki titik leleh terendah dari kelompok logam platina. Pd bersifat lunak dan ulet ketika dipanaskan dan sangat meningkatkan kekuatan dan kekerasan ketika didinginkan. Paladium lambat larut dalam asam nitrat pekat, dalam asam sulfat pekat panas, dan dalam asam klorida jika dihaluskan. Tingkat oksidasi umum paladium adalah 0, +1, +2 dan +4. Terdapat relatif sedikit senyawa yang dikenal dengan paladium pada tingkat oksidasi +3, meskipun senyawa tersebut telah diajukan sebagai intermediat dalam banyak reaksi gandengan silang (cross-coupling) yang dikatalisasi paladium. Pada tahun 2002, paladium(VI) pertama kali dilaporkan. Lapisan paladium dengan defek yang diproduksi oleh bombardir partikel alfa pada temperatur rendah menunjukkan superkonduktivitas dengan Tc=3,2 K. Isotop Paladium alami terdiri dari tujuh isotop, enam di antaranya merupakan isotop stabil. Radioisotop paling stabil adalah 107Pd dengan waktu paruh 6,5 juta tahun (dijumpai di alam), 103Pd dengan waktu paruh 17 hari, dan 100Pd dengan waktu paruh 3,63 hari. Delapanbelas radioisotop lainnya berhasil diidentifikasi dengan massa atom berkisar antara 90,94948(64) u (91Pd) sampai 122,93426(64) u (123Pd). Sebagian besar",
+              "title": "Paladium",
+              "url": "https://id.wikipedia.org/wiki/Paladium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tool": "query_indicators",
+      "arguments": {
+        "params": {
+          "country": "Vietnam",
+          "indicator": "Gini index",
+          "year_from": 2020,
+          "year_to": 2022
+        }
+      },
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": true,
+          "rows": [
+            {
+              "country_name": "Vietnam",
+              "indicator_name": "Gini index",
+              "year": 2020,
+              "value": "36.8",
+              "unit": ""
+            },
+            {
+              "country_name": "Vietnam",
+              "indicator_name": "Gini index",
+              "year": 2022,
+              "value": "36.1",
+              "unit": ""
+            }
+          ],
+          "n": 2
+        }
+      }
+    },
+    {
+      "tool": "run_readonly_sql",
+      "arguments": {
+        "params": {
+          "sql": "SELECT value FROM v_indicator_series WHERE country_name = 'Indonesia' AND indicator_name = 'Population, total' AND year = 2022"
+        }
+      },
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": true,
+          "sql": "SELECT value FROM v_indicator_series WHERE country_name = 'Indonesia' AND indicator_name = 'Population, total' AND year = 2022 LIMIT 200",
+          "columns": [
+            "value"
+          ],
+          "rows": [
+            [
+              "278830529.0"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "tool": "run_readonly_sql",
+      "arguments": {
+        "params": {
+          "sql": "DROP TABLE documents"
+        }
+      },
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": false,
+          "error": "keyword denylist match",
+          "error_type": "ValueError",
+          "sql": "DROP TABLE documents"
+        }
+      }
+    },
+    {
+      "tool": "get_latest_earthquake",
+      "arguments": {},
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": true,
+          "earthquake": {
+            "Tanggal": "04 Nov 2026",
+            "Jam": "14:56:34 WIB",
+            "DateTime": "2026-11-04T07:56:34+00:00",
+            "Coordinates": "-1.14,120.15",
+            "Lintang": "1.14 LS",
+            "Bujur": "120.15 BT",
+            "Magnitude": "3.4",
+            "Kedalaman": "10 km",
+            "Wilayah": "Pusat gempa berada di darat 40 km timur laut Sigi",
+            "Potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+            "Dirasakan": "III Sigi, II Palu",
+            "Shakemap": "20261104145634.mmi.jpg"
+          }
+        }
+      }
+    },
+    {
+      "tool": "answer_question",
+      "arguments": {
+        "params": {
+          "question": "Berapa jumlah penduduk Gondor menurut data Bank Dunia?"
+        }
+      },
+      "result": {
+        "is_error": false,
+        "parsed": {
+          "ok": true,
+          "route": "ABSTAIN",
+          "route_source": "rule",
+          "answer": "Informasi ini tidak tersedia di sumber yang terindeks (indikator Bank Dunia dan artikel Wikipedia Indonesia). Pertanyaan ini meminta entitas, periode, atau topik yang berada di luar cakupan data yang dicari.",
+          "sources": [],
+          "sql": null,
+          "confidence": 0.0,
+          "abstained": true
+        }
+      }
+    }
+  ],
+  "server_info": {
+    "name": "nusalens",
+    "version": "0.1.0"
+  },
+  "instructions": "Indonesian public-data analytics assistant over World Bank indicators and indexed Indonesian Wikipedia articles. Use query_indicators or run_readonly_sql for numeric questions, search_documents for article-based questions, and answer_question for a single end-to-end answer that routes and synthesizes automatically.",
+  "tools": [
+    {
+      "name": "search_documents",
+      "description": "Hybrid search (dense + sparse + RRF + cross-encoder rerank) over the indexed Indonesian Wikipedia articles. Returns chunks with their source document title and URL as citations. Use this for questions about facts, history, or definitions covered by an article -- not for numeric World Bank indicator values, which query_indicators or run_readonly_sql answer directly."
+    },
+    {
+      "name": "query_indicators",
+      "description": "Structured query over World Bank indicator data by country, indicator name, and year range. Not free-form SQL -- call list_indicators first to find the exact indicator name string. Use run_readonly_sql instead for anything this structured shape cannot express (aggregates, ranking, joins across years)."
+    },
+    {
+      "name": "run_readonly_sql",
+      "description": "Execute a read-only SQL SELECT over v_indicator_series, behind the full Phase 7 guardrails: AST-parsed, keyword-denylisted, EXPLAIN-cost-checked, auto-LIMITed, and run under a statement_timeout read-only database role. Any write statement, multi-statement input, or over-budget query is rejected with a structured error and never executed."
+    },
+    {
+      "name": "list_indicators",
+      "description": "Catalog of every available World Bank indicator: code, Indonesian/English name, unit, topic."
+    },
+    {
+      "name": "get_latest_earthquake",
+      "description": "Fetch the latest earthquake reported by BMKG (Indonesia's meteorology, climatology, and geophysics agency), live from data.bmkg.go.id. Demonstrates a dynamic, non-indexed data source rather than the static document/indicator index."
+    },
+    {
+      "name": "answer_question",
+      "description": "Answer a question end to end through the full NusaLens pipeline: routes it to SQL, document retrieval, or both, synthesizes a cited answer, and abstains rather than fabricating when the evidence is insufficient. Use this for a direct answer; use the other tools individually when the intermediate evidence (retrieved chunks, raw SQL rows) is what's needed instead."
+    }
+  ],
+  "resources": [
+    {
+      "uri": "nusalens://schema",
+      "description": "Live database schema: tables, columns, nullability, and 3 sample rows each."
+    },
+    {
+      "uri": "nusalens://sources",
+      "description": "Data sources backing this index: counts, license, and provenance, plus live sources."
+    },
+    {
+      "uri": "nusalens://stats",
+      "description": "Row counts for every major table, read live from the database."
+    }
+  ],
+  "prompts": [
+    {
+      "name": "analyze_indicator_trend",
+      "description": "Draft an analysis of one indicator's trend for one country over a year range."
+    },
+    {
+      "name": "compare_countries",
+      "description": "Draft a comparison of one indicator across several countries for one year."
+    }
+  ],
+  "resource_reads": {
+    "nusalens://schema": {
+      "chunks": {
+        "columns": [
+          {
+            "name": "chunk_id",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "doc_id",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "ord",
+            "type": "integer",
+            "nullable": "NO"
+          },
+          {
+            "name": "heading_path",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "token_count",
+            "type": "integer",
+            "nullable": "YES"
+          },
+          {
+            "name": "embedding",
+            "type": "USER-DEFINED",
+            "nullable": "YES"
+          },
+          {
+            "name": "tsv",
+            "type": "tsvector",
+            "nullable": "YES"
+          },
+          {
+            "name": "embedding_ft",
+            "type": "USER-DEFINED",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "chunk_id": "wikipedia:Asam_deoksiribonukleat_0",
+            "doc_id": "wikipedia:Asam_deoksiribonukleat",
+            "ord": 0,
+            "heading_path": "Asam deoksiribonukleat",
+            "text": "Asam deoksiribonukleat, lebih dikenal dengan singkatan DNA (bahasa Inggris: deoxyribonucleic acid), adalah salah satu jenis asam nukleat yang memiliki kemampuan pewarisan sifat. Keberadaan asam deoksiribonukleat ditemukan di dalam nukleoprotein yang membentuk inti sel. James Dewey Watson dan Francis Crick merupakan ilmuwan pertama yang mengajukan model struktur DNA pada tahun 1953 dengan bentuk pilinan ganda. Setiap DNA tersusun dari dua buah rantai polinukleotida. DNA merupakan sejenis biomolekul yang menyimpan dan menyandi instruksi-instruksi genetika setiap organisme dan banyak jenis virus. Instruksi-instruksi genetika ini berperan penting dalam pertumbuhan, perkembangan, dan fungsi organisme dan virus. DNA merupakan asam nukleat; bersamaan dengan protein dan karbohidrat, asam nukleat adalah makromolekul esensial bagi seluruh makhluk hidup yang diketahui. Kebanyakan molekul DNA terdiri dari dua unting biopolimer yang berpilin satu sama lainnya membentuk heliks ganda. Dua unting DNA ini dikenal sebagai polinukleotida karena keduanya terdiri dari satuan-satuan molekul yang disebut nukleotida. Tiap-tiap nukleotida terdiri atas salah satu jenis basa nitrogen (guanina (G), adenina (A), timina (T), atau sitosina (C)), gula monosakarida yang disebut deoksiribosa, dan gugus fosfat. Nukleotida-nukelotida ini kemudian tersambung dalam satu rantai ikatan kovalen antara gula satu nukleotida dengan fosfat nukelotida lainnya. Hasilnya adalah rantai punggung gula-fosfat yang berselang-seling. Menurut kaidah pasangan basa (A dengan T dan C dengan G), ikatan hidrogen mengikat basa-basa dari kedua unting polinukleotida membentuk DNA unting ganda Dua unting DNA bersifat anti-paralel, yang berarti bahwa keduanya berpasangan secara berlawanan. Pada setiap gugus gula, terikat salah satu dari empat jenis nukleobasa. Urutan asam nukleat empat nukleobasa di sepanjang rantai punggung DNA inilah yang menyimpan kode informasi biologis. Melalui proses biokimia yang disebut transkripsi, unting DNA digunakan sebagai templat untuk membuat unting RNA. Unting RNA ini kemudian ditranslasikan untuk menentukan urutan asam amino protein yang dibangun. Struktur kimia DNA yang ada membuatnya sangat cocok untuk menyimpan informasi biologis setiap makhluk hidup. Rantai punggung DNA resisten terhadap pembelahan kimia, dan kedua-dua unting dalam struktur unting ganda DNA menyimpan informasi biologis yang sama. Karenanya, informasi biologis ini akan direplikasi ketika dua unting DNA dipisahkan. Sebagian besar DNA (lebih dari 98% pada manusia) bersifat non-kode, yang berarti bagian ini tidak berfungsi menyandikan protein. Dalam sel, DNA tersusun dalam kromosom. Semasa pembelahan sel, kromosom-kromosom ini diduplikasi dalam proses yang disebut replikasi DNA. Organisme eukariotik (hewan, tumbuhan, fungi, dan protista) menyimpan kebanyakan DNA-nya dalam inti sel dan sebagian kecil sisanya dalam organel seperti mitokondria ataupun kloroplas. Sebaliknya organisme prokariotik (bakteri dan arkaea) menyimpan DNA-nya hanya dalam sitoplasma. Dalam kromosom, protein kromatin seperti histon berperan dalam penyusunan DNA menjadi struktur kompak. Struktur kompak inilah yang kemudian berinteraksi antara DNA dengan protein lainnya, sehingga membantu kontrol bagian-bagian DNA mana sajakah yang dapat ditranskripsikan. Para ilmuwan menggunakan DNA sebagai alat molekuler untuk menyingkap teori-teori dan hukum-hukum fisika, seperti misalnya teorema ergodik",
+            "token_count": 450,
+            "embedding": "[0.043681838,-0.047381405,-0.11972855,-0.036604192,0.06845377,-0.043586925,0.058746465,0.031787235,0.06528088,0.048101686,0.03386729,0.030665366,0.03599592,0.0024996116,-0.048269965,0.038445756,0.09291927,-0.0688207,-0.061152086,-0.013145543,-0.014301147,-0.010719334,-0.07577483,0.081395194,0.061048985,0.067640975,-0.033899315,0.038216628,0.04674212,-0.0042951466,-0.061510827,-0.057084054,0.07050051,-0.064624295,0.03016471,0.05035662,-0.11818347,-0.00849179,0.06551663,-0.049425393,-0.045470312,0.026426025,0.06289263,0.07411822,0.012680723,0.034591343,-0.048516426,0.07709812,-0.030756779,-0.033572208,-0.025103824,0.0033799333,0.055346556,0.05428672,0.053560987,-0.0067620846,-0.071703546,-0.049633704,-0.099052176,0.009459324,0.060998265,-0.11735174,-0.0069880956,0.019423662,0.077400915,-0.0034677302,0.017616525,0.06443539,-0.02168778,-0.04416748,-0.03330397,0.013789509,0.029656883,-0.039514616,0.02712599,0.05129795,0.042373426,-0.06578165,0.06383749,-0.018776841,-0.06880797,-0.02677651,-0.07399693,0.03495949,-0.0501785,0.09019099,0.039892055,-0.07162005,0.045422927,-0.06531757,0.063759945,0.034298133,-0.070867285,-0.0260662,-0.07084825,-0.087257676,-0.08658308,0.05467861,0.051328465,0.0045988043,0.035403278,-0.05355344,0.042855375,-0.13302468,-0.026114278,0.025968423,0.020660687,-0.05560422,0.05253606,-0.0057294597,-0.035181917,0.05658756,0.060255285,0.08353764,-0.06699044,0.0075588347,0.011277109,-0.03200416,0.04535385,-0.050424084,0.07322995,-0.030788517,-0.064771414,-0.06282255,-0.055088412,-0.076247655,0.08297645,0.020021493,0.05846989,0.022466445,0.053968027,0.0057838378,-0.0061865184,0.06516518,0.051794212,0.06386489,-0.07743324,0.013673602,-0.025852224,-0.02394196,-0.042302657,0.017010605,-0.07232452,0.045618597,0.035669237,0.058258586,0.03562016,0.010141483,0.032431904,-0.020724218,0.053278964,0.006822706,0.07287722,0.022559578,0.09383037,-0.0547857,-0.054241464,-0.07894993,0.087002255,0.05997391,-0.027738791,-0.06607577,-0.055507347,-0.012670706,-0.037694197,-0.073171854,0.054757576,0.059134174,-0.03656912,-0.038208175,-0.052692987,0.07981046,-0.018190736,0.033968374,-0.013995597,0.09251696,-0.03488468,0.025018591,0.06706374,0.05268049,-0.0112199,0.009229659,-0.08327067,-0.04246985,-0.047583506,-0.057051305,-0.040356506,0.02260075,0.0013191259,-0.032429446,0.0128670335,0.046380725,-0.0122485515,-0.058532495,-0.05866283,0.045471773,-0.013185035,0.018309947,0.029542731,0.038421214,-0.00043076344,-0.063654035,0.037612516,0.051800933,0.038220253,0.057311628,-0.05555773,0.05448489,-0.052249268,0.017407356,0.08169151,-0.018220887,-0.01577146,0.033751145,-0.044767726,0.01936759,-0.0046971706,0.02029348,-0.04901794,0.0321662,0.06394799,-0.031305153,0.033058204,-0.03899684,-0.008381133,0.05710874,0.038541373,-0.053139757,-0.03257353,0.04295395,-0.020881722,0.017616538,-0.0799148,-0.052617773,-0.054932956,-0.0210289,-0.06713613,0.048176173,0.03902467,-0.10565844,-0.035088204,-0.035022166,0.028351668,-0.050635215,0.07583649,-0.013452454,-0.045776,0.069713905,-0.006495618,0.060802467,0.04246369,-0.07580933,-0.028615706,-0.08779321,-0.059260022,0.023309778,0.04569155,0.06046019,-0.049366035,0.024312384,-0.017673735,-0.074862905,0.13219611,0.0053840806,0.077897996,0.07431281,-0.065057665,-0.037961297,-0.0983703,-0.028460743,-0.05297242,0.009094564,0.04019076,-0.035711374,-0.0061750505,-0.0008696766,0.028636647,0.104453206,-0.035044525,-0.06411595,0.07943748,-0.0032922288,0.065671176,0.07380539,0.04664957,-0.025198156,-0.03738935,0.060744718,-0.016615344,-0.05666616,-0.045272283,-0.058320653,0.03601255,-0.061452385,0.03960327,-0.004509274,-0.016220681,0.026467228,-0.08801037,0.019535035,-0.001033635,-0.03343611,0.01096216,0.071716845,-0.043019045,0.013092623,-0.015458149,-0.0127667915,0.061854593,0.023016183,0.06595447,0.016249694,-0.08262979,-0.05387762,0.063832015,0.01614181,0.012210794,0.012212033,-0.07416567,-0.11193273,-0.048725087,-0.07106756,0.02477189,-0.041916203,-0.017182818,0.019475758,-0.008479525,-0.00414001,0.10081561,0.014328486,-0.0013569208,0.0036735078,0.011821648,0.0090520615,-0.04285598,0.007451892,-0.006856629,0.071077265,-0.0492347,-0.053082775,0.04320574,0.036046367,-0.050879214,0.055681545,-0.034174774,-0.04374259,0.04552744,-0.05047708,-0.06169857,0.011147342,0.004465016,-0.106861934,-0.0148033,0.016259313,-0.06335736,0.0383053,-0.016215088,-0.033760775,0.04178539,0.0076874713,-0.06744827,-0.07959907,0.01964608,-0.01427061,0.03547151,0.012383412,-0.045940083,-0.028172966,0.043868415,-0.0006371859,0.02553005,0.06649065,-0.053085092,0.003641779,0.0364678,-0.008942032,-0.023935517,0.038847376,-0.04653071,-0.07977101,0.067874305,0.07532526,0.08204936,0.058697894]",
+            "tsv": "'1953':50 '98':355 'a':164,212 'acid':11 'ada':306 'adalah':12,107,198 'adenina':163 'akan':343 'alat':469 'amino':298 'antara':189,447 'anti':238 'anti-paralel':237 'arkaea':420 'asam':1,16,24,98,105,259,297 'atas':155 'atau':167 'ataupun':413 'bagi':110 'bagian':364,456,457 'bagian-bagian':455 'bahasa':8 'bahwa':242 'bakteri':418 'banyak':78 'basa':159,211,223,224 'basa-basa':222 'bentuk':52 'berarti':241,363 'berfungsi':367 'berinteraksi':446 'berlawanan':246 'berpasangan':244 'berperan':86,434 'berpilin':125 'bersamaan':100 'berselang':206 'berselang-seling':205 'bersifat':236,358 'besar':351 'biokimia':276 'biologis':273,313,336,341 'biomolekul':66 'biopolimer':123 'buah':60 'c':169,216 'cocok':309 'crick':39 'dalam':28,88,184,329,370,374,384,402,409,426,428,435 'dan':37,69,77,91,94,103,175,215,324,395,405,419,476 'dapat':462 'dari':58,120,142,225,254,354 'dengan':5,51,101,193,213,217,449 'deoksiribonukleat':2,25 'deoksiribosa':174 'deoxyribonucleic':10 'dewey':35 'di':27,263 'dibangun':301 'diduplikasi':383 'digunakan':282 'dikenal':4,136 'diketahui':115 'dipisahkan':349 'direplikasi':344 'disebut':148,173,278,387 'ditemukan':26 'ditranskripsikan':463 'ditranslasikan':293 'dna':7,47,56,63,96,118,134,230,235,267,281,304,319,333,348,352,372,389,400,423,437,448,458,467 'dna-nya':399,422 'dua':59,121,132,233,327,346 'empat':255,261 'ergodik':484 'esensial':109 'eukariotik':391 'fisika':480 'fosfat':177,194,203 'francis':38 'fungi':394 'fungsi':92 'g':162,218 'ganda':54,131,232,332 'genetika':74,84 'guanina':161 'gugus':176,249 'gula':170,190,202,250 'gula-fosfat':201 'hanya':425 'hasilnya':197 'heliks':130 'hewan':392 'hidrogen':220 'hidup':113,316 'histon':433 'hukum':478,479 'hukum-hukum':477 'ikatan':187,219 'ilmuwan':41,465 'informasi':272,312,335,340 'inggris':9 'ini':85,135,181,291,342,365,382 'inilah':268,443 'instruksi':72,73,82,83 'instruksi-instruksi':71,81 'inti':32,403 'james':34 'jenis':15,79,158,256 'kaidah':209 'karbohidrat':104 'karena':139 'karenanya':339 'kebanyakan':116,398 'keberadaan':23 'kecil':407 'kedua':226,326 'kedua-dua':325 'keduanya':140,243 'kemampuan':20 'kemudian':182,292,445 'ketika':345 'kimia':303,323 'kloroplas':414 'kode':271,361 'kompak':440,442 'kontrol':454 'kovalen':188 'kromatin':431 'kromosom':375,380,381,429 'kromosom-kromosom':379 'lainnya':128,196,451 'lebih':3,353 'makhluk':112,315 'makromolekul':108 'mana':459 'manusia':357 'melalui':274 'membantu':453 'membentuk':31,129,229 'membuat':286 'membuatnya':307 'memiliki':19 'menentukan':295 'mengajukan':44 'menggunakan':466 'mengikat':221 'menjadi':438 'menurut':208 'menyandi':70 'menyandikan':368 'menyimpan':68,270,311,334,397,421 'menyingkap':472 'merupakan':40,64,97 'misalnya':482 'mitokondria':412 'model':45 'molekul':117,146 'molekuler':470 'monosakarida':171 'nitrogen':160 'non':360 'non-kode':359 'nukelotida':180,195 'nukleat':17,99,106,260 'nukleobasa':257,262 'nukleoprotein':29 'nukleotida':149,153,179,192 'nukleotida-nukelotida':178 'nya':401,424 'organel':410 'organisme':76,93,390,416 'pada':48,247,356 'para':464 'paralel':239 'pasangan':210 'pembelahan':322,377 'penting':87 'penyusunan':436 'perkembangan':90 'pertama':42 'pertumbuhan':89 'pewarisan':21 'pilinan':53 'polinukleotida':62,138,228 'prokariotik':417 'proses':275,385 'protein':102,299,369,430,450 'protista':396 'punggung':200,266,318 'rantai':61,186,199,265,317 'replikasi':388 'resisten':320 'rna':288,290 'sajakah':460 'salah':13,156,252 'sama':127,338 'sangat':308 'satu':14,126,157,185,191,253 'satuan':144,145 'satuan-satuan':143 'sebagai':137,283,468 'sebagian':350,406 'sebaliknya':415 'secara':245 'sehingga':452 'sejenis':65 'sel':33,371,378,404 'seling':207 'seluruh':111 'semasa':376 'sepanjang':264 'seperti':411,432,481 'setiap':55,75,248,314 'sifat':22 'singkatan':6 'sisanya':408 'sitoplasma':427 'sitosina':168 'struktur':46,302,330,439,441 't':166,214 'tahun':49 'templat':284 'teorema':483 'teori':474,475 'teori-teori':473 'terdiri':119,141,154 'terhadap':321 'terikat':251 'tersambung':183 'tersusun':57,373 'tiap':151,152 'tiap-tiap':150 'tidak':366 'timina':165 'transkripsi':279 'tumbuhan':393 'unting':122,133,227,231,234,280,287,289,328,331,347 'untuk':285,294,310,471 'urutan':258,296 'virus':80,95 'watson':36 'yang':18,30,43,67,114,124,147,172,204,240,269,277,300,305,337,362,386,444,461",
+            "embedding_ft": "[-0.05387678,-0.020769054,-0.15809491,0.015343487,0.032760106,-0.00039955493,0.109647915,0.048567947,0.056479316,0.002556121,-0.08776985,0.025671344,0.01966929,0.10827562,-0.06105344,0.013893592,0.01709526,-0.03220427,-0.10662226,0.03901913,-0.036524728,0.07680548,-0.046229128,0.0047456124,-0.06750023,-0.015199508,0.03555311,-0.033843685,0.018295173,0.08824453,-0.020201778,-0.04544213,0.049691,-0.037449896,-0.028737247,0.020391447,-0.10110559,0.053792037,-0.017402418,-0.02769945,-0.019025378,0.031372156,0.015532864,-0.054744817,-0.03317144,-0.03810634,-0.01465274,-0.00036110965,-0.022088608,-0.03605199,0.056777187,-0.08292877,0.07649402,0.039477337,0.08001368,0.08930402,-0.060424168,-0.027514124,-0.037283294,0.010843345,0.04564244,-0.11641514,-0.064947486,0.019707937,0.03566524,-0.0780507,-0.031557035,0.078634,0.002901855,0.01200531,0.012935353,-0.045069892,0.017546572,-0.015022798,0.019951845,-0.024494417,-0.042603232,-0.043661434,0.092323445,0.05145779,-0.08063671,0.028680986,-0.012499042,-0.023842525,0.02180865,0.015464972,0.015675459,-0.027985407,-0.024305798,-0.041808166,0.0034364916,-0.1189887,0.004130534,0.052202012,-0.0040702373,-0.061526373,-0.06620256,0.045355015,-0.009852604,0.09320066,0.017933121,0.03785465,-0.053292546,-0.04856062,0.06574771,-0.012665963,-0.037318267,-0.029400434,-0.046763606,0.024493407,-0.012882333,0.045699347,0.06457984,0.023597788,-0.023982141,0.04792316,0.0027395198,0.10396008,-0.02807507,0.02614839,0.06317538,0.01995469,0.042791277,0.005632493,0.027492326,-0.01910264,0.05054425,-0.011435828,0.045146886,-0.033669192,-0.021225048,-0.03644296,-0.047858,0.028774519,-0.015955353,-0.0021266823,-0.08089309,0.04726813,-0.029973976,0.020641854,-0.031799443,0.045364793,-0.072106905,0.020047909,-0.011933749,-0.040516768,-0.061274145,0.015685592,-0.042514056,0.028613329,0.010037327,0.026069392,0.030799838,-0.011017109,0.04270099,0.028024271,0.015709547,-0.07321776,0.034998015,0.040341556,-0.0021181696,-0.043897603,0.061253335,0.0014894931,-0.038198143,-0.036363997,-0.06903296,0.058751438,-0.009276698,-0.044446938,-0.016189367,0.06320888,0.021222126,-0.05059566,0.026602648,0.08844857,0.006547705,-0.124405205,0.051670697,0.08607491,-0.0057518044,0.06867577,-0.07446832,0.013993916,0.020923136,0.052554578,0.0033260265,0.026865354,0.010694739,0.017774213,0.051312245,0.041529767,0.013977776,-0.0072719427,-0.058721785,-0.0154697215,0.06677449,-0.020782398,-0.029744126,-0.05363166,-0.007812421,-0.008190744,-0.017270168,0.021428343,0.037683498,0.05730899,0.012055757,0.0010783251,0.059726737,-0.030921713,0.110608235,0.09416606,0.031985,-0.02608196,-0.009754848,-0.021872059,-0.06437043,-0.12901142,-0.015032193,-0.006439813,0.018740738,0.0234998,-0.014069611,0.029032374,-0.05545277,0.07403858,0.021741424,-0.10300354,0.053669922,0.022796225,0.04342916,0.13566369,-0.014385195,-0.00048917445,-0.0015618535,0.090851456,-0.10003239,0.01047762,0.010761632,-0.08507571,0.033900026,-0.076236874,-0.0013826445,-0.003742805,0.047573704,0.045228012,-0.047200374,0.075789966,0.06345321,-0.060056645,0.037441086,0.018919611,-0.01176008,-0.055004552,-0.08251439,0.03866213,0.02990919,0.04759714,0.03732626,0.019249981,-0.07773686,-0.11167141,0.098798275,0.023117334,0.03445173,0.052361798,0.011748197,-0.029316789,-0.060522914,-0.03417765,-0.0013060828,0.02441685,-0.0833597,0.011424554,0.0099918805,0.08280479,0.048577286,0.058323767,0.019685637,-0.03274035,0.023642622,-0.049921263,0.079771355,-0.012185211,-0.0026311604,0.018233849,-0.022977324,-0.043988753,0.040301763,-0.018482167,0.0050782845,-0.020594843,-0.041357722,0.020465983,-0.0033277248,-0.044191234,-0.04343766,-0.025792055,-0.07083442,-0.02115301,0.039242737,-0.0039197747,-0.07376023,0.0591315,0.061639704,-0.05227171,-0.044902842,-0.11004899,0.08086878,-0.08257203,0.010686804,-0.0858663,-0.038659982,-0.055153124,0.0154248765,-0.0054893787,-0.01768975,0.059330616,-0.034331944,-0.10540391,0.010889109,-0.076363094,0.071001366,0.04879932,-0.07678835,-0.03211219,-0.0106345955,0.05222065,0.09426355,-0.06319373,-0.05193551,0.11517713,0.124026254,-0.12732166,0.02871279,0.07366704,0.06943816,0.029272305,-0.052996475,0.087779105,0.011728317,-0.03411836,0.00621787,-0.035136815,-0.016958183,0.0009258857,0.025805281,-0.016735137,-0.04934821,-0.07580264,-0.00017977902,-0.02435975,-0.047093477,-0.016210457,-0.09400571,-0.015407796,0.08565275,-0.057729684,0.06610891,0.0036870933,-0.020154135,-0.03292846,0.05667425,-0.086414665,-0.06418168,-0.01495559,-0.07254875,-0.00027344376,0.035821628,0.0015872265,0.038893633,0.026794126,0.016941313,-0.020598948,0.053811062,0.045363817,0.033524707,0.05287412,-0.024140494,-0.069645666,0.050868336,0.040576234,0.094735906,0.012412983]"
+          },
+          {
+            "chunk_id": "wikipedia:Asam_deoksiribonukleat_370",
+            "doc_id": "wikipedia:Asam_deoksiribonukleat",
+            "ord": 370,
+            "heading_path": "Asam deoksiribonukleat",
+            "text": "dan protista) menyimpan kebanyakan DNA-nya dalam inti sel dan sebagian kecil sisanya dalam organel seperti mitokondria ataupun kloroplas. Sebaliknya organisme prokariotik (bakteri dan arkaea) menyimpan DNA-nya hanya dalam sitoplasma. Dalam kromosom, protein kromatin seperti histon berperan dalam penyusunan DNA menjadi struktur kompak. Struktur kompak inilah yang kemudian berinteraksi antara DNA dengan protein lainnya, sehingga membantu kontrol bagian-bagian DNA mana sajakah yang dapat ditranskripsikan. Para ilmuwan menggunakan DNA sebagai alat molekuler untuk menyingkap teori-teori dan hukum-hukum fisika, seperti misalnya teorema ergodik dan teori elastisitas. Sifat-sifat materi DNA yang khas membuatnya sangat menarik untuk diteliti bagi ilmuwan dan insinyur yang bekerja di bidang mikrofabrikasi dan nanofabrikasi material. Beberapa kemajuan di bidang material ini misalnya origami DNA dan material hibrida berbasis DNA. Sifat-sifat DNA DNA merupakan sebuah polimer yang terdiri dari satuan-satuan berulang yang disebut nukleotida. Tiap-tiap nukleotida terdiri dari tiga komponen utama, yakni gugus fosfat, gula deoksiribosa, dan basa nitrogen (nukleobasa). Pada DNA, nukleobasa yang ditemukan adalah Adenina (A), Guanina (G), Sitosina (C) dan Timina (T). Nukleobasa yang terhubung dengan sebuah gugus gula disebut sebagai nukleosida, dan nukleosida yang terhubung dengan satu atau lebih gugus fosfat disebut sebagai nukleotida. Polimer yang terdiri dari nukleotida yang saling terhubung menjadi satu rantai disebut sebagai polinukleotida. Sehingga DNA termasuk pula ke dalam polinukleotida. Rantai punggung unting DNA terdiri dari gugus fosfat dan gula yang berselang-seling. Gula pada DNA adalah gula pentosa (berkarbon lima), yaitu 2-deoksiribosa. Dua gugus gula terhubung dengan fosfat melalui ikatan fosfodiester antara atom karbon ketiga pada cincin satu gula dan atom karbon kelima pada gula lainnya. Ikatan yang tidak simetris ini membuat DNA memiliki arah atau orientasi tertentu. Pada struktur heliks ganda, orientasi rantai nukleotida pada satu unting berlawanan dengan orientasi nukleotida unting lainnya. Hal ini disebut sebagai antiparalel. Kedua ujung asimetris DNA disebut sebagai 5' (lima prima) dan 3' (tiga prima). Ujung 5' memiliki gugus fosfat terminus, sedangkan ujung 3' memiliki gugus hidroksi terminus. Salah satu perbedaan utama DNA dan RNA adalah gula penyusunnya, yakni gula 2-deoksiribosa pada DNA digantikan gula ribosa pada RNA. Dalam organisme hidup, DNA biasanya ditemukan dalam bentuk berpasangan dan terikat kuat. Dua unting DNA saling berpilin membentuk heliks ganda. Heliks ganda ini distabilisasi oleh dua ikatan hidrogen antar nukleotida dan interaksi tumpukan antar nukleobasa aromatik. Dalam lingkungan sel yang berair, ikatan π konjugasi antar basa nukleotida tersusun tegak lurus terhadap sumbu pilinan DNA. Hal ini meminimalisasi interaksi dengan cangkang solvasi, dan sehingganya menurunkan energi bebas Gibbs. Struktur DNA semua jenis spesies terdiri dari dua rantai heliks yang berpilin dengan jarak antar putaran heliks 34 Å (3,4 nanometer) dan jari-jari 10 Å (1.0 nanometer). Menurut kajian lainnya, ketika diukur menggunakan larutan tertentu, rantai DNA memiliki lebar 22-26 Å (2,2-2,6 nanometer) sedangkan satu satuan nukleotida memiliki panjang 33",
+            "token_count": 450,
+            "embedding": "[0.045611702,-0.039546974,-0.1124988,-0.055123106,0.08987423,-0.038673554,0.06300232,0.04620115,0.06447047,0.024263818,0.05062851,0.013624761,0.055280354,0.009133453,-0.027949255,0.08854497,0.112336285,-0.039010346,-0.07119479,-0.00043126856,-0.012211098,-0.0155588165,-0.06491496,0.058485124,0.04539738,0.08803487,-0.06318851,0.05630809,0.048536085,-0.036847252,-0.08469214,-0.04036861,0.07889917,-0.012471938,0.048621383,0.03508034,-0.12390089,-0.016342906,0.10147752,-0.03975841,-0.01993201,0.021650467,0.052730985,0.08845893,0.007537675,0.03865585,-0.06978367,0.074155055,-0.014479025,-0.051362492,-0.051211517,0.008646128,0.029341498,0.05247246,0.02282773,-0.007100855,-0.072431676,-0.036817487,-0.055985447,0.017299902,0.0572772,-0.11819246,-0.00061394466,0.03664337,0.07711869,0.02184169,0.013188235,0.057358287,-0.004126287,-0.054506343,-0.032728866,-0.008337025,0.019368738,-0.034856565,0.017062748,0.0475225,0.04547913,-0.08122325,0.07064555,-0.031217754,-0.074748054,-0.036513004,-0.09829732,0.016339581,-0.02386253,0.07672554,0.039787043,-0.05438749,0.05598437,-0.08069006,0.06534097,0.06514295,-0.050051633,-0.06899845,-0.087716356,-0.10698999,-0.09475262,0.048681896,0.05340759,-0.030963121,0.02395689,-0.06141526,0.038418014,-0.13777989,-0.02448229,0.025525598,0.044387892,-0.04233301,0.064871825,-0.022853369,-0.033767156,0.033170953,0.06778874,0.085632615,-0.041340053,0.039838385,0.023476323,-0.04428804,0.025471395,-0.06669595,0.08288066,-0.02191713,-0.044383187,-0.05411742,-0.030136129,-0.06958798,0.08223749,0.006815945,0.022303728,0.04639539,0.04370966,0.034821372,0.012630723,0.047402404,0.0445353,0.069769576,-0.06824011,0.034084257,-0.025840946,-0.025000565,-0.04511731,0.019822964,-0.06432044,0.039079472,0.02868433,0.065580525,0.025471121,-0.0061249584,0.024222523,-0.03317734,0.07324347,0.0076924553,0.04327499,0.024329135,0.08621461,-0.04936033,-0.04640751,-0.06620892,0.1055022,0.048408188,-0.06328545,-0.07474254,-0.081066735,-0.03385447,-0.018660642,-0.09851469,0.030856982,0.051171347,-0.040234663,-0.01189422,-0.045909088,0.05369924,-0.0085346745,0.036945034,-0.021294877,0.085274585,-0.020796392,0.029367816,0.085043885,0.06333719,-0.04258265,-0.0024144705,-0.07559487,-0.05900509,-0.059346687,-0.044704016,-0.051293142,0.017868856,0.016530924,-0.03143617,0.0016737913,0.021062339,-0.0084724175,-0.06563558,-0.03582314,0.05147503,-0.021360705,-0.0055658617,0.013857989,0.06125981,0.0006323956,-0.044397365,0.025199076,0.03602617,0.026586795,0.029269647,-0.060468085,0.025344962,-0.06381063,0.007175519,0.05349259,-0.010243477,-0.02267649,0.026368657,-0.03216208,0.0011086004,-0.0069652647,0.023883978,-0.05988606,0.032490022,0.038635906,-0.049485546,0.07631532,-0.030554984,-0.0049197944,0.034965046,0.022718595,-0.0535247,-0.03691577,0.02745311,-0.03388801,-0.015256393,-0.06676765,-0.047944997,-0.045777585,-0.044587035,-0.05913297,0.036010176,0.050545573,-0.10981158,-0.047369476,-0.04996162,0.05624117,-0.04308154,0.046454225,-0.043376785,-0.020362237,0.07308526,-0.034817275,0.05792922,0.05024685,-0.060513966,-0.024769548,-0.07578125,-0.051928755,0.017989222,0.059284534,0.053680804,-0.018924475,0.018575363,-0.008483122,-0.069681026,0.11259287,-0.009442675,0.07731173,0.09259225,-0.062418606,-0.03944504,-0.09719843,-0.017260041,-0.029299019,0.013191833,0.05128929,-0.05622593,-0.024327418,-0.034746423,0.019541116,0.11430485,-0.038253605,-0.06923899,0.047366135,-0.02133862,0.073754415,0.05256091,0.086780235,-0.033369817,-0.016592223,0.08592873,-0.020879624,-0.064294815,-0.03889322,-0.048999023,0.041123524,-0.06608422,0.038701758,0.02738364,0.012666621,0.04318293,-0.09127869,0.030202366,-0.010162982,-0.04051522,0.023770588,0.042538617,-0.042345203,0.024817318,-0.02577537,-0.009788225,0.07666336,0.01400087,0.037283406,0.047543038,-0.08473928,-0.047303855,0.041780904,0.034479223,0.031592283,0.02302035,-0.0781889,-0.06044822,-0.052533563,-0.052341733,0.009926216,-0.05648719,0.0056634196,0.02314139,0.020848298,-0.007825945,0.111092165,-0.008912745,0.0102913445,-0.031442348,0.008200723,0.025881896,-0.066539906,-0.024768792,-0.008133144,0.08075417,-0.040914472,-0.071142554,0.048590265,0.007902783,-0.048667915,0.08212455,-0.011499159,-0.03168241,0.034710586,-0.035767693,-0.021792952,0.02225344,0.0015223096,-0.10181352,-0.006864881,0.025582856,-0.05838454,0.038267914,-0.008025094,-0.034187917,0.020720644,-0.011445468,-0.05720343,-0.084655814,0.03711412,0.009194534,0.021748563,0.015902497,-0.039353948,-0.0273954,0.04249589,0.005132075,0.019254185,0.056141175,-0.038145315,0.011006333,0.011546426,-0.020848531,-0.005874486,0.044051286,-0.03364077,-0.025161395,0.074380286,0.0729832,0.082190044,0.06432707]",
+            "tsv": "'-2':470 '-26':466 '1.0':451 '10':449 '2':250,347,468,469 '22':465 '3':319,330,442 '33':479 '34':440 '4':443 '5':315,323 '6':471 'a':175 'adalah':173,244,342 'adenina':174 'alat':75 'antar':384,389,400,437 'antara':53,261 'antiparalel':308 'arah':284 'arkaea':26 'aromatik':391 'asimetris':311 'atau':199,285 'ataupun':19 'atom':262,270 'bagi':106 'bagian':62,63 'bagian-bagian':61 'bakteri':24 'basa':165,401 'bebas':421 'beberapa':118 'bekerja':111 'bentuk':363 'berair':396 'berbasis':130 'berinteraksi':52 'berkarbon':247 'berlawanan':298 'berpasangan':364 'berperan':40 'berpilin':372,434 'berselang':239 'berselang-seling':238 'berulang':146 'biasanya':360 'bidang':113,121 'c':179 'cangkang':415 'cincin':266 'dalam':8,15,32,34,41,225,356,362,392 'dan':1,11,25,82,91,108,115,127,164,180,193,235,269,318,340,365,386,417,445 'dapat':68 'dari':142,155,209,232,429 'dengan':55,186,197,256,299,414,435 'deoksiribosa':163,251,348 'di':112,120 'digantikan':351 'disebut':148,190,203,217,306,313 'distabilisasi':379 'diteliti':105 'ditemukan':172,361 'ditranskripsikan':69 'diukur':457 'dna':6,29,43,54,64,73,98,126,131,135,136,169,221,230,243,282,312,339,350,359,370,409,424,462 'dna-nya':5,28 'dua':252,368,381,430 'elastisitas':93 'energi':420 'ergodik':90 'fisika':86 'fosfat':161,202,234,257,326 'fosfodiester':260 'g':177 'ganda':291,375,377 'gibbs':422 'guanina':176 'gugus':160,188,201,233,253,325,332 'gula':162,189,236,241,245,254,268,274,343,346,352 'hal':304,410 'hanya':31 'heliks':290,374,376,432,439 'hibrida':129 'hidrogen':383 'hidroksi':333 'hidup':358 'histon':39 'hukum':84,85 'hukum-hukum':83 'ikatan':259,276,382,397 'ilmuwan':71,107 'ini':123,280,305,378,411 'inilah':49 'insinyur':109 'interaksi':387,413 'inti':9 'jarak':436 'jari':447,448 'jari-jari':446 'jenis':426 'kajian':454 'karbon':263,271 'ke':224 'kebanyakan':4 'kecil':13 'kedua':309 'kelima':272 'kemajuan':119 'kemudian':51 'ketiga':264 'ketika':456 'khas':100 'kloroplas':20 'kompak':46,48 'komponen':157 'konjugasi':399 'kontrol':60 'kromatin':37 'kromosom':35 'kuat':367 'lainnya':57,275,303,455 'larutan':459 'lebar':464 'lebih':200 'lima':248,316 'lingkungan':393 'lurus':405 'mana':65 'materi':97 'material':117,122,128 'melalui':258 'membantu':59 'membentuk':373 'membuat':281 'membuatnya':101 'memiliki':283,324,331,463,477 'meminimalisasi':412 'menarik':103 'menggunakan':72,458 'menjadi':44,214 'menurunkan':419 'menurut':453 'menyimpan':3,27 'menyingkap':78 'merupakan':137 'mikrofabrikasi':114 'misalnya':88,124 'mitokondria':18 'molekuler':76 'nanofabrikasi':116 'nanometer':444,452,472 'nitrogen':166 'nukleobasa':167,170,183,390 'nukleosida':192,194 'nukleotida':149,153,205,210,294,301,385,402,476 'nya':7,30 'oleh':380 'organel':16 'organisme':22,357 'orientasi':286,292,300 'origami':125 'pada':168,242,265,273,288,295,349,354 'panjang':478 'para':70 'pentosa':246 'penyusunan':42 'penyusunnya':344 'perbedaan':337 'pilinan':408 'polimer':139,206 'polinukleotida':219,226 'prima':317,321 'prokariotik':23 'protein':36,56 'protista':2 'pula':223 'punggung':228 'putaran':438 'rantai':216,227,293,431,461 'ribosa':353 'rna':341,355 'sajakah':66 'salah':335 'saling':212,371 'sangat':102 'satu':198,215,267,296,336,474 'satuan':144,145,475 'satuan-satuan':143 'sebagai':74,191,204,218,307,314 'sebagian':12 'sebaliknya':21 'sebuah':138,187 'sedangkan':328,473 'sehingga':58,220 'sehingganya':418 'sel':10,394 'seling':240 'semua':425 'seperti':17,38,87 'sifat':95,96,133,134 'sifat-sifat':94,132 'simetris':279 'sisanya':14 'sitoplasma':33 'sitosina':178 'solvasi':416 'spesies':427 'struktur':45,47,289,423 'sumbu':407 't':182 'tegak':404 'teorema':89 'teori':80,81,92 'teori-teori':79 'terdiri':141,154,208,231,428 'terhadap':406 'terhubung':185,196,213,255 'terikat':366 'termasuk':222 'terminus':327,334 'tersusun':403 'tertentu':287,460 'tiap':151,152 'tiap-tiap':150 'tidak':278 'tiga':156,320 'timina':181 'tumpukan':388 'ujung':310,322,329 'unting':229,297,302,369 'untuk':77,104 'utama':158,338 'yaitu':249 'yakni':159,345 'yang':50,67,99,110,140,147,171,184,195,207,211,237,277,395,433 'å':441,450,467 'π':398",
+            "embedding_ft": "[-0.046578303,-0.0076787076,-0.14748785,-0.012317965,0.06381643,0.03448591,0.13771662,0.05802448,0.07901469,-0.04147749,-0.090923175,-0.012583324,0.08435054,0.13504405,0.013030901,0.084729895,0.07328735,0.06509469,-0.040085748,0.05185446,-0.0876207,0.013495306,-0.0097680995,-0.0066520344,-0.042147044,0.06172408,-0.045651246,0.002273309,0.018334515,0.018026553,-0.061095532,0.012531662,0.061101336,0.053638607,0.015473519,0.010686333,-0.12311335,0.04241368,0.047874752,-0.03301185,0.0201647,-0.0052538305,-0.019532094,-0.03482062,-0.068209134,-0.03785171,-0.059170734,-0.0014582302,0.024084805,-0.08961663,0.0090338485,-0.038849257,-8.062228e-05,0.040816646,0.012893208,0.09046937,-0.09493014,-0.020808028,0.03823551,0.011548969,0.064094864,-0.08620193,-0.03457867,0.048229996,0.051242154,-0.0091216015,-0.0697485,0.048930407,0.058740623,-0.04945611,-0.035889346,-0.097578324,0.013754806,-0.021813447,0.0014424429,-0.048920296,-0.0622561,-0.05436644,0.1072972,0.025106668,-0.07462456,0.045118805,-0.09862874,-0.051074255,0.04408128,-0.033408493,0.045145698,-0.0029186516,0.024817277,-0.07184256,0.049377922,-0.056560107,0.020552777,-0.048103385,-0.002037131,-0.12481426,-0.057630032,0.047454476,-0.028371975,0.069684885,-0.013197999,0.01640114,-0.0093013635,-0.055754513,0.07013624,0.010121448,0.006465919,0.025852881,-0.04179981,0.019560847,-0.009775023,0.059589934,0.036453005,0.013968956,0.06412919,0.097575225,0.0061369627,0.044256385,-0.07042155,-0.014704198,0.076926455,0.06503573,0.06508531,0.021635462,0.031114725,-0.02851151,0.03438513,0.014939008,-0.040533207,0.04334421,-0.019347036,0.05442915,-0.02406041,-0.0022098676,-0.05228124,0.009249378,-0.047946077,0.087501645,-0.038004983,0.0065079965,-0.0017407952,0.023726702,-0.02358006,0.011850829,-0.027815515,-0.01069916,-0.117313355,-0.020355161,-0.08313308,0.0009636352,0.036521178,0.018950311,0.0020827758,-0.004416781,0.06423034,0.043626305,-0.020445563,-0.040854562,0.12622795,-0.025847312,-0.074626625,-0.0066587874,0.0064850207,0.005840778,0.03661398,-0.07032489,-0.09827164,0.046823315,-0.017503904,0.025406512,0.005584468,0.024397815,0.051241025,-0.057463627,-0.0087940665,0.03402733,-0.018412102,-0.09285957,0.040959064,0.06504196,-0.04638897,0.01184613,-0.049038757,-0.0045953942,0.05222514,0.039848626,-0.01032906,0.03869445,0.013311268,0.010926492,0.01580887,0.0008514488,0.04323195,-0.033719383,0.0016601295,0.013473943,0.053344667,-0.07473066,-0.074131265,-0.0025613154,-0.016461406,0.021998484,-0.06337505,0.0013245881,-0.042705685,-0.0046531595,-0.0100712525,-0.03907611,0.013632723,-0.044350997,0.053792905,0.110378616,0.011612313,-0.023260038,0.024838947,-0.07191558,-0.11984464,-0.087673135,-0.05119131,-0.03741808,-0.01268965,-0.0050434256,0.047364812,0.072126925,-0.032916814,0.04708735,0.015498166,-0.11779133,0.039933417,-0.0047522485,0.005029327,0.029092204,-0.021450715,0.00021973698,-0.00018182176,0.008191291,-0.05921436,-0.020990936,0.03624997,-0.114656255,0.0102595035,-0.07503795,0.079895355,-0.0141779585,-0.010834726,0.0016159089,-0.012314271,0.04703605,0.00404486,-0.03321043,0.055250127,0.027919566,-0.020194806,-0.03255068,-0.039268654,0.017676337,0.049915407,0.042957097,0.08846028,0.007988903,-0.04467512,-0.1151386,0.060936343,-0.033588875,0.026229,0.08136291,-0.030443676,-0.018978603,-0.04093101,-0.015440531,0.03290982,0.020277647,-0.048317708,-0.0061377576,-0.014744088,-0.0160699,0.013037592,0.09803356,0.027758922,-0.050963365,-0.055653222,-0.124316305,0.082534105,-0.008597025,0.06456404,0.03764274,0.01838878,-0.014785975,0.027697451,-0.09851668,0.021468863,-0.0050679604,-0.019343236,-0.02806801,-0.022986522,-0.011181172,0.0022741891,0.036407106,-0.04559364,-0.0041270154,0.035888348,-0.04102871,-0.021848096,0.02385199,0.03147549,0.00023292446,-0.05268111,-0.10045856,0.10667065,-0.07255702,0.004576591,0.0101960525,-0.057833057,-0.16040416,0.05333621,0.03906293,0.035463266,0.08120604,-0.038319472,-0.028324654,0.020640725,-0.01154337,0.028712183,-0.0056931595,-0.04255528,-0.019803945,0.061217237,0.047012612,0.09578992,-0.099127255,-0.0021492406,-0.00052948296,0.07699999,-0.09016969,0.01495888,0.04762991,0.061312873,0.04375416,-0.0840184,0.033009067,0.036606118,-0.023778727,-0.014353666,0.03881944,0.004970547,-0.0003673826,0.021662094,-0.048488,0.04665845,-0.037695456,0.04021802,0.021825846,-0.006502945,0.045975957,-0.02574574,-0.03140068,0.082783006,-0.0573111,0.02228368,-0.050871152,-0.034177676,-0.071089685,0.054384295,-0.050821625,-0.063018255,-0.040268645,-0.036326606,-0.015213377,0.021921555,0.052496955,0.057392064,0.04363855,0.05707416,-0.021161867,-0.0024892634,0.0055013266,0.05382716,0.11197268,-0.024546815,0.042178202,0.03210836,0.012707605,0.09421593,0.038424388]"
+          },
+          {
+            "chunk_id": "wikipedia:Asam_deoksiribonukleat_740",
+            "doc_id": "wikipedia:Asam_deoksiribonukleat",
+            "ord": 740,
+            "heading_path": "Asam deoksiribonukleat",
+            "text": "lingkungan sel yang berair, ikatan π konjugasi antar basa nukleotida tersusun tegak lurus terhadap sumbu pilinan DNA. Hal ini meminimalisasi interaksi dengan cangkang solvasi, dan sehingganya menurunkan energi bebas Gibbs. Struktur DNA semua jenis spesies terdiri dari dua rantai heliks yang berpilin dengan jarak antar putaran heliks 34 Å (3,4 nanometer) dan jari-jari 10 Å (1.0 nanometer). Menurut kajian lainnya, ketika diukur menggunakan larutan tertentu, rantai DNA memiliki lebar 22-26 Å (2,2-2,6 nanometer) sedangkan satu satuan nukleotida memiliki panjang 33 Å (0,33 nm). Walaupun satuan nukleotida ini sangatlah kecil, polimer DNA dapat memiliki jutaan nukleotida yang terangkai seperti rantai. Misalnya, kromosom 1 yang merupakan kromosom terbesar pada manusia mengandung sekitar 220 juta pasangan basa. Nukleobasa DNA Nukleobasa diklasifikasikan ke dalam dua jenis: purina (A dan G) yang berupa fusi senyawa heterolingkar beranggota lima dengan senyawa heterolingkar beranggota enam, dan pirimidina (C dan T) yang berupa cincin beranggota enam. Pirimidina lainnya, urasil (U), biasanya menggantikan timina pada RNA. Perbedaan urasil dengan timina terletak pada ketiadaan gugus metil pada cincin urasil. Selain kelima nukleobasa tersebut, terdapat pula sejumlah besar analog asam nukleat buatan yang telah disintesis untuk mengkaji sifat-sifat asam nukleat dan digunakan dalam bioteknologi. Urasil biasanya tidak ditemukan dalam DNA (ditemukan dalam sel hanya sebagai produk uraian sitosina). Namun pada sejumlah bakteriofag– bakteriofag PBS1 dan PBS2 Bacillus subtilis dan bakteriofag piR1-37 Yersinia– timina telah digantikan oleh urasil. Fag lainnya - fag S6 Staphylococcus - juga telah diidentifikasi mempunyai urasil pada genomnya. Basa J (beta-d-glukopiranosiloksimetilurasil) yang merupakan bentuk modifikasi dari urasil juga dapat ditemukan pada sejumlah organisme: flagellata Diplonema dan Euglena, dan seluruh organisme marga kinetoplastid Biosintesis basa J terjadi dalam dua tahap: pada tahap pertama, basa timina spesifik pada DNA diubah menjadi hidroksimetildeoksiuridina (HOMedU); pada tahap kedua HOMedU diglikosilasi menjadi basa J. Protein-protein yang mengikat basa J ini juga telah berhasil diidentifikasi. Protein-protein ini tampaknya merupakan kerabat jauh dari onkogen Tet1 yang terlibat dalam patogenesis leukemia myeloid akut. Basa J tampaknya bekerja sebagai sinyal terminasi untuk RNA polimerase II. Alur DNA Pada struktur heliks ganda DNA, terdapat ruang antar unting DNA yang juga berbentuk alur heliks. Ruang kosong ini bersebelahan dengan pasangan basa dan merupakan tapak ikatan yang potensial. Dikarenakan kedua unting DNA tidak berposisi secara simetris satu sama lainnya, alur yang dihasilkan jugalah tidak berukuran sama. Satu alur yang disebut alur mayor, memiliki lebar 22 Å, sedangkan alur lainnya yang disebut alur minor, memiliki lebar 12 Å. Lebarnya alur mayor berarti bahwa tepi-tepi basa nukleotida dapat lebih mudah diakses melalui alur mayor daripada melalui alur minor. Akibatnya, protein-protein seperti faktor-faktor transkripsi yang mengikat pada urutan basa tertentu biasanya melakukan kontak dengan basa melalui alur mayor. Situasi ini dapat bervariasi pada konformasi DNA yang tak lazim dalam sel, walaupun alur mayor",
+            "token_count": 450,
+            "embedding": "[0.046998035,-0.0356616,-0.09553152,-0.039643276,0.08220818,-0.051612,0.032406088,0.020386584,0.05996747,0.050494686,0.051079977,0.028209355,0.037680246,-0.018216912,-0.04966671,0.06968372,0.11003457,-0.030835973,-0.056792296,-0.020244537,0.011507051,-0.014018297,-0.080308475,0.082108065,0.0730411,0.026618417,-0.05092486,0.07027908,0.07785519,-0.051008865,-0.04394028,-0.054825295,0.06746923,-0.045135435,0.017181715,0.030638156,-0.103410274,-0.018633733,0.10409785,-0.08205234,-0.07616872,0.026605915,0.031515546,0.092229895,0.02197831,0.029008863,-0.036799356,0.07729707,0.009549246,-0.021399925,-0.04853245,0.05128327,0.030851608,0.043055534,0.037394457,-0.0404495,-0.077650204,-0.066716105,-0.055900987,0.047683332,0.042523503,-0.09808223,-0.0029609003,0.007516161,0.07967476,0.03977164,0.016703075,0.072152816,-0.032866217,-0.07251483,-0.029646767,-0.012418268,0.059831224,0.0054352717,0.03220473,0.014897322,0.060993392,-0.051631197,0.012128267,-0.057055514,-0.03669967,-0.021790596,-0.07266305,0.016270159,-0.043897923,0.04823785,0.06369078,-0.066029504,0.034665782,-0.0856082,0.06542334,0.02810416,-0.052376356,-0.019901546,-0.08028938,-0.124234945,-0.07388925,0.08037561,0.07221854,0.003774971,0.01429008,-0.033411324,0.0455174,-0.12576862,-0.04443495,0.029471485,0.055278398,-0.06834011,0.042179815,-0.03463653,-0.0023540764,0.06499722,0.049320847,0.044221763,-0.014313562,0.026040835,0.022726282,-0.015377905,0.04749865,-0.02008465,0.056861293,-0.035802655,-0.08765537,-0.03244718,-0.057076305,-0.033183947,0.08121508,0.046056524,0.035427097,0.018301195,0.07228136,0.065220304,0.0071694455,0.065175414,0.063401125,0.08235986,-0.08887654,-0.0012828524,-0.041601766,-0.03852888,-0.06269314,0.017769767,-0.0634321,0.043366652,0.036947023,0.038481843,0.056349292,-0.00888154,0.025001915,-0.024561016,0.06861939,-0.0071383473,0.06070541,0.023236133,0.0856507,-0.06907067,-0.062311847,-0.042256307,0.045161977,0.037205454,-0.045110513,-0.04817972,-0.079340026,-0.017172534,-0.07164764,-0.091011845,0.06736251,0.07162343,-0.039079838,-0.023680227,-0.015973119,0.070402786,-0.0113183735,0.03138619,0.011322746,0.061244912,-0.032036707,0.041618843,0.08141618,0.07043942,-0.017510112,-0.009520345,-0.07001091,-0.051326144,-0.054975666,-0.10415481,-0.04682995,0.018647604,0.013256024,-0.03277325,0.010080329,0.029923553,-0.014094973,-0.05120396,-0.057998385,0.057791896,-0.013199392,0.04386884,0.009050061,0.04444415,0.039191995,-0.04564638,0.036838666,0.031965636,0.048076328,0.034433156,-0.07751593,0.04596661,-0.06504474,0.025636883,0.054962233,0.0070819487,-0.022521697,0.029720917,-0.022872014,0.010494532,-0.008837946,0.027031746,-0.0333298,0.06277119,0.036692794,-0.038813252,0.037628215,-0.05534279,0.011958547,0.021253036,0.04505777,-0.06008457,-0.05909839,0.044432204,-0.014280246,-0.004922596,-0.07905298,-0.017408844,-0.02794851,-0.08099767,-0.045950323,0.035103105,0.024030222,-0.07138238,-0.03753777,-0.017945942,0.05798122,-0.06938415,0.023653176,-0.058416147,0.012782898,0.07172269,-0.006425665,0.048335336,0.03148498,-0.07671853,-0.05847762,-0.09333659,-0.07637271,0.007397787,0.05765115,0.050404914,-0.054911945,0.010778473,-0.027345782,-0.084297016,0.110552594,0.004317245,0.08016199,0.07863656,-0.06834607,-0.0073457495,-0.037925772,-0.03399427,-0.061184198,0.03707232,0.06389814,-0.034486704,-0.007518006,-0.013926512,0.016400881,0.10377309,-0.026521435,-0.09313495,0.04559192,-0.03630997,0.04256266,0.04352703,0.07046584,-0.047055725,-0.032067433,0.065954,-0.0074431435,-0.0619379,-0.021707257,-0.03691094,0.023938866,-0.049589615,0.059170306,0.022073545,-0.005700564,0.046040747,-0.087353915,0.041234393,-0.024277661,-0.01840851,0.039385363,0.04169059,-0.0096117165,0.04458695,-0.023311423,-0.025342695,0.08644542,0.020639205,0.02877263,0.03455373,-0.086297356,-0.037852425,0.07233512,0.033310905,0.020005746,0.05463599,-0.100434564,-0.056248255,-0.053793427,-0.04280288,0.01106535,-0.039539464,0.016251197,0.04729551,0.01932716,-0.013078218,0.09972039,0.0024756407,0.014184868,-0.04987163,-0.021159144,0.008041835,-0.046014685,-0.028108357,-0.038164645,0.033210844,-0.049198043,-0.09801157,0.04374885,0.028426994,-0.039432548,0.0836379,-0.055657294,-0.037056524,0.031351812,-0.02626441,-0.051373575,0.04152595,-0.008103783,-0.110690854,-0.012595808,0.00974914,-0.041491825,0.032980654,-0.0066402666,-0.023101492,0.024306256,-0.05578069,-0.05648845,-0.07694985,0.0379494,0.018312499,0.030960392,0.02410011,0.018132806,-0.030701166,0.03267735,-0.040603004,0.012115111,0.0655677,-0.041490976,-0.024638692,-0.015241042,-0.02922668,-0.03588724,0.051291473,-0.05978916,-0.06519125,0.07805229,0.05886981,0.05869761,0.06364167]",
+            "tsv": "'-2':78 '-26':74 '-37':231 '0':89 '1':110 '1.0':59 '10':57 '12':412 '2':76,77 '22':73,401 '220':119 '3':50 '33':87,90 '34':48 '4':51 '6':79 'a':132 'akibatnya':435 'akut':333 'alur':345,360,386,394,397,404,408,415,429,433,456,471 'analog':186 'antar':8,45,354 'asam':187,198 'bacillus':226 'bahwa':418 'bakteriofag':221,222,229 'basa':9,122,250,278,287,302,309,334,368,422,448,454 'bebas':29 'bekerja':337 'bentuk':258 'berair':4 'beranggota':140,145,155 'berarti':417 'berbentuk':359 'berhasil':314 'berpilin':42 'berposisi':380 'bersebelahan':365 'berukuran':391 'berupa':136,153 'bervariasi':461 'besar':185 'beta':253 'beta-d-glukopiranosiloksimetilurasil':252 'biasanya':161,205,450 'biosintesis':277 'bioteknologi':203 'buatan':189 'c':149 'cangkang':23 'cincin':154,176 'd':254 'dalam':128,202,208,211,281,329,468 'dan':25,53,133,147,150,200,224,228,270,272,369 'dapat':100,263,424,460 'dari':37,260,324 'daripada':431 'dengan':22,43,142,168,366,453 'diakses':427 'digantikan':235 'diglikosilasi':300 'digunakan':201 'dihasilkan':388 'diidentifikasi':245,315 'dikarenakan':375 'diklasifikasikan':126 'diplonema':269 'disebut':396,407 'disintesis':192 'ditemukan':207,210,264 'diubah':292 'diukur':65 'dna':17,32,70,99,124,209,291,346,351,356,378,464 'dua':38,129,282 'enam':146,156 'energi':28 'euglena':271 'fag':238,240 'faktor':441,442 'faktor-faktor':440 'flagellata':268 'fusi':137 'g':134 'ganda':350 'genomnya':249 'gibbs':30 'glukopiranosiloksimetilurasil':255 'gugus':173 'hal':18 'hanya':213 'heliks':40,47,349,361 'heterolingkar':139,144 'hidroksimetildeoksiuridina':294 'homedu':295,299 'ii':344 'ikatan':5,372 'ini':19,95,311,319,364,459 'interaksi':21 'j':251,279,303,310,335 'jarak':44 'jari':55,56 'jari-jari':54 'jauh':323 'jenis':34,130 'juga':243,262,312,358 'jugalah':389 'juta':120 'jutaan':102 'kajian':62 'ke':127 'kecil':97 'kedua':298,376 'kelima':179 'kerabat':322 'ketiadaan':172 'ketika':64 'kinetoplastid':276 'konformasi':463 'konjugasi':7 'kontak':452 'kosong':363 'kromosom':109,113 'lainnya':63,158,239,385,405 'larutan':67 'lazim':467 'lebar':72,400,411 'lebarnya':414 'lebih':425 'leukemia':331 'lima':141 'lingkungan':1 'lurus':13 'manusia':116 'marga':275 'mayor':398,416,430,457,472 'melakukan':451 'melalui':428,432,455 'memiliki':71,85,101,399,410 'meminimalisasi':20 'mempunyai':246 'mengandung':117 'menggantikan':162 'menggunakan':66 'mengikat':308,445 'mengkaji':194 'menjadi':293,301 'menurunkan':27 'menurut':61 'merupakan':112,257,321,370 'metil':174 'minor':409,434 'misalnya':108 'modifikasi':259 'mudah':426 'myeloid':332 'namun':218 'nanometer':52,60,80 'nm':91 'nukleat':188,199 'nukleobasa':123,125,180 'nukleotida':10,84,94,103,423 'oleh':236 'onkogen':325 'organisme':267,274 'pada':115,164,171,175,219,248,265,284,290,296,347,446,462 'panjang':86 'pasangan':121,367 'patogenesis':330 'pbs1':223 'pbs2':225 'perbedaan':166 'pertama':286 'pilinan':16 'pir1':230 'pirimidina':148,157 'polimer':98 'polimerase':343 'potensial':374 'produk':215 'protein':305,306,317,318,437,438 'protein-protein':304,316,436 'pula':183 'purina':131 'putaran':46 'rantai':39,69,107 'rna':165,342 'ruang':353,362 's6':241 'sama':384,392 'sangatlah':96 'satu':82,383,393 'satuan':83,93 'sebagai':214,338 'secara':381 'sedangkan':81,403 'sehingganya':26 'sejumlah':184,220,266 'sekitar':118 'sel':2,212,469 'selain':178 'seluruh':273 'semua':33 'senyawa':138,143 'seperti':106,439 'sifat':196,197 'sifat-sifat':195 'simetris':382 'sinyal':339 'sitosina':217 'situasi':458 'solvasi':24 'spesies':35 'spesifik':289 'staphylococcus':242 'struktur':31,348 'subtilis':227 'sumbu':15 't':151 'tahap':283,285,297 'tak':466 'tampaknya':320,336 'tapak':371 'tegak':12 'telah':191,234,244,313 'tepi':420,421 'tepi-tepi':419 'terangkai':105 'terbesar':114 'terdapat':182,352 'terdiri':36 'terhadap':14 'terjadi':280 'terletak':170 'terlibat':328 'terminasi':340 'tersebut':181 'tersusun':11 'tertentu':68,449 'tet1':326 'tidak':206,379,390 'timina':163,169,233,288 'transkripsi':443 'u':160 'unting':355,377 'untuk':193,341 'uraian':216 'urasil':159,167,177,204,237,247,261 'urutan':447 'walaupun':92,470 'yang':3,41,104,111,135,152,190,256,307,327,357,373,387,395,406,444,465 'yersinia':232 'å':49,58,75,88,402,413 'π':6",
+            "embedding_ft": "[-0.06271447,0.02244665,-0.116688564,-0.0043193353,0.04266679,0.0020935887,0.08522241,0.048940077,0.06207723,-0.019612117,-0.07332609,0.015642587,-0.026543362,0.107921794,-0.024400657,0.09284571,0.016167412,0.05792296,-0.03885432,0.0033131277,-0.0013736788,0.06287588,-0.08456907,0.010591986,-0.00782258,0.017640783,-0.058451418,0.019974807,0.08861254,-0.02755248,0.003117032,-0.007591783,0.11780967,0.004852238,-0.07585455,-0.025392262,-0.058084022,0.01739477,0.09131575,-0.0908757,-0.037454043,0.031195028,-0.017648723,0.0071059815,-0.0938209,0.024180554,0.011398706,0.022156252,0.043192826,0.017680401,0.014169096,-0.04831812,0.058661528,0.033777766,0.025685592,0.08031636,-0.09126058,0.013255493,-0.008854261,0.03209453,0.051089138,-0.12345696,-0.018025601,0.008121006,0.03382182,0.058067873,-0.07057568,0.03827657,-0.037227437,-0.046865452,0.05136572,-0.06492,0.03746462,0.033894423,-0.005205561,-0.07690452,0.052168917,0.0012834523,-0.0015377143,0.017467353,0.01635615,0.030617911,-0.13435979,-0.040778495,0.0061764386,-0.04324762,-0.0021930933,-0.06879101,-0.031412274,-0.04865196,0.015530393,-0.087486714,0.004718204,0.08284424,-0.0014499595,-0.12771507,-0.04763707,0.04903547,0.04438515,0.083819754,-0.01733695,0.03718238,0.009434544,-0.07057511,0.014979408,-0.024003306,0.04330274,-0.05300237,-0.051491734,-0.042634062,-0.002349491,0.018454138,-0.015023759,-0.002442996,0.071366355,0.06684214,0.014085136,0.1066938,-0.06896123,0.013732956,0.066484995,0.034813754,0.005008585,0.0013063456,-0.0020326101,0.028845822,0.045460634,-0.009575315,-0.04895807,0.012519881,0.034452304,0.0672016,-0.004345858,0.08207347,-0.046874866,0.026006207,-0.111808024,0.058903184,-0.07050472,0.009366664,-0.06659403,0.050704807,-0.034660652,-0.039592367,0.019078558,-0.01338199,-0.0033843818,0.013743828,-0.05668292,0.044302817,0.058206618,0.01199394,0.033694606,-0.01577126,0.033400923,0.014711338,-0.0136302,-0.001212675,0.010118656,0.023112966,-0.029176038,-0.003378488,-0.0030832633,-0.00825238,-0.027333327,-0.004967022,-0.024181392,0.06027618,-0.0026307034,-0.026686883,0.02355756,0.030590415,0.04810735,-0.07186682,0.03278538,0.024960924,0.03765584,-0.10915641,0.062327784,0.07455493,-0.017008608,0.012347003,-0.04086424,0.05060313,0.075178504,-0.05296344,0.023385033,0.010963317,0.023562858,0.014037732,0.013137412,0.0069348672,0.008120433,-0.0040834574,0.008026426,-0.002868798,0.064945236,-0.031247672,-0.06634216,-0.020161763,0.0679848,0.02743432,0.016647365,0.018490152,0.01115801,0.034750953,0.003836146,-0.029416427,0.048733063,-0.06343922,0.06729085,0.08621061,0.023613911,-0.050753005,0.0011528475,-0.021773156,-0.094363384,-0.1035416,0.0088539515,0.043160953,0.004945098,-0.025062595,0.0016812654,-0.0053058127,-0.01800086,0.0022780506,0.061214406,-0.09758962,0.018502207,-0.025397304,-0.0043362193,0.07806144,-0.014913381,0.11699639,-0.0022322738,-0.001370777,-0.06426683,-0.055525295,-0.020866487,-0.08653905,0.019250542,-0.035095807,0.021352597,-0.06982906,-0.004169569,0.01882382,0.053495634,0.07820961,0.024116911,-0.046333555,0.011345564,-0.017303623,-0.031361554,-0.07953388,-0.074896865,-0.050658185,0.058097225,0.017243596,0.023199085,0.01589025,-0.08046252,-0.15689538,0.05921423,-0.014998179,0.053212862,0.066998705,0.016873302,0.013589617,0.0046633137,-0.060339663,0.0041316207,0.056238014,-0.022088394,0.04621551,-0.02589525,0.048804693,0.034551203,0.048718676,-0.00058269256,-0.052158494,-0.04010831,-0.18801807,0.000317234,-0.07755764,0.054838076,-0.012294108,-0.026348768,-0.07354367,0.11811962,-0.033353902,0.014576416,-0.010056815,-0.07687345,0.019449037,0.03194327,-0.003908141,0.01292856,-0.0077113123,-0.052187476,0.029055705,-0.019802164,0.04841449,0.029100634,0.062114753,0.09442261,0.023764327,-0.07015626,-0.08593939,0.09758748,-0.12440228,-0.004495139,-0.026867578,-0.06789841,-0.067721106,0.0460663,0.026548073,0.02958942,0.10271338,-0.04488115,0.010331968,0.0010188617,-0.07171608,0.07697043,0.013716325,-0.04499522,-0.05679996,0.029194575,0.02089569,0.083921805,-0.05743617,-0.0012008717,0.0526753,0.044929676,-0.10038419,0.013013134,0.040797975,-0.0013836835,0.03137952,-0.115551285,-0.030312497,0.028102651,0.007907616,0.03168588,-0.022199452,-0.057336446,0.02549896,0.020686973,0.04199078,0.028697578,-0.043104604,0.027320862,-0.060356274,-0.04119665,-0.00922644,-0.03364383,0.06593121,0.10891329,-0.02358802,0.021900298,-0.08972116,0.053499315,-0.08891065,-0.04724713,-0.07526495,-0.04268956,-0.048783522,0.018847406,0.016927851,0.04133375,-0.008650478,0.0033535608,0.06624153,0.005136624,-0.029520007,-0.022596605,-0.013070631,0.02312415,0.08703532,-0.06594443,-0.060542688,0.086573586,0.009805683,0.060182787,0.01253177]"
+          }
+        ]
+      },
+      "dim_country": {
+        "columns": [
+          {
+            "name": "iso3",
+            "type": "character",
+            "nullable": "NO"
+          },
+          {
+            "name": "name_id",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "name_en",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "region",
+            "type": "text",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "iso3": "IDN",
+            "name_id": "Indonesia",
+            "name_en": "Indonesia",
+            "region": "Asia"
+          },
+          {
+            "iso3": "MYS",
+            "name_id": "Malaysia",
+            "name_en": "Malaysia",
+            "region": "Asia"
+          },
+          {
+            "iso3": "THA",
+            "name_id": "Thailand",
+            "name_en": "Thailand",
+            "region": "Asia"
+          }
+        ]
+      },
+      "dim_dataset": {
+        "columns": [
+          {
+            "name": "dataset_id",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "publisher",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "license",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "url",
+            "type": "text",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": []
+      },
+      "dim_indicator": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "name_id",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "name_en",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "unit",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "topic",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "source",
+            "type": "text",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "code": "NY.GDP.PCAP.CD",
+            "name_id": "GDP per capita (current US$)",
+            "name_en": "GDP per capita (current US$)",
+            "unit": "",
+            "topic": "",
+            "source": "World Bank"
+          },
+          {
+            "code": "NY.GDP.PCAP.KD.ZG",
+            "name_id": "GDP per capita growth (annual %)",
+            "name_en": "GDP per capita growth (annual %)",
+            "unit": "",
+            "topic": "",
+            "source": "World Bank"
+          },
+          {
+            "code": "NY.GDP.MKTP.KD.ZG",
+            "name_id": "GDP growth (annual %)",
+            "name_en": "GDP growth (annual %)",
+            "unit": "",
+            "topic": "",
+            "source": "World Bank"
+          }
+        ]
+      },
+      "documents": {
+        "columns": [
+          {
+            "name": "doc_id",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "source",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "url",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "lang",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "license",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "published_at",
+            "type": "date",
+            "nullable": "YES"
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "nullable": "NO"
+          }
+        ],
+        "sample_rows": [
+          {
+            "doc_id": "wikipedia:Asam_deoksiribonukleat",
+            "source": "S2_wikipedia_id",
+            "title": "Asam deoksiribonukleat",
+            "url": "https://id.wikipedia.org/wiki/Asam%20deoksiribonukleat",
+            "lang": "id",
+            "license": "CC BY-SA 4.0",
+            "published_at": null,
+            "text": "Asam deoksiribonukleat, lebih dikenal dengan singkatan DNA (bahasa Inggris: deoxyribonucleic acid), adalah salah satu jenis asam nukleat yang memiliki kemampuan pewarisan sifat. Keberadaan asam deoksiribonukleat ditemukan di dalam nukleoprotein yang membentuk inti sel. James Dewey Watson dan Francis Crick merupakan ilmuwan pertama yang mengajukan model struktur DNA pada tahun 1953 dengan bentuk pilinan ganda. Setiap DNA tersusun dari dua buah rantai polinukleotida. DNA merupakan sejenis biomolekul yang menyimpan dan menyandi instruksi-instruksi genetika setiap organisme dan banyak jenis virus. Instruksi-instruksi genetika ini berperan penting dalam pertumbuhan, perkembangan, dan fungsi organisme dan virus. DNA merupakan asam nukleat; bersamaan dengan protein dan karbohidrat, asam nukleat adalah makromolekul esensial bagi seluruh makhluk hidup yang diketahui. Kebanyakan molekul DNA terdiri dari dua unting biopolimer yang berpilin satu sama lainnya membentuk heliks ganda. Dua unting DNA ini dikenal sebagai polinukleotida karena keduanya terdiri dari satuan-satuan molekul yang disebut nukleotida. Tiap-tiap nukleotida terdiri atas salah satu jenis basa nitrogen (guanina (G), adenina (A), timina (T), atau sitosina (C)), gula monosakarida yang disebut deoksiribosa, dan gugus fosfat. Nukleotida-nukelotida ini kemudian tersambung dalam satu rantai ikatan kovalen antara gula satu nukleotida dengan fosfat nukelotida lainnya. Hasilnya adalah rantai punggung gula-fosfat yang berselang-seling. Menurut kaidah pasangan basa (A dengan T dan C dengan G), ikatan hidrogen mengikat basa-basa dari kedua unting polinukleotida membentuk DNA unting ganda\n\nDua unting DNA bersifat anti-paralel, yang berarti bahwa keduanya berpasangan secara berlawanan. Pada setiap gugus gula, terikat salah satu dari empat jenis nukleobasa. Urutan asam nukleat empat nukleobasa di sepanjang rantai punggung DNA inilah yang menyimpan kode informasi biologis. Melalui proses biokimia yang disebut transkripsi, unting DNA digunakan sebagai templat untuk membuat unting RNA. Unting RNA ini kemudian ditranslasikan untuk menentukan urutan asam amino protein yang dibangun.\n\nStruktur kimia DNA yang ada membuatnya sangat cocok untuk menyimpan informasi biologis setiap makhluk hidup. Rantai punggung DNA resisten terhadap pembelahan kimia, dan kedua-dua unting dalam struktur unting ganda DNA menyimpan informasi biologis yang sama. Karenanya, informasi biologis ini akan direplikasi ketika dua unting DNA dipisahkan. Sebagian besar DNA (lebih dari 98% pada manusia) bersifat non-kode, yang berarti bagian ini tidak berfungsi menyandikan protein.\n\nDalam sel, DNA tersusun dalam kromosom. Semasa pembelahan sel, kromosom-kromosom ini diduplikasi dalam proses yang disebut replikasi DNA. Organisme eukariotik (hewan, tumbuhan, fungi, dan protista) menyimpan kebanyakan DNA-nya dalam inti sel dan sebagian kecil sisanya dalam organel seperti mitokondria ataupun kloroplas. Sebaliknya organisme prokariotik (bakteri dan arkaea) menyimpan DNA-nya hanya dalam sitoplasma. Dalam kromosom, protein kromatin seperti histon berperan dalam penyusunan DNA menjadi struktur kompak. Struktur kompak inilah yang kemudian berinteraksi antara DNA dengan protein lainnya, sehingga membantu kontrol bagian-bagian DNA mana sajakah yang dapat ditranskripsikan.\n\nPara ilmuwan menggunakan DNA sebagai alat molekuler untuk menyingkap teori-teori dan hukum-hukum fisika, seperti misalnya teorema ergodik dan teori elastisitas. Sifat-sifat materi DNA yang khas membuatnya sangat menarik untuk diteliti bagi ilmuwan dan insinyur yang bekerja di bidang mikrofabrikasi dan nanofabrikasi material. Beberapa kemajuan di bidang material ini misalnya origami DNA dan material hibrida berbasis DNA.\n\nSifat-sifat DNA \n\nDNA merupakan sebuah polimer yang terdiri dari satuan-satuan berulang yang disebut nukleotida. Tiap-tiap nukleotida terdiri dari tiga komponen utama, yakni gugus fosfat, gula deoksiribosa, dan basa nitrogen (nukleobasa). Pada DNA, nukleobasa yang ditemukan adalah Adenina (A), Guanina (G), Sitosina (C) dan Timina (T). Nukleobasa yang terhubung dengan sebuah gugus gula disebut sebagai nukleosida, dan nukleosida yang terhubung dengan satu atau lebih gugus fosfat disebut sebagai nukleotida. Polimer yang terdiri dari nukleotida yang saling terhubung menjadi satu rantai disebut sebagai polinukleotida. Sehingga DNA termasuk pula ke dalam polinukleotida.\n\nRantai punggung unting DNA terdiri dari gugus fosfat dan gula yang berselang-seling. Gula pada DNA adalah gula pentosa (berkarbon lima), yaitu 2-deoksiribosa. Dua gugus gula terhubung dengan fosfat melalui ikatan fosfodiester antara atom karbon ketiga pada cincin satu gula dan atom karbon kelima pada gula lainnya. Ikatan yang tidak simetris ini membuat DNA memiliki arah atau orientasi tertentu. Pada struktur heliks ganda, orientasi rantai nukleotida pada satu unting berlawanan dengan orientasi nukleotida unting lainnya. Hal ini disebut sebagai antiparalel. Kedua ujung asimetris DNA disebut sebagai 5' (lima prima) dan 3' (tiga prima). Ujung 5' memiliki gugus fosfat terminus, sedangkan ujung 3' memiliki gugus hidroksi terminus. Salah satu perbedaan utama DNA dan RNA adalah gula penyusunnya, yakni gula 2-deoksiribosa pada DNA digantikan gula ribosa pada RNA.\n\nDalam organisme hidup, DNA biasanya ditemukan dalam bentuk berpasangan dan terikat kuat. Dua unting DNA saling berpilin membentuk heliks ganda. Heliks ganda ini distabilisasi oleh dua ikatan hidrogen antar nukleotida dan interaksi tumpukan antar nukleobasa aromatik. Dalam lingkungan sel yang berair, ikatan π konjugasi antar basa nukleotida tersusun tegak lurus terhadap sumbu pilinan DNA. Hal ini meminimalisasi interaksi dengan cangkang solvasi, dan sehingganya menurunkan energi bebas Gibbs.\n\nStruktur DNA semua jenis spesies terdiri dari dua rantai heliks yang berpilin dengan jarak antar putaran heliks 34 Å (3,4 nanometer) dan jari-jari 10 Å (1.0 nanometer). Menurut kajian lainnya, ketika diukur menggunakan larutan tertentu, rantai DNA memiliki lebar 22-26 Å (2,2-2,6 nanometer) sedangkan satu satuan nukleotida memiliki panjang 33 Å (0,33 nm). Walaupun satuan nukleotida ini sangatlah kecil, polimer DNA dapat memiliki jutaan nukleotida yang terangkai seperti rantai. Misalnya, kromosom 1 yang merupakan kromosom terbesar pada manusia mengandung sekitar 220 juta pasangan basa.\n\nNukleobasa DNA \nNukleobasa diklasifikasikan ke dalam dua jenis: purina (A dan G) yang berupa fusi senyawa heterolingkar beranggota lima dengan senyawa heterolingkar beranggota enam, dan pirimidina (C dan T) yang berupa cincin beranggota enam. Pirimidina lainnya, urasil (U), biasanya menggantikan timina pada RNA. Perbedaan urasil dengan timina terletak pada ketiadaan gugus metil pada cincin urasil. Selain kelima nukleobasa tersebut, terdapat pula sejumlah besar analog asam nukleat buatan yang telah disintesis untuk mengkaji sifat-sifat asam nukleat dan digunakan dalam bioteknologi.\n\nUrasil biasanya tidak ditemukan dalam DNA (ditemukan dalam sel hanya sebagai produk uraian sitosina). Namun pada sejumlah bakteriofag– bakteriofag PBS1 dan PBS2 Bacillus subtilis dan bakteriofag piR1-37 Yersinia– timina telah digantikan oleh urasil. Fag lainnya - fag S6 Staphylococcus - juga telah diidentifikasi mempunyai urasil pada genomnya.\n\nBasa J (beta-d-glukopiranosiloksimetilurasil) yang merupakan bentuk modifikasi dari urasil juga dapat ditemukan pada sejumlah organisme: flagellata Diplonema dan Euglena, dan seluruh organisme marga kinetoplastid Biosintesis basa J terjadi dalam dua tahap: pada tahap pertama, basa timina spesifik pada DNA diubah menjadi hidroksimetildeoksiuridina (HOMedU); pada tahap kedua HOMedU diglikosilasi menjadi basa J. Protein-protein yang mengikat basa J ini juga telah berhasil diidentifikasi. Protein-protein ini tampaknya merupakan kerabat jauh dari onkogen Tet1 yang terlibat dalam patogenesis leukemia myeloid akut. Basa J tampaknya bekerja sebagai sinyal terminasi untuk RNA polimerase II.\n\nAlur DNA \nPada struktur heliks ganda DNA, terdapat ruang antar unting DNA yang juga berbentuk alur heliks. Ruang kosong ini bersebelahan dengan pasangan basa dan merupakan tapak ikatan yang potensial. Dikarenakan kedua unting DNA tidak berposisi secara simetris satu sama lainnya, alur yang dihasilkan jugalah tidak berukuran sama. Satu alur yang disebut alur mayor, memiliki lebar 22 Å, sedangkan alur lainnya yang disebut alur minor, memiliki lebar 12 Å. Lebarnya alur mayor berarti bahwa tepi-tepi basa nukleotida dapat lebih mudah diakses melalui alur mayor daripada melalui alur minor. Akibatnya, protein-protein seperti faktor-faktor transkripsi yang mengikat pada urutan basa tertentu biasanya melakukan kontak dengan basa melalui alur mayor. Situasi ini dapat bervariasi pada konformasi DNA yang tak lazim dalam sel, walaupun alur mayor dan minor selalu dinamai demikian untuk menrefleksikan perbedaan ukuran yang terlihat apabila DNA dipuntir balik menjadi bentuk lazim B.\n\nPemasangan basa \n\nPada heliks ganda DNA, tiap jenis nukleobasa pada satu unting DNA berikatan hanya dengan satu jenis nukleobasa dari unting DNA lainnya. Hal ini disebut sebagai pemasangan basa komplementer. Purina akan membentuk ikatan hidrogen dengan pirimidina; adenina berikatan dengan timina dalam dua ikatan hidrogen, dan sitosina berikatan dengan guanina dalam tiga ikatan hidrogen. Susunan dua nukleotida ini disebut sebagai satu pasangan basa. Karena ikatan hidrogen tidak bersifat kovalen, ia dapat putuskan dan digabung kembali relatif mudah. Kedua unting DNA dalam heliks ganda oleh karenanya dapat ditarik terbuka seperti zipper, baik melalui gaya mekanika maupun temperatur tinggi. Karena pasangan basa ini bersifat komplementer, semua informasi pada urutan unting ganda heliks DNA terduplikasi pada tiap unting. Hal ini sangat penting dalam replikasi DNA. Interaksi reversible dan spesifik antara pasangan basa komplementer sangat kritikal terhadap keseluruhan fungsi DNA dalam makhluk hidup.\nAtas, pasangan basa GC dengan tiga ikatan hidrogen. Bawah, pasangan basa AT dengan dua ikatan hidrogen. Ikatan hidrogen non-kovalen ditunjukkan oleh garis putus-putus. Dua jenis pasangan basa mempunyai jumlah ikatan hidrogen yang berbeda. Pasangan AT memiliki dua ikatan hidrogen, sedangkan pasangan GC memiliki tiga ikatan hidrogen. DNA yang mengandung pasangan basa GC yang tinggi lebih stabil daripada DNA berpasangan basa GC rendah.\n\nSebagaimana telah disebutkan di atas, kebanyakan molekul DNA ditemukan dalam keadaan unting ganda yang berikatan secara non-kovalen dan berbentuk heliks. Struktur unting ganda ini (dsDNA, double-stranded DNA) utamanya distabilkan oleh interaksi tumpukan basa intra-unting. Interaksi yang terkuat ada pada tumpukan G dengan C. Kedua unting tersebut dapat dipisahkan menjadi dua molekul DNA unting tunggal (ssDNA, single-stranded DNA) melalui proses yang dinamakan peleburan DNA. Peleburan terjadi pada temperatur tinggi, kadar garam yang reandah, dan nilai pH yang tinggi (DNA juga melebur pada nilai pH rendah, tetapi dikarenakan DNA tidak stabil akibat depurinasi asam, peleburan pH rendah jarang digunakan).\n\nStabilitas dsDNA tidak hanya bergantung pada kandungan GC (% pasangan basa G,C) DNA, namun juga tergantung pada urutan basa (tumpukan basa) dan panjang molekul DNA tersebut (molekul yang lebih panjang lebih stabil). Oleh sebab itu, kekuatan ikatan antar dua unting DNA ditentukan oleh persentase pasangan basa GC dan keseluruhan panjang heliks ganda DNA. Heliks DNA　yang panjang dengan kandungan GC yang tinggi memiliki interaksi antar-unting yang lebih kuat; sebaliknya heliks DNA yang pendek dengan kandungan AT yang tinggi memiliki interaksi antar-unting yang lebih lemah. Dalam proses biologis, bagian heliks ganda DNA yang perlu dipisahkan dengan mudah seperti kotak Pribnow TATAAT pada beberapa promotor cenderung memiliki kandungan AT yang tinggi.\n\nStabilitas DNA dapat diukur melalui berbagai cara; umumnya stabilitas DNA diukur berdasarkan temperatur lebur DNA (disebut juga nilai Tm), yakni temperatur di mana 50% molekul DNA unting ganda terurai menjadi molekul DNA unting tunggal. Temperatur lebur ini bergantung pada kekuatan ionik dan konsentrasi DNA. Ketika seluruh pasangan basa dalam heliks ganda DNA terurai, kedua unting DNA akan terpisah sebagai dua molekul yang berdiri sendiri. Unting-unting tunggal DNA ini tidak memiliki bentuk tunggal yang sama, walaupun beberapa konformasi lebih stabil daripada konformasi lainnya.\n\nSense dan antisense \n\nSebuah urutan sekuens DNA disebut sebagai \"sense\" apabila urutan basa DNA-nya sama dengan urutan kopi RNA duta yang ditranslasikan menjadi protein. Urutan pada unting komplementernya disebut sebagai urutan \"antisense\". Baik urutan sense dan antisense dapat ditemukan pada berbagai bagian unting DNA yang sama (kedua unting DNA dapat mengandung baik urutan sense maupun antisense). Pada prokariota dan eukariota, urutan RNA antisense juga diproduksi, namun fungsi RNA antisense ini tidaklah diketahui dengan jelas. RNA antisense diajukan terlibat dalam regulasi ekspresi gen melalui pemasangan basa RNA-RNA.\n\nPada sebagian kecil urutan DNA prokariota dan eukariota, dan sebagian besar urutan DNA plasmid dan virus, perbedaan antara unting sense dan antisense menjadi kabur dikarenakan terdapatnya gen yang tumpang tindih. Dalam hal ini, beberapa urutan DNA memiliki tugas ganda, yakni menyandikan protein pertama ketika dibaca melalui salah satu unting, dan menyandikan protein kedua ketika dibaca dengan arah berlawanan melalui unting komplementernya. Pada bakteri, ketumpangtindihan ini kemungkinan terlibat dalam regulasi transkripsi gen. Sedangkan pada virus, gen yang tumpang tindih ini meningkatkan jumlah informasi yang dapat disandikan dalam genom virus yang berukuran kecil.\n\nPemilinan kumparan (Supercoiling) \n\nDNA dapat dipuntir menjadi seperti tali melalui proses yang disebut pemilinan kumparan DNA. Pada kondisi \"relaksasi\", unting DNA biasanya akan mengitari sumbu heliks ganda setiap 10,4 pasangan basa. Namun jika DNA dipuntir, unting-untingnya dapat tergulung menjadi lebih rapat ataupun tergulung menjadi lebih longgar. Jika DNA dipuntir searah putaran heliks, basa-basa dalam unting DNA akan terikat lebih rapat. Hal ini dinamakan pemilinan kumparan positif. Sebaliknya jika DNA dipuntir berlawanan putaran heliks, basa-basa dalam unting DNA akan terlepas lebih mudah. Hal ini dinamakan pemilinan kumparan negatif. Secara alamiah, kebanyakan DNA memiliki bentuk pemilinan kumparan negatif yang disebabkan oleh enzim topoisomerase. Enzim ini juga diperlukan untuk melepaskan tegangan puntiran yang dialami DNA semasa proses transkripsi dan replikasi.\n\nStruktur alternatif DNA \nTerdapat banyak kemungkinan konformasi-konformasi DNA yang dapat kita temukan, di antaranya A-DNA, B-DNA, dan Z-DNA, walaupun hanya B-DNA dan Z-DNA saja yang telah diamati secara langsung pada organisme fungsional. Konformasi-konformasi yang diadopsi oleh DNA bergantung pada tingkat hidrasi DNA, urutan DNA, tingkat dan arah pilinan kumparan DNA, modifikasi kimiawi pada basa DNA, jenis dan konsentrasi ion-ion logam, maupun keberadaan poliamina dalam larutan.\n\nBasis buatan \nBeberapa nukleobasa buatan telah berhasil disintesis, dan berhasil dimasukkan ke dalam analog DNA berbasa delapan bernama DNA Hachimoji.\n\nFungsi biologis\n\nReplikasi \n\nReplikasi merupakan proses pelipatgandaan DNA. Proses replikasi ini diperlukan ketika sel akan membelah diri. Pada setiap sel, kecuali sel gamet, pembelahan diri harus disertai dengan replikasi DNA supaya semua sel turunan memiliki informasi genetik yang sama. Pada dasarnya, proses replikasi memanfaatkan fakta bahwa DNA terdiri dari dua rantai dan rantai yang satu merupakan \"konjugat\" dari rantai pasangannya. Dengan kata lain, dengan mengetahui susunan satu rantai, maka susunan rantai pasangan dapat dengan mudah dibentuk.\n\nAda beberapa teori yang mencoba menjelaskan bagaimana proses replikasi DNA ini terjadi. Salah satu teori yang paling populer menyatakan bahwa pada masing-masing DNA baru yang diperoleh pada akhir proses replikasi; satu rantai tunggal merupakan rantai DNA dari rantai DNA sebelumnya, sedangkan rantai pasangannya merupakan rantai yang baru disintesis. Rantai tunggal yang diperoleh dari DNA sebelumnya tersebut bertindak sebagai \"cetakan\" untuk membuat rantai pasangannya.\n\nProses replikasi memerlukan protein atau enzim pembantu; salah satu yang terpenting dikenal dengan nama DNA polimerase, yang merupakan enzim pembantu pembentukan rantai DNA baru yang merupakan suatu polimer. Proses replikasi diawali dengan pembukaan untaian ganda DNA pada titik-titik tertentu di sepanjang rantai DNA. Proses pembukaan rantai DNA ini dibantu oleh enzim helikase yang dapat mengenali titik-titik tersebut, dan enzim girase yang mampu membuka pilinan rantai DNA.\n\nSetelah cukup ruang terbentuk akibat pembukaan untaian ganda ini, DNA polimerase masuk dan mengikat diri pada kedua rantai DNA yang sudah terbuka secara lokal tersebut. Proses pembukaan rantai ganda tersebut berlangsung disertai dengan pergeseran DNA polimerase mengikuti arah membukanya rantai ganda. Monomer DNA ditambahkan di kedua sisi rantai yang membuka setiap kali DNA polimerase bergeser. Hal ini berlanjut sampai seluruh rantai telah benar-benar terpisah.\n\nProses replikasi DNA ini merupakan proses yang rumit namun teliti. Proses sintesis rantai DNA baru memiliki suatu mekanisme yang mencegah terjadinya kesalahan pemasukan monomer yang dapat berakibat fatal. Karena mekanisme inilah kemungkinan terjadinya kesalahan sintesis amatlah kecil.\n\nPenggunaan DNA dalam teknologi dan riset ilmiah\n\nDNA dalam forensik \nIlmuwan forensik dapat menggunakan DNA yang terdapat dalam darah, sperma, kulit, liur atau rambut yang tersisa di tempat kejadian kejahatan untuk mengidentifikasi kemungkinan tersangka, sebuah proses yang disebut fingerprinting genetika atau pemprofilan DNA (DNA profiling). Dalam pemprofilan DNA panjang relatif dari bagian DNA yang berulang seperti short tandem repeats dan minisatelit, dibandingkan. Pemprofilan DNA dikembangkan pada 1984 oleh genetikawan Inggris Alec Jeffreys dari Universitas Leicester, dan pertama kali digunakan untuk mendakwa Colin Pitchfork pada 1988 dalam kasus pembunuhan Enderby di Leicestershire, Inggris.\n\nBanyak yurisdiksi membutuhkan terdakwa dari kejahatan tertentu untuk menyediakan sebuah contoh DNA untuk dimasukkan ke dalam basis data komputer. Hal ini telah membantu investigator menyelesaikan kasus lama di mana pelanggar tidak diketahui dan hanya contoh DNA yang diperoleh dari tempat kejadian (terutama dalam kasus pemerkosaan antar orang tak dikenal). Metode ini adalah salah satu teknik paling tepercaya untuk mengidentifikasi seorang pelaku kejahatan, tetapi tidak selalu sempurna, misalnya bila tidak ada DNA yang dapat diperoleh, atau bila tempat kejadian terkontaminasi oleh DNA dari banyak orang.\n\nDNA dalam komputasi \nDNA memainkan peran penting dalam ilmu komputer, baik sebagai masalah riset dan sebagai sebuah cara komputasi.\n\nRiset dalam algoritme pencarian string, yang menemukan kejadian dari urutan huruf di dalam urutan huruf yang lebih besar, dimotivasi sebagian oleh riset DNA, di mana algoritme ini digunakan untuk mencari urutan tertentu dari nukleotida dalam sebuah urutan yang besar. Dalam aplikasi lainnya seperti editor text, bahkan algoritme sederhana untuk masalah ini biasanya mencukupi, tetapi urutan DNA menyebabkan algoritme-algoritme ini untuk menunjukkan sifat kasus-mendekati-terburuk dikarenakan jumlah kecil dari karakter yang berbeda.\n\nTeori database juga telah dipengaruhi oleh riset DNA, yang memiliki masalah khusus untuk menaruh dan memanipulasi urutan DNA. Database yang dikhususkan untuk riset DNA disebut database genomik, dam harus menangani sejumlah tantangan teknis yang unik yang dihubungkan dengan operasi pembandingan kira-kira, pembandingan urutan, mencari pola yang berulang, dan pencarian homologi.\n\nDNA dalam kajian Islam \nDNA memainkan peran penting dalam kajian Islam seperti studi tafsir Al-Qur'an, terutama ketika mengkaji tema-tema yang terkait dengan nasab, genealogi, silsilah dan sejarah. Ilmuwan yang ahli di bidang DNA dan memadukan kajiannya dengan kajian Al-Qur'an adalah Shohibul Faroji Al-Azhmatkhan  dengan karyanya Tafsir Midadurrahman sebanyak 115 jilid dan menjadi mufassir yang mendapatkan penghargaan MURI sebagai penulis tafsir terpanjang dan tertebal di seluruh dunia., dalam tafsir ini dikaji secara detail tentang DNA dari Nabi Adam sampai dikaji juga DNA dari 3110 Fam keturunan Nabi Muhammad dari 1555 fam keturunan Hasan bin Ali dan 1555 Fam keturunan Husain bin Ali di 199 Negara seluruh dunia.\n\nSejarah \nDNA pertama kali berhasil dimurnikan pada tahun 1868 oleh ilmuwan Swiss Friedrich Miescher di Tubingen, Jerman, yang menamainya nuclein berdasarkan lokasinya di dalam inti sel. Namun, penelitian terhadap peranan DNA di dalam sel baru dimulai pada awal abad 20, bersamaan dengan ditemukannya postulat genetika Mendel. DNA dan protein dianggap dua molekul yang paling memungkinkan sebagai pembawa sifat genetis berdasarkan teori tersebut.\n\nDua eksperimen pada dekade 40-an membuktikan fungsi DNA sebagai materi genetik. Dalam penelitian oleh Avery dan rekan-rekannya, ekstrak dari sel bakteri yang satu gagal men-transform sel bakteri lainnya kecuali jika DNA dalam ekstrak dibiarkan utuh. Eksperimen yang dilakukan Hershey dan Chase membuktikan hal yang sama dengan menggunakan pencari jejak radioaktif ().\n\nMisteri yang belum terpecahkan ketika itu adalah: \"bagaimanakah struktur DNA sehingga ia mampu bertugas sebagai materi genetik\". Persoalan ini dijawab oleh Francis Crick dan koleganya James Watson berdasarkan hasil difraksi sinar X pada DNA oleh Maurice Wilkins dan Rosalind Franklin.\n\nPada tahun 1953, James Watson dan Francis Crick mendefinisikan DNA sebagai polimer yang terdiri dari 4 basa dari asam nukleat, dua dari kelompok purina:adenina dan guanina; dan dua lainnya dari kelompok pirimidina:sitosina dan timina. Keempat nukleobasa tersebut terhubung dengan glukosa fosfat.\n\nMaurice Wilkins dan Rosalind Franklin menemukan bahwa molekul DNA berbentuk heliks yang berputar setiap 3,4 nm, sedangkan jarak antar molekul nukleobasa adalah 0,34 nm, hingga dapat ditentukan bahwa terdapat 10 molekul nukleobasa pada setiap putaran DNA. Setelah diketahui bahwa diameter heliks DNA sekitar 2 nm, baru diketahui bahwa DNA terdiri bukan dari 1 rantai, melainkan 2 rantai heliks.\n\nCrick, Watson, dan Wilkins mendapatkan hadiah Nobel Kedokteran pada 1962 atas penemuan ini. Franklin, karena sudah wafat pada waktu itu, tidak dapat dianugerahi hadiah ini.\n\nKonfirmasi akhir mekanisme replikasi DNA dilakukan lewat percobaan Meselson-Stahl yang dilakukan tahun 1958.\n\nReferensi \n\nNukleat asam DNA\nAsam nukleat"
+          },
+          {
+            "doc_id": "wikipedia:Anwar_Sadat",
+            "source": "S2_wikipedia_id",
+            "title": "Anwar Sadat",
+            "url": "https://id.wikipedia.org/wiki/Anwar%20Sadat",
+            "lang": "id",
+            "license": "CC BY-SA 4.0",
+            "published_at": null,
+            "text": "Muhammad Anwar el-Sadat; ) adalah seorang politikus Mesir yang menjabat sebagai presiden Mesir ketiga, dari 15 Oktober 1970 hingga pembunuhannya oleh perwira tentara fundamentalis pada 6 Oktober 1981. Anwar adalah seorang senior anggota Perwira Bebas yang menggulingkan Raja Farouk dalam Revolusi Mesir 1952, dan orang kepercayaan dekat Presiden Gamal Abdel Nasser, di mana dia menjabat sebagai Wakil Presiden dua kali dan dia menggantikannya sebagai presiden pada tahun 1970. Pada tahun 1978, Sadat dan Menachem Begin, Perdana Menteri Israel, menandatangani perjanjian damai bekerja sama dengan Presiden Amerika Serikat Jimmy Carter, di mana mereka diakui dengan Hadiah Nobel Perdamaian.\n\nDalam sebelas tahun sebagai presiden, ia mengubah lintasan Mesir, berangkat dari banyak prinsip politik dan ekonomi Nasserisme, melembagakan kembali sistem multi-partai, dan meluncurkan kebijakan ekonomi Infitah. Sebagai Presiden, ia memimpin Mesir dalam Perang Yom Kippur tahun 1973 untuk merebut kembali Semenanjung Sinai Mesir, yang telah diduduki Israel sejak Perang Enam Hari tahun 1967, menjadikannya pahlawan di Mesir dan, untuk sementara waktu, Dunia Arab yang lebih luas. Setelah itu, ia terlibat dalam negosiasi dengan Israel, yang berpuncak pada Perjanjian Perdamaian Mesir-Israel; ini memenangkan dia dan Menachem Begin Hadiah Nobel Perdamaian, membuat Sadat pemenang Nobel Muslim pertama. Meskipun reaksi terhadap perjanjian—yang mengakibatkan kembalinya Sinai ke Mesir—umumnya menguntungkan di kalangan orang Mesir, perjanjian itu ditolak oleh Ikhwanul Muslimin dan kaum kiri, yang merasa Sadat telah mengabaikan upaya untuk memastikan negara Palestina. Dengan pengecualian Sudan, dunia Arab dan Organisasi Pembebasan Palestina (PLO) sangat menentang upaya Sadat untuk membuat perdamaian terpisah dengan Israel tanpa konsultasi terlebih dahulu dengan negara-negara Arab. Penolakannya untuk berdamai dengan mereka atas masalah Palestina mengakibatkan Mesir diskors dari Liga Arab 1979-1989.  Perjanjian damai juga merupakan salah satu faktor utama yang menyebabkan pembunuhannya; pada 6 Oktober 1981, militan yang dipimpin oleh Khalid Islambouli menembaki Sadat dengan senapan otomatis selama parade 6 Oktober di Kairo, membunuhnya.\n\nLatar belakang \nSadat dilahirkan di Mit Abu Al-Kum, Al-Minufiyah, Mesir, dalam sebuah keluarga Mesir-sudan yang miskin, dengan 12 saudara laki-laki dan perempuan. Ayahnya adalah seorang Mesir, sementara ibunya orang Sudan. Salah seorang saudara laki-lakinya, Atef Sadat, kelak menjadi seorang pilot dan terbunuh dalam Perang Yom Kippur pada Oktober 1973. Anwar lulus dari Akademi Militer Kerajaan di Kairo pada 1938 dan ditempatkan di Korps Isyarat. Ia bergabung dengan Gerakan Perwira Bebas, yang bertekad untuk membebaskan Mesir dari kekuasaan Britania Raya.\n\nPada Perang Dunia II ia dipenjarakan oleh Britania atas usaha-usahanya untuk mendapatkan bantuan dari Kekuatan Poros dalam mengusir pasukan-pasukan pendudukan Britania. Ia ikut serta dalam kudeta 1952 yang menggulingkan Raja Farouk II. Ketika revolusi meletus, ia diperintahkan mengambil alih jaringan radio dan mengumumkan pecahnya revolusi kepada rakyat Mesir.\n\nPada 1964, setelah memegang berbagai jabatan dalam pemerintahan Mesir, ia dipilih oleh Presiden Gamal Abdel Nasser untuk menjabat sebagai Wakil Presiden. Ia menduduki jabatan itu hingga 1966, dan sekali lagi dari 1969 hingga 1970.\n\nSetelah Nasser meninggal, Anwar Sadat dilantik menjadi Presiden.\n\nPada tahun 1973, Anwar Sadat, bersama-sama dengan Hafez Al Assad, Syria, memimpin Mesir dalam Perang Yom Kippur melawan Israel, untuk merebut kembali semenanjung Sinai, yang dicaplok oleh Israel ketika Krisis Terusan Suez 1956 dan Perang Enam Hari.Meskipun dalam pertempuran ini masih dipertentangkan pihak menang ataupun kalah, serta hasil Perjanjian Camp David yang menetapkan Sinai kembali ketangan Mesir, keberhasilan Anwar Sadat menaikan moral rakyat Mesir dan Dunia Arab serta mengadakan untuk perjanjian damai beberapa tahun berikutnya.\n\nPerjanjian damai Camp David yang diprakarsai Jimmy Carter dan Henry Kissinger memang mengembalikan wilayah Mesir yang sebelumnya direbut oleh Israel pada perang 1967. Namun tidak mengembalikan Dataran Tinggi Golan yang direbut Israel kepada Syria pada perang 1967. Meski secara politik, perang Yom Kippur atau Perang Ramadhan 1973 itu menguntungkan dunia Arab, masalah Palestina dan Jerusalem terutama Jerusalem Timur yang direbut Israel pada perang 1967 masih mengganjal bahkan beberapa kalangan mengatakan dilupakan. Hal ini membuat kemarahan dari kalangan PLO, kaum fundamentalis dan pergerakan Islam dan kalangan Palestina serta dunia Arab, terutama setelah kunjungannya ke Jerussalem atas undangan Manachem Begin.\n\nPada tahun 1977, Anwar Sadat mengadakan kunjungan ke Jerusalem atas undangan Perdana Menteri Israel, Menachem Begin yang merupakan awal dari perundingan perdamaian antara Israel dan Mesir. Pada tahun 1978, terciptalah Perjanjian Damai Camp David, yang mana Anwar Sadat dan Menachem Begin menerima Hadiah Nobel Perdamaian. Bagaimanapun tindakan ini ditentang hebat oleh dunia Arab. Banyak yang percaya bahwa hanya dengan ancaman militer dapat memaksa Israel berunding mengenai Palestina, dan Perjanjian Damai Camp David menepikan Mesir yang dianggap kekuatan militer di dunia Arab yang signifikan disamping Syria dan Irak pada saat itu.\n\nPada September 1981, Anwar Sadat mengenakan tindakan represif kepada organisasi pergerakan Islam yang diaggapnya fundamentalis, termasuk kumpulan pelajar, dan organisasi Koptik, yang dianggapnya dapat mengganggu stabilitas nasional Mesir, dengan mengadakan tindakan penangkapan dan penahanan menyebabkan dia dikecam diseluruh dunia di atas pelanggaran HAM dalam tindakannya itu.\n\nPada 6 Oktober 1981, Presiden Anwar Sadat tewas ditembak dalam sebuah parade militer oleh anggota tentara anggota Jihad Islam. Ini merupakan organisasi muslim Mesir berhaluan keras yang menentang perjanjian damai Mesir dengan Israel. Tindakan represif anggota Jihad Islam terlihat dalam peristiwa September. Anwar Sadat kemudian digantikan oleh Wakil Presiden Hosni Mubarak.\n\nCatatan kaki\n\nReferensi \n\nPresiden Mesir\nPerdana Menteri Mesir\nPemenang Hadiah Nobel Perdamaian\nKepala negara yang dibunuh\nPerson of the Year\nPemimpin Perang Dingin\nTokoh militer Mesir\nKolonel"
+          },
+          {
+            "doc_id": "wikipedia:Azhar_Mansor",
+            "source": "S2_wikipedia_id",
+            "title": "Azhar Mansor",
+            "url": "https://id.wikipedia.org/wiki/Azhar%20Mansor",
+            "lang": "id",
+            "license": "CC BY-SA 4.0",
+            "published_at": null,
+            "text": "Datuk Azhar Mansor adalah orang Malaysia pertama yang berhasil mengelilingi dunia dengan berlayar. Mulanya ia merencanakan untuk melakukan pelayaran tersebut dalam waktu kurang dari 100 hari, tetapi ia menghadapi masalah dengan tiang layar yang patah ketika berada di Cape Horn, Amerika Selatan. Namun Datuk Azhar Mansor akhirnya berhasil menempuh seluruh pelayarannya dalam waktu 190 hari. Kegigihannya adalah contoh keunggulan Semangat Malaysia Baru. Datuk Azhar Mansor yang berusia 41 tahun ketika berangkat pada 2 Februari 1999 itu belayar dengan kapal layarnya bernama Jalur Gemilang yang berharga RM2 juta.\n\nPelayaran Datuk Azhar meliputi 21,600 mil laut. Pada 11 Agustus 1999, Datuk Azhar Mansor tiba dengan selamat di Awana Porto Malai Resort, Langkawi dan disambut sebagai seorang pahlawan oleh rakyat Malaysia dipimpin oleh Perdana Menteri Malaysia. Kepahlawanan Datuk Azhar Mansor adalah sesuatu yang dapat dibanggakan oleh setiap rakyat Malaysia. Usaha dan kegigihannya dalam mengarungi badai dan ombak adalah sumbangannya sebagai anak merdeka yang tidak gentar menanggung penderitaan rakyat yang hidup pada masa sebelum kemerdekaan.\n\nTokoh yang tidak memiliki informasi tahun kelahiran"
+          }
+        ]
+      },
+      "eval_run": {
+        "columns": [
+          {
+            "name": "run_id",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "tag",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "started_at",
+            "type": "timestamp with time zone",
+            "nullable": "YES"
+          },
+          {
+            "name": "finished_at",
+            "type": "timestamp with time zone",
+            "nullable": "YES"
+          },
+          {
+            "name": "metrics",
+            "type": "jsonb",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "run_id": "ca666333-9b77-42ad-875f-e613830af4ff",
+            "tag": "phase5-dense",
+            "started_at": "2026-11-04 04:34:37.528038+00:00",
+            "finished_at": "2026-11-04 04:34:37.528038+00:00",
+            "metrics": {
+              "tag": "phase5-dense",
+              "mode": "dense",
+              "n_items": 70,
+              "mrr_at_10": 0.3544444444444445,
+              "ndcg_at_10": 0.39020334644102544,
+              "recall_at_1": 0.2714285714285714,
+              "recall_at_10": 0.5,
+              "latency_p50_ms": 42.82679999960237,
+              "latency_p95_ms": 50.52919999980077
+            }
+          },
+          {
+            "run_id": "ad4a64f3-96ab-45ef-8dbd-7ebcd43d5bee",
+            "tag": "phase5-sparse",
+            "started_at": "2026-11-04 04:34:56.058311+00:00",
+            "finished_at": "2026-11-04 04:34:56.058311+00:00",
+            "metrics": {
+              "tag": "phase5-sparse",
+              "mode": "sparse",
+              "n_items": 70,
+              "mrr_at_10": 0.5271598639455781,
+              "ndcg_at_10": 0.5840062660852211,
+              "recall_at_1": 0.38571428571428573,
+              "recall_at_10": 0.7571428571428571,
+              "latency_p50_ms": 47.30849999941711,
+              "latency_p95_ms": 76.37869999962277
+            }
+          },
+          {
+            "run_id": "f5cfd634-c3d9-4ba2-bdaf-4d33cc73c0e9",
+            "tag": "phase5-rrf",
+            "started_at": "2026-11-04 04:35:18.051885+00:00",
+            "finished_at": "2026-11-04 04:35:18.051885+00:00",
+            "metrics": {
+              "tag": "phase5-rrf",
+              "mode": "rrf",
+              "n_items": 70,
+              "mrr_at_10": 0.5032312925170068,
+              "ndcg_at_10": 0.563881498077343,
+              "recall_at_1": 0.38571428571428573,
+              "recall_at_10": 0.7571428571428571,
+              "latency_p50_ms": 99.02299999885145,
+              "latency_p95_ms": 134.52270000016142
+            }
+          }
+        ]
+      },
+      "fact_indicator": {
+        "columns": [
+          {
+            "name": "iso3",
+            "type": "character",
+            "nullable": "NO"
+          },
+          {
+            "name": "indicator_code",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "nullable": "NO"
+          },
+          {
+            "name": "value",
+            "type": "numeric",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "iso3": "IDN",
+            "indicator_code": "NY.GDP.PCAP.CD",
+            "year": 2024,
+            "value": "4925.43644992666"
+          },
+          {
+            "iso3": "IDN",
+            "indicator_code": "NY.GDP.PCAP.CD",
+            "year": 2023,
+            "value": "4876.2992959843"
+          },
+          {
+            "iso3": "IDN",
+            "indicator_code": "NY.GDP.PCAP.CD",
+            "year": 2022,
+            "value": "4730.83484836107"
+          }
+        ]
+      },
+      "query_log": {
+        "columns": [
+          {
+            "name": "log_id",
+            "type": "integer",
+            "nullable": "NO"
+          },
+          {
+            "name": "question",
+            "type": "text",
+            "nullable": "NO"
+          },
+          {
+            "name": "route",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "sql",
+            "type": "text",
+            "nullable": "YES"
+          },
+          {
+            "name": "retrieved_chunk_ids",
+            "type": "ARRAY",
+            "nullable": "YES"
+          },
+          {
+            "name": "per_stage_latency_ms",
+            "type": "jsonb",
+            "nullable": "YES"
+          },
+          {
+            "name": "token_counts",
+            "type": "jsonb",
+            "nullable": "YES"
+          },
+          {
+            "name": "prompt_versions",
+            "type": "jsonb",
+            "nullable": "YES"
+          },
+          {
+            "name": "created_at",
+            "type": "timestamp with time zone",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "log_id": 1,
+            "question": "Berapa nilai Gini index untuk Vietnam pada tahun 2022?",
+            "route": "SQL",
+            "sql": "SELECT value FROM v_indicator_series WHERE country_name = 'Vietnam' AND indicator_name = 'Gini index' AND year = 2022 LIMIT 200",
+            "retrieved_chunk_ids": null,
+            "per_stage_latency_ms": {
+              "router_ms": 0.033700001949910074,
+              "text2sql_ms": 4790.1614000002155
+            },
+            "token_counts": {
+              "router": 0,
+              "text2sql": 788,
+              "synthesizer": 0
+            },
+            "prompt_versions": {
+              "text2sql": "2"
+            },
+            "created_at": "2026-11-04 09:31:46.308200+00:00"
+          },
+          {
+            "log_id": 2,
+            "question": "Berapa PDB per kapita Wakanda pada tahun 2023?",
+            "route": "ABSTAIN",
+            "sql": null,
+            "retrieved_chunk_ids": null,
+            "per_stage_latency_ms": {
+              "router_ms": 0.047199999244185165
+            },
+            "token_counts": {
+              "router": 0,
+              "text2sql": 0,
+              "synthesizer": 0
+            },
+            "prompt_versions": {},
+            "created_at": "2026-11-04 09:31:46.321603+00:00"
+          },
+          {
+            "log_id": 3,
+            "question": "Berapa nilai Gini index untuk Vietnam pada tahun 2022?",
+            "route": "SQL",
+            "sql": "SELECT value FROM v_indicator_series WHERE country_name = 'Vietnam' AND indicator_name = 'Gini index' AND year = 2022 LIMIT 200",
+            "retrieved_chunk_ids": null,
+            "per_stage_latency_ms": {
+              "router_ms": 0.027300000510877,
+              "text2sql_ms": 2581.5049999982875
+            },
+            "token_counts": {
+              "router": 0,
+              "text2sql": 788,
+              "synthesizer": 0
+            },
+            "prompt_versions": {
+              "text2sql": "2"
+            },
+            "created_at": "2026-11-04 09:32:43.586138+00:00"
+          }
+        ]
+      },
+      "schema_migrations": {
+        "columns": [
+          {
+            "name": "version",
+            "type": "integer",
+            "nullable": "NO"
+          },
+          {
+            "name": "applied_at",
+            "type": "timestamp with time zone",
+            "nullable": "YES"
+          }
+        ],
+        "sample_rows": [
+          {
+            "version": 1,
+            "applied_at": "2026-11-04 04:25:11.120166+00:00"
+          },
+          {
+            "version": 2,
+            "applied_at": "2026-11-04 04:25:11.129499+00:00"
+          },
+          {
+            "version": 3,
+            "applied_at": "2026-11-04 04:25:11.135311+00:00"
+          }
+        ]
+      }
+    },
+    "nusalens://sources": {
+      "documents": [
+        {
+          "source": "S2_wikipedia_id",
+          "license": "CC BY-SA 4.0",
+          "n_documents": 15000
+        }
+      ],
+      "indicators": [
+        {
+          "source": "World Bank",
+          "n_indicators": 53
+        }
+      ],
+      "live": [
+        {
+          "name": "BMKG latest earthquake feed",
+          "url": "https://data.bmkg.go.id/DataMKG/TEWS/autogempa.json",
+          "indexed": false
+        }
+      ]
+    },
+    "nusalens://stats": {
+      "documents": 15000,
+      "chunks": 41297,
+      "dim_country": 16,
+      "dim_indicator": 53,
+      "fact_indicator": 38216,
+      "query_log": 148
+    }
+  },
+  "prompt_render": "Gunakan tool query_indicators untuk mengambil data GDP per capita (current US$) untuk Indonesia dari tahun 2000 sampai 2024, lalu analisis trennya: naik, turun, atau stabil, dan sebutkan tahun dengan perubahan paling besar."
+}

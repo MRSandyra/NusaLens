@@ -1,0 +1,1630 @@
+{
+  "run_id": "3ccbb8a4-0066-4d20-906e-299d4ffa8844",
+  "tag": "phase5-dense",
+  "config": {
+    "mode": "dense"
+  },
+  "metrics": {
+    "mode": "dense",
+    "tag": "phase5-dense",
+    "n_items": 70,
+    "recall_at_1": 0.2857142857142857,
+    "recall_at_10": 0.5142857142857142,
+    "mrr_at_10": 0.36873015873015874,
+    "ndcg_at_10": 0.40448906072673974,
+    "latency_p50_ms": 32.61970000312431,
+    "latency_p95_ms": 50.123599998187274
+  },
+  "per_item": [
+    {
+      "qid": "doc-001",
+      "question": "Dalam artikel Benzena, bagaimana nukleofilik dijelaskan kaitannya dengan substitusi dan asilium?",
+      "gold_chunk_ids": [
+        "wikipedia:Benzena_2220"
+      ],
+      "ranked": [
+        "wikipedia:Benzena_2220",
+        "wikipedia:Reaksi_kimia_2590",
+        "wikipedia:Reaksi_kimia_2220",
+        "wikipedia:Benzena_0",
+        "wikipedia:Benzena_3700",
+        "wikipedia:Benzena_740",
+        "wikipedia:Benzena_1850",
+        "wikipedia:Asam_deoksiribonukleat_2960",
+        "wikipedia:Benzena_1110",
+        "wikipedia:Nonlogam_6290"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-002",
+      "question": "Dalam artikel Bahasa Jawa Banyumasan, bagaimana banyumasan dijelaskan kaitannya dengan akrab dan ngapak?",
+      "gold_chunk_ids": [
+        "wikipedia:Bahasa_Jawa_Banyumasan_0"
+      ],
+      "ranked": [
+        "wikipedia:Orang_Banyumasan_0",
+        "wikipedia:Bahasa_Jawa_Banyumasan_0",
+        "wikipedia:Bahasa_Jawa_Banyumasan_370",
+        "wikipedia:Seni_tradisional_Banyumasan_740",
+        "wikipedia:Penginyongan_0",
+        "wikipedia:Ebeg_0",
+        "wikipedia:Kota_Tegal_4070",
+        "wikipedia:Seni_tradisional_Banyumasan_1480",
+        "wikipedia:Kabupaten_Banyumas_370",
+        "wikipedia:Cablaka_0"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-003",
+      "question": "Dalam artikel Stetoskop, bagaimana stetoskop dijelaskan kaitannya dengan stethos dan dada?",
+      "gold_chunk_ids": [
+        "wikipedia:Stetoskop_0"
+      ],
+      "ranked": [
+        "wikipedia:Stetoskop_0",
+        "wikipedia:Teleskop_0",
+        "wikipedia:Teleskop_1110",
+        "wikipedia:Anatomi_1480",
+        "wikipedia:Batu_Rosetta_5550",
+        "wikipedia:Teleskop_370",
+        "wikipedia:Observatorium_0",
+        "wikipedia:Platipus_1480",
+        "wikipedia:James_Clerk_Maxwell_3700",
+        "wikipedia:Helios_14800"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-004",
+      "question": "Dalam artikel Sukun (pohon), bagaimana tropik dijelaskan kaitannya dengan pasifik dan sukun?",
+      "gold_chunk_ids": [
+        "wikipedia:Sukun_(pohon)_370"
+      ],
+      "ranked": [
+        "wikipedia:Sukun_(pohon)_370",
+        "wikipedia:Sukun_(pohon)_740",
+        "wikipedia:Tropika_0",
+        "wikipedia:Sukun_(pohon)_0",
+        "wikipedia:Makanan_pokok_1850",
+        "wikipedia:Asia_2960",
+        "wikipedia:Hutan_1480",
+        "wikipedia:Hujan_1480",
+        "wikipedia:Hutan_1850",
+        "wikipedia:Bioma_740"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-005",
+      "question": "Dalam artikel Batalyon Kavaleri 2, bagaimana batalyon dijelaskan kaitannya dengan kavaleri dan turangga?",
+      "gold_chunk_ids": [
+        "wikipedia:Batalyon_Kavaleri_2_0"
+      ],
+      "ranked": [
+        "wikipedia:Batalyon_Kavaleri_2_0",
+        "wikipedia:Batalyon_Kavaleri_1_370",
+        "wikipedia:Batalyon_kavaleri_0",
+        "wikipedia:Kavaleri_0",
+        "wikipedia:Batalyon_Kavaleri_12_0",
+        "wikipedia:Batalyon_Kavaleri_1_0",
+        "wikipedia:Ronald_Reagan_1110",
+        "wikipedia:Batalyon_Kavaleri_9_0",
+        "wikipedia:Rudini_1110",
+        "wikipedia:Batalyon_Kavaleri_1_740"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-006",
+      "question": "Dalam artikel Radon, bagaimana duduk dijelaskan kaitannya dengan menit dan suasana?",
+      "gold_chunk_ids": [
+        "wikipedia:Radon_4440"
+      ],
+      "ranked": [
+        "wikipedia:Radon_6660",
+        "wikipedia:Radon_370",
+        "wikipedia:Jam_atom_370",
+        "wikipedia:Radon_4440",
+        "wikipedia:Detik_370",
+        "wikipedia:Radon_2220",
+        "wikipedia:R\u00f6ntgen_0",
+        "wikipedia:Radon_2960",
+        "wikipedia:Radon_6290",
+        "wikipedia:Radon_2590"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.25,
+      "ndcg_10": 0.43067655807339306
+    },
+    {
+      "qid": "doc-007",
+      "question": "Dalam artikel Kanada, bagaimana negaranya dijelaskan kaitannya dengan sebagaimana dan kanada?",
+      "gold_chunk_ids": [
+        "wikipedia:Kanada_2960"
+      ],
+      "ranked": [
+        "wikipedia:Kanada_3700",
+        "wikipedia:Kanada_0",
+        "wikipedia:Provinsi_dan_wilayah_di_Kanada_0",
+        "wikipedia:Kanada_370",
+        "wikipedia:Kanada_1110",
+        "wikipedia:Kanada_3330",
+        "wikipedia:Kanada_740",
+        "wikipedia:Kanada_1850",
+        "wikipedia:Kanada_2220",
+        "wikipedia:Pariwisata_di_Kanada_0"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-008",
+      "question": "Dalam artikel Rutenium, bagaimana menghormati dijelaskan kaitannya dengan saya dan rutenium?",
+      "gold_chunk_ids": [
+        "wikipedia:Rutenium_2220"
+      ],
+      "ranked": [
+        "wikipedia:Rutenium_2220",
+        "wikipedia:Rutenium_0",
+        "wikipedia:Rutenium_370",
+        "wikipedia:Rutenium_1110",
+        "wikipedia:Rutenium_2590",
+        "wikipedia:Rutenium_740",
+        "wikipedia:Rutenium_1850",
+        "wikipedia:Metaloid_18130",
+        "wikipedia:Rodium_0",
+        "wikipedia:Logam_alkali_11470"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-009",
+      "question": "Dalam artikel Abu Dhabi, bagaimana pemuda dijelaskan kaitannya dengan dhibaa dan rusa?",
+      "gold_chunk_ids": [
+        "wikipedia:Abu_Dhabi_370"
+      ],
+      "ranked": [
+        "wikipedia:Abu_Dhabi_370",
+        "wikipedia:Abu_Dhabi_0",
+        "wikipedia:Abu_Dhabi_1110",
+        "wikipedia:Tyrannosaurus_8510",
+        "wikipedia:Epilepsi_4070",
+        "wikipedia:Abu_Dhabi_740",
+        "wikipedia:Perancangan_cerdas_1850",
+        "wikipedia:Uni_Emirat_Arab_1110",
+        "wikipedia:Al-Farabi_1110",
+        "wikipedia:Gereja_Rastafari_3330"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-010",
+      "question": "Dalam artikel Charles Darwin, bagaimana tawaran dijelaskan kaitannya dengan menggoda dan darwin?",
+      "gold_chunk_ids": [
+        "wikipedia:Charles_Darwin_1110"
+      ],
+      "ranked": [
+        "wikipedia:Charles_Darwin_0",
+        "wikipedia:Charles_Darwin_370",
+        "wikipedia:Charles_Darwin_2960",
+        "wikipedia:Charles_Darwin_3330",
+        "wikipedia:Charles_Darwin_1850",
+        "wikipedia:Charles_Darwin_2590",
+        "wikipedia:Charles_Darwin_2220",
+        "wikipedia:Evolusi_370",
+        "wikipedia:Charles_Darwin_1110",
+        "wikipedia:Biologi_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.1111111111111111,
+      "ndcg_10": 0.3010299956639812
+    },
+    {
+      "qid": "doc-011",
+      "question": "Dalam artikel Bahasa Maori, bagaimana arang dijelaskan kaitannya dengan pahatan dan kayu?",
+      "gold_chunk_ids": [
+        "wikipedia:Bahasa_Maori_1110"
+      ],
+      "ranked": [
+        "wikipedia:Bahasa_Maori_1110",
+        "wikipedia:Orang_M\u0101ori_370",
+        "wikipedia:Orang_M\u0101ori_1480",
+        "wikipedia:Kepulauan_Cook_1850",
+        "wikipedia:Orang_M\u0101ori_2590",
+        "wikipedia:Selandia_Baru_6660",
+        "wikipedia:Selandia_Baru_7030",
+        "wikipedia:Orang_M\u0101ori_4440",
+        "wikipedia:Orang_M\u0101ori_1110",
+        "wikipedia:Selandia_Baru_7400"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-012",
+      "question": "Dalam artikel Titi DJ, bagaimana menandai dijelaskan kaitannya dengan titi dan kekasihnya?",
+      "gold_chunk_ids": [
+        "wikipedia:Titi_DJ_1480"
+      ],
+      "ranked": [
+        "wikipedia:Titi_DJ_1850",
+        "wikipedia:Titi_DJ_0",
+        "wikipedia:Titi_DJ_1480",
+        "wikipedia:Disjoki_1110",
+        "wikipedia:Musik_740",
+        "wikipedia:Siti_Nurhaliza_9250",
+        "wikipedia:Amy_Lee_740",
+        "wikipedia:Amir_Hamzah_2590",
+        "wikipedia:Titi_DJ_740",
+        "wikipedia:Teka-teki_silang_1480"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.3333333333333333,
+      "ndcg_10": 0.5
+    },
+    {
+      "qid": "doc-013",
+      "question": "Dalam artikel Malta, bagaimana suhu dijelaskan kaitannya dengan melebihi dan kelembaban?",
+      "gold_chunk_ids": [
+        "wikipedia:Malta_1480"
+      ],
+      "ranked": [
+        "wikipedia:Malta_1110",
+        "wikipedia:Malta_1480",
+        "wikipedia:Antarktika_2220",
+        "wikipedia:Ushuaia_370",
+        "wikipedia:Iklim_370",
+        "wikipedia:Namibia_2220",
+        "wikipedia:Iklim_1850",
+        "wikipedia:Iklim_2220",
+        "wikipedia:Malta_0",
+        "wikipedia:Malta_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-014",
+      "question": "Dalam artikel Kriket, bagaimana crease dijelaskan kaitannya dengan wicket dan return?",
+      "gold_chunk_ids": [
+        "wikipedia:Kriket_1110"
+      ],
+      "ranked": [
+        "wikipedia:Kriket_0",
+        "wikipedia:Kriket_1110",
+        "wikipedia:Kriket_2220",
+        "wikipedia:Kriket_740",
+        "wikipedia:Kriket_1850",
+        "wikipedia:Kriket_1480",
+        "wikipedia:Kriket_370",
+        "wikipedia:Jamaika_1480",
+        "wikipedia:Inggris_10360",
+        "wikipedia:Republik_Irlandia_2220"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-015",
+      "question": "Dalam artikel Paus Pius IX, bagaimana paus dijelaskan kaitannya dengan pius dan giovanni?",
+      "gold_chunk_ids": [
+        "wikipedia:Paus_Pius_IX_0"
+      ],
+      "ranked": [
+        "wikipedia:Paus_Yohanes_Paulus_I_3700",
+        "wikipedia:Paus_Pius_XII_9250",
+        "wikipedia:Paus_Pius_IX_740",
+        "wikipedia:Paus_Pius_IX_0",
+        "wikipedia:Paus_Yohanes_Paulus_I_0",
+        "wikipedia:Paus_Yohanes_Paulus_I_2960",
+        "wikipedia:Paus_Pius_XII_5550",
+        "wikipedia:Paus_Yohanes_Paulus_II_1850",
+        "wikipedia:Paus_Pius_XII_0",
+        "wikipedia:Paus_Yohanes_Paulus_I_4070"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.25,
+      "ndcg_10": 0.43067655807339306
+    },
+    {
+      "qid": "doc-016",
+      "question": "Dalam artikel Astrofisika, bagaimana williamina dijelaskan kaitannya dengan fleming dan antonia?",
+      "gold_chunk_ids": [
+        "wikipedia:Astrofisika_370"
+      ],
+      "ranked": [
+        "wikipedia:Nonlogam_7030",
+        "wikipedia:Astrofisika_370",
+        "wikipedia:Nonlogam_5920",
+        "wikipedia:Astrologi_370",
+        "wikipedia:Jacobus_Henricus_van_'t_Hoff_740",
+        "wikipedia:Alam_4440",
+        "wikipedia:Anaximenes_370",
+        "wikipedia:Astrofisika_0",
+        "wikipedia:Antarktika_5180",
+        "wikipedia:Fisika_1480"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-017",
+      "question": "Dalam artikel Laut Tengah, bagaimana mediterania dijelaskan kaitannya dengan daratan dan mare?",
+      "gold_chunk_ids": [
+        "wikipedia:Laut_Tengah_0"
+      ],
+      "ranked": [
+        "wikipedia:Laut_Tengah_0",
+        "wikipedia:Laut_370",
+        "wikipedia:Laut_Aegea_370",
+        "wikipedia:Sejarah_Tentara_Nasional_Indonesia_Angkatan_Laut_1110",
+        "wikipedia:Tanah_air_0",
+        "wikipedia:Wilayah_0",
+        "wikipedia:Laut_Marmara_0",
+        "wikipedia:Benua_0",
+        "wikipedia:Kementerian_Kelautan_dan_Perikanan_Republik_Indonesia_0",
+        "wikipedia:Sejarah_Tentara_Nasional_Indonesia_Angkatan_Laut_0"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-018",
+      "question": "Dalam artikel Benito Mussolini, bagaimana sosialis dijelaskan kaitannya dengan liberal dan fasis?",
+      "gold_chunk_ids": [
+        "wikipedia:Benito_Mussolini_4810"
+      ],
+      "ranked": [
+        "wikipedia:Benito_Mussolini_740",
+        "wikipedia:Benito_Mussolini_3330",
+        "wikipedia:Benito_Mussolini_0",
+        "wikipedia:Fasisme_2220",
+        "wikipedia:Fasisme_1110",
+        "wikipedia:Benito_Mussolini_1480",
+        "wikipedia:Benito_Mussolini_2590",
+        "wikipedia:Benito_Mussolini_16650",
+        "wikipedia:Benito_Mussolini_15540",
+        "wikipedia:Benito_Mussolini_3700"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-019",
+      "question": "Dalam artikel Adiparwa, bagaimana berkelahi dijelaskan kaitannya dengan ksatria dan yudistira?",
+      "gold_chunk_ids": [
+        "wikipedia:Adiparwa_1480"
+      ],
+      "ranked": [
+        "wikipedia:Yuyutsu_370",
+        "wikipedia:Astadasaparwa_1480",
+        "wikipedia:Adiparwa_2960",
+        "wikipedia:Adiparwa_1480",
+        "wikipedia:Satyawati_370",
+        "wikipedia:Pandawa_1850",
+        "wikipedia:Korawa_370",
+        "wikipedia:Pandawa_2220",
+        "wikipedia:Yudistira_2220",
+        "wikipedia:Mahabharata_4810"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.25,
+      "ndcg_10": 0.43067655807339306
+    },
+    {
+      "qid": "doc-020",
+      "question": "Dalam artikel Universitas Andalas, bagaimana padang dijelaskan kaitannya dengan kepindahan dan kampusnya?",
+      "gold_chunk_ids": [
+        "wikipedia:Universitas_Andalas_740"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Andalas_0",
+        "wikipedia:Universitas_Andalas_370",
+        "wikipedia:Universitas_Negeri_Padang_370",
+        "wikipedia:Universitas_Andalas_740",
+        "wikipedia:Universitas_Negeri_Padang_0",
+        "wikipedia:Universitas_Andalas_1110",
+        "wikipedia:Universitas_Sumatera_Utara_370",
+        "wikipedia:Universitas_Andalas_1850",
+        "wikipedia:Universitas_Negeri_Padang_2960",
+        "wikipedia:Kota_Padang_3330"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.25,
+      "ndcg_10": 0.43067655807339306
+    },
+    {
+      "qid": "doc-021",
+      "question": "Dalam artikel Arunachal Pradesh, bagaimana arunachal dijelaskan kaitannya dengan pradesh dan berbatasan?",
+      "gold_chunk_ids": [
+        "wikipedia:Arunachal_Pradesh_0"
+      ],
+      "ranked": [
+        "wikipedia:Arunachal_Pradesh_0",
+        "wikipedia:Punjab,_India_0",
+        "wikipedia:Bubuhan_370",
+        "wikipedia:Andhra_Pradesh_0",
+        "wikipedia:India_370",
+        "wikipedia:Gunung_Arjuno_0",
+        "wikipedia:Arjuna_1110",
+        "wikipedia:Majapahit_9620",
+        "wikipedia:Antareja_370",
+        "wikipedia:Bahasa_Sindh_370"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-022",
+      "question": "Dalam artikel Tanri Abeng, bagaimana miliar dijelaskan kaitannya dengan lantaran dan bayaran?",
+      "gold_chunk_ids": [
+        "wikipedia:Tanri_Abeng_370"
+      ],
+      "ranked": [
+        "wikipedia:Tanri_Abeng_0",
+        "wikipedia:The_Da_Vinci_Code_1850",
+        "wikipedia:Adam_Smith_3700",
+        "wikipedia:Sri_Mulyani_740",
+        "wikipedia:Tanri_Abeng_370",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:John_Maynard_Keynes_370",
+        "wikipedia:Asuransi_1110",
+        "wikipedia:Korupsi_2220",
+        "wikipedia:Amartya_Sen_1480"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.2,
+      "ndcg_10": 0.38685280723454163
+    },
+    {
+      "qid": "doc-023",
+      "question": "Dalam artikel Selat Malaka, bagaimana cadangan dijelaskan kaitannya dengan migas dan miliar?",
+      "gold_chunk_ids": [
+        "wikipedia:Selat_Malaka_740"
+      ],
+      "ranked": [
+        "wikipedia:Selat_Malaka_740",
+        "wikipedia:Selat_Malaka_370",
+        "wikipedia:Selat_Malaka_0",
+        "wikipedia:Selat_Malaka_1110",
+        "wikipedia:Sulalatus_Salatin_1110",
+        "wikipedia:Kesultanan_Melaka_740",
+        "wikipedia:Kesultanan_Melaka_1110",
+        "wikipedia:Laut_Tiongkok_Selatan_1480",
+        "wikipedia:Barack_Obama_4810",
+        "wikipedia:Kepulauan_Spratly_2590"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-024",
+      "question": "Dalam artikel Kejawen, bagaimana suluk dijelaskan kaitannya dengan spiritual dan kitab?",
+      "gold_chunk_ids": [
+        "wikipedia:Kejawen_1110"
+      ],
+      "ranked": [
+        "wikipedia:Kejawen_0",
+        "wikipedia:Kejawen_1110",
+        "wikipedia:Kejawen_740",
+        "wikipedia:Kitab_suci_0",
+        "wikipedia:Kalangwan_0",
+        "wikipedia:Jawa_3330",
+        "wikipedia:Adiparwa_2960",
+        "wikipedia:Kejawen_370",
+        "wikipedia:Suku_Jawa_1480",
+        "wikipedia:Martin_Luther_7400"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-025",
+      "question": "Dalam artikel Seminari Petrus Kanisius Mertoyudan, bagaimana ambarawa dijelaskan kaitannya dengan diasuh dan romo?",
+      "gold_chunk_ids": [
+        "wikipedia:Seminari_Petrus_Kanisius_Mertoyudan_740"
+      ],
+      "ranked": [
+        "wikipedia:Seminari_Petrus_Kanisius_Mertoyudan_740",
+        "wikipedia:Perjamuan_Malam_Terakhir_370",
+        "wikipedia:Ignatius_Sandyawan_Sumardi_0",
+        "wikipedia:Seminari_Petrus_Kanisius_Mertoyudan_0",
+        "wikipedia:Kitab_Yosua_2590",
+        "wikipedia:Ambrosius_1110",
+        "wikipedia:Agustinus_dari_Hippo_1850",
+        "wikipedia:Petrus_Kanisius_0",
+        "wikipedia:Ambrosius_0",
+        "wikipedia:Pythagoras_5550"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-026",
+      "question": "Dalam artikel Mekanika tanah, bagaimana mekanika dijelaskan kaitannya dengan geoteknik dan cabang?",
+      "gold_chunk_ids": [
+        "wikipedia:Mekanika_tanah_0"
+      ],
+      "ranked": [
+        "wikipedia:Mekanika_tanah_0",
+        "wikipedia:Mekanika_370",
+        "wikipedia:Mekanika_740",
+        "wikipedia:Geofisika_0",
+        "wikipedia:Ilmu_kebumian_0",
+        "wikipedia:Teknik_sipil_1110",
+        "wikipedia:Geodesi_0",
+        "wikipedia:Ilmu_kebumian_1480",
+        "wikipedia:Geomatika_0",
+        "wikipedia:Hidrologi_370"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-027",
+      "question": "Dalam artikel Perang Vietnam, bagaimana social dijelaskan kaitannya dengan activism dan sound?",
+      "gold_chunk_ids": [
+        "wikipedia:Perang_Vietnam_1850"
+      ],
+      "ranked": [
+        "wikipedia:Vietnam_3330",
+        "wikipedia:Perang_Vietnam_1850",
+        "wikipedia:Perang_Vietnam_1110",
+        "wikipedia:Perang_Vietnam_1480",
+        "wikipedia:Punk_370",
+        "wikipedia:Vietnam_2960",
+        "wikipedia:Perang_Vietnam_740",
+        "wikipedia:Ho_Chi_Minh_740",
+        "wikipedia:Vietnam_2590",
+        "wikipedia:Sun_Zi_1850"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-028",
+      "question": "Dalam artikel Surat, bagaimana daearah dijelaskan kaitannya dengan sulit dan dijangkau?",
+      "gold_chunk_ids": [
+        "wikipedia:Surat_1110"
+      ],
+      "ranked": [
+        "wikipedia:Denis_Diderot_740",
+        "wikipedia:Surat_Paulus_kepada_Jemaat_di_Filipi_370",
+        "wikipedia:Marco_Polo_5550",
+        "wikipedia:Injil_Lukas_370",
+        "wikipedia:Kitab_Daniel_370",
+        "wikipedia:Surat_Paulus_kepada_Jemaat_di_Galatia_370",
+        "wikipedia:Kitab_Yo\u00ebl_370",
+        "wikipedia:Surat_kepada_Orang_Ibrani_0",
+        "wikipedia:Surat_Paulus_yang_Kedua_kepada_Jemaat_di_Korintus_370",
+        "wikipedia:Jan_Hus_3330"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-029",
+      "question": "Dalam artikel Deuterokanonika, bagaimana makabian dijelaskan kaitannya dengan terkadang dan keliru?",
+      "gold_chunk_ids": [
+        "wikipedia:Deuterokanonika_2220"
+      ],
+      "ranked": [
+        "wikipedia:Deuterokanonika_2220",
+        "wikipedia:Deuterokanonika_0",
+        "wikipedia:Kitab_Makabe_yang_Pertama_0",
+        "wikipedia:Kitab_Makabe_yang_Kedua_1110",
+        "wikipedia:Deuterokanonika_1850",
+        "wikipedia:Deuterokanonika_2590",
+        "wikipedia:Septuaginta_1110",
+        "wikipedia:Kitab_Makabe_yang_Kedua_0",
+        "wikipedia:Kanon_Alkitab_2590",
+        "wikipedia:Deuterokanonika_370"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-030",
+      "question": "Dalam artikel Bahasa Pali, bagaimana ragam dijelaskan kaitannya dengan prakerta dan rumpun?",
+      "gold_chunk_ids": [
+        "wikipedia:Bahasa_Pali_0"
+      ],
+      "ranked": [
+        "wikipedia:Bahasa_Pali_0",
+        "wikipedia:Bahasa_Pali_740",
+        "wikipedia:Bahasa_Sanskerta_2220",
+        "wikipedia:Bahasa_Pali_370",
+        "wikipedia:Dharma_740",
+        "wikipedia:Aksara_Brahmi_1850",
+        "wikipedia:A\u1e63\u1e6d\u0101dhy\u0101y\u012b_0",
+        "wikipedia:Bahasa_Sunda_740",
+        "wikipedia:Bahasa_Sanskerta_2590",
+        "wikipedia:Kata_0"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-031",
+      "question": "Dalam artikel Pick up (gitar), bagaimana pickup dijelaskan kaitannya dengan tunggal dan klasik?",
+      "gold_chunk_ids": [
+        "wikipedia:Pick_up_(gitar)_740"
+      ],
+      "ranked": [
+        "wikipedia:Pick_up_(gitar)_740",
+        "wikipedia:Pick_up_(gitar)_0",
+        "wikipedia:Pick_up_(gitar)_370",
+        "wikipedia:Gitar_elektrik_740",
+        "wikipedia:Pick_up_(gitar)_1110",
+        "wikipedia:Pick_up_(gitar)_1480",
+        "wikipedia:Gitar_740",
+        "wikipedia:Rhoma_Irama_2220",
+        "wikipedia:Gitar_370",
+        "wikipedia:Gitar_akustik_0"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-032",
+      "question": "Dalam artikel Universitas Cenderawasih, bagaimana jayapura dijelaskan kaitannya dengan hollandia dan perguruan?",
+      "gold_chunk_ids": [
+        "wikipedia:Universitas_Cenderawasih_370"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Cenderawasih_1110",
+        "wikipedia:Universitas_Cenderawasih_740",
+        "wikipedia:Universitas_Cenderawasih_2220",
+        "wikipedia:Universitas_Cenderawasih_0",
+        "wikipedia:Universitas_Papua_370",
+        "wikipedia:Universitas_Cenderawasih_1480",
+        "wikipedia:Budi_Utomo_1850",
+        "wikipedia:Universitas_Cenderawasih_1850",
+        "wikipedia:Kota_Jayapura_0",
+        "wikipedia:Sejarah_nama_Indonesia_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-033",
+      "question": "Dalam artikel Mordechai Vanunu, bagaimana menashe dijelaskan kaitannya dengan menuduh dan maxwell?",
+      "gold_chunk_ids": [
+        "wikipedia:Mordechai_Vanunu_740"
+      ],
+      "ranked": [
+        "wikipedia:James_Clerk_Maxwell_3700",
+        "wikipedia:James_Clerk_Maxwell_370",
+        "wikipedia:James_Clerk_Maxwell_1110",
+        "wikipedia:Adam_Smith_740",
+        "wikipedia:James_Clerk_Maxwell_2960",
+        "wikipedia:Charles_Darwin_2220",
+        "wikipedia:Karl_Marx_6290",
+        "wikipedia:Agatha_Christie_4810",
+        "wikipedia:James_Clerk_Maxwell_4070",
+        "wikipedia:James_Clerk_Maxwell_3330"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-034",
+      "question": "Dalam artikel Kesultanan Melaka, bagaimana pendiri dijelaskan kaitannya dengan malaka dan mengunjungi?",
+      "gold_chunk_ids": [
+        "wikipedia:Kesultanan_Melaka_370"
+      ],
+      "ranked": [
+        "wikipedia:Kesultanan_Melaka_1480",
+        "wikipedia:Kesultanan_Melaka_0",
+        "wikipedia:Malaysia_1480",
+        "wikipedia:Kota_Melaka_0",
+        "wikipedia:Suku_Melayu_740",
+        "wikipedia:Bahasa_Melayu_1110",
+        "wikipedia:Sulalatus_Salatin_1110",
+        "wikipedia:Sejarah_Malaysia_3330",
+        "wikipedia:Bahasa_Indonesia_740",
+        "wikipedia:Sejarah_Malaysia_2590"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-035",
+      "question": "Dalam artikel Kabupaten Ogan Komering Ilir, bagaimana tahunnya dijelaskan kaitannya dengan penghujan dan berkisar?",
+      "gold_chunk_ids": [
+        "wikipedia:Kabupaten_Ogan_Komering_Ilir_740"
+      ],
+      "ranked": [
+        "wikipedia:Kabupaten_Ogan_Komering_Ilir_0",
+        "wikipedia:Kabupaten_Ogan_Komering_Ilir_370",
+        "wikipedia:Kabupaten_Ogan_Ilir_0",
+        "wikipedia:Kabupaten_Ogan_Ilir_740",
+        "wikipedia:Kabupaten_Ogan_Ilir_1110",
+        "wikipedia:Kabupaten_Ogan_Komering_Ilir_1480",
+        "wikipedia:Kabupaten_Ogan_Komering_Ulu_Selatan_0",
+        "wikipedia:Kabupaten_Ogan_Komering_Ulu_0",
+        "wikipedia:Kabupaten_Mojokerto_370",
+        "wikipedia:Kabupaten_Ogan_Komering_Ulu_Selatan_2220"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-036",
+      "question": "Dalam artikel Nigel Mansell, bagaimana race dijelaskan kaitannya dengan sesi dan feature?",
+      "gold_chunk_ids": [
+        "wikipedia:Nigel_Mansell_3700"
+      ],
+      "ranked": [
+        "wikipedia:Nigel_Mansell_4070",
+        "wikipedia:Nigel_Mansell_0",
+        "wikipedia:Nigel_Mansell_2960",
+        "wikipedia:Ras_manusia_2220",
+        "wikipedia:Nigel_Mansell_3330",
+        "wikipedia:Nigel_Mansell_1480",
+        "wikipedia:Nigel_Mansell_1110",
+        "wikipedia:Jomo_Kenyatta_3700",
+        "wikipedia:Nigel_Mansell_1850",
+        "wikipedia:Nigel_Mansell_2220"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-037",
+      "question": "Dalam artikel Ngawen, Blora, bagaimana ngawen dijelaskan kaitannya dengan blora dan geografi?",
+      "gold_chunk_ids": [
+        "wikipedia:Ngawen,_Blora_0"
+      ],
+      "ranked": [
+        "wikipedia:Geografi_1110",
+        "wikipedia:Alfred_Wegener_0",
+        "wikipedia:Geografi_0",
+        "wikipedia:Utopia_370",
+        "wikipedia:Fridtjof_Wedel-Jarlsberg_Nansen_2220",
+        "wikipedia:Nonlogam_6660",
+        "wikipedia:Tantu_Panggelaran_740",
+        "wikipedia:Mitologi_1110",
+        "wikipedia:Ilmu_kebumian_1480",
+        "wikipedia:Geografi_1480"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-038",
+      "question": "Dalam artikel Biografi, bagaimana moral dijelaskan kaitannya dengan universal dan kehati?",
+      "gold_chunk_ids": [
+        "wikipedia:Biografi_1110"
+      ],
+      "ranked": [
+        "wikipedia:Biografi_740",
+        "wikipedia:Biografi_1110",
+        "wikipedia:Psikologi_4810",
+        "wikipedia:Biografi_0",
+        "wikipedia:Biografi_370",
+        "wikipedia:Ateisme_2590",
+        "wikipedia:Immanuel_Kant_740",
+        "wikipedia:Kuliah_Gifford_370",
+        "wikipedia:Friedrich_Nietzsche_2590",
+        "wikipedia:Friedrich_Nietzsche_5550"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-039",
+      "question": "Dalam artikel Novel, bagaimana genre dijelaskan kaitannya dengan terpanjang dan fiksi?",
+      "gold_chunk_ids": [
+        "wikipedia:Novel_740"
+      ],
+      "ranked": [
+        "wikipedia:Novel_740",
+        "wikipedia:Fiksi_370",
+        "wikipedia:Novel_0",
+        "wikipedia:Novel_1110",
+        "wikipedia:Fiksi_740",
+        "wikipedia:Film_740",
+        "wikipedia:Fiksi_1110",
+        "wikipedia:Novel_370",
+        "wikipedia:Murasaki_Shikibu_4440",
+        "wikipedia:Fiksi_0"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-040",
+      "question": "Dalam artikel Kelantan, bagaimana terengganu dijelaskan kaitannya dengan kedah dan perlis?",
+      "gold_chunk_ids": [
+        "wikipedia:Kelantan_370"
+      ],
+      "ranked": [
+        "wikipedia:Perlis_370",
+        "wikipedia:Terengganu_0",
+        "wikipedia:Adam_1480",
+        "wikipedia:Amir_Hamzah_3700",
+        "wikipedia:Terengganu_370",
+        "wikipedia:Kelantan_370",
+        "wikipedia:System_of_a_Down_3330",
+        "wikipedia:The_Da_Vinci_Code_2590",
+        "wikipedia:Sejarah_Malaysia_1480",
+        "wikipedia:Malaysia_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.16666666666666666,
+      "ndcg_10": 0.3562071871080222
+    },
+    {
+      "qid": "doc-041",
+      "question": "Dalam artikel Indonesia, bagaimana knil dijelaskan kaitannya dengan dikerahkan dan padri?",
+      "gold_chunk_ids": [
+        "wikipedia:Indonesia_6290"
+      ],
+      "ranked": [
+        "wikipedia:Hindia_Belanda_4810",
+        "wikipedia:Indonesia_6290",
+        "wikipedia:Tentara_Nasional_Indonesia_0",
+        "wikipedia:Biseksualitas_1850",
+        "wikipedia:Budaya_4070",
+        "wikipedia:Pengadilan_Agama_370",
+        "wikipedia:Hindia_Belanda_7400",
+        "wikipedia:Hindia_Belanda_4440",
+        "wikipedia:Belanda_Hitam_1850",
+        "wikipedia:Aksi_Polisionil_370"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 1.0,
+      "mrr_10": 0.5,
+      "ndcg_10": 0.6309297535714575
+    },
+    {
+      "qid": "doc-042",
+      "question": "Dalam artikel Manchester City F.C., bagaimana artinya dijelaskan kaitannya dengan latin dan kebanggaan?",
+      "gold_chunk_ids": [
+        "wikipedia:Manchester_City_F.C._3700"
+      ],
+      "ranked": [
+        "wikipedia:The_Da_Vinci_Code_1850",
+        "wikipedia:The_Da_Vinci_Code_2960",
+        "wikipedia:Sumber_Q_370",
+        "wikipedia:Yesus_8880",
+        "wikipedia:Filioque_6290",
+        "wikipedia:Bahasa_Aram_Yesus_0",
+        "wikipedia:Sumber_Q_0",
+        "wikipedia:Gereja_740",
+        "wikipedia:Surat_kepada_Orang_Ibrani_370",
+        "wikipedia:The_Da_Vinci_Code_1480"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "doc-043",
+      "question": "Dalam artikel Syirik, bagaimana batasan dijelaskan kaitannya dengan justru dan menimbulkan?",
+      "gold_chunk_ids": [
+        "wikipedia:Syirik_740"
+      ],
+      "ranked": [
+        "wikipedia:Syirik_740",
+        "wikipedia:Kitab_Nahum_740",
+        "wikipedia:Sastra_Melayu_370",
+        "wikipedia:Surah_An-Nisa\u2019_370",
+        "wikipedia:Suku_Sunda_370",
+        "wikipedia:Syirik_0",
+        "wikipedia:Syirik_1110",
+        "wikipedia:Surah_An-Nisa\u2019_1110",
+        "wikipedia:Syariat_Islam_1110",
+        "wikipedia:Syariat_Islam_0"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-044",
+      "question": "Dalam artikel Rujak cingur, bagaimana rujak dijelaskan kaitannya dengan cingur dan asalnya?",
+      "gold_chunk_ids": [
+        "wikipedia:Rujak_cingur_0"
+      ],
+      "ranked": [
+        "wikipedia:Rujak_cingur_0",
+        "wikipedia:Rujak_0",
+        "wikipedia:Rujak_370",
+        "wikipedia:Ruko_0",
+        "wikipedia:Kidung_Sunda_740",
+        "wikipedia:Sfinks_370",
+        "wikipedia:Shinto_8140",
+        "wikipedia:Sangkuriang_(legenda)_740",
+        "wikipedia:Busana_tradisional_Sumatera_Barat_370",
+        "wikipedia:Kisah_Aneh_Liaozhai_370"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "doc-045",
+      "question": "Dalam artikel Moskwa, bagaimana penampilan dijelaskan kaitannya dengan terbuat dan kayu?",
+      "gold_chunk_ids": [
+        "wikipedia:Moskwa_2960"
+      ],
+      "ranked": [
+        "wikipedia:Moskwa_2960",
+        "wikipedia:Moskwa_370",
+        "wikipedia:Kayu_1480",
+        "wikipedia:Moskwa_2590",
+        "wikipedia:Moskwa_1480",
+        "wikipedia:Kayu_740",
+        "wikipedia:Moskwa_3330",
+        "wikipedia:Mesopotamia_3330",
+        "wikipedia:Seni_740",
+        "wikipedia:Moskwa_4070"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "hybrid-081",
+      "question": "Ringkas pembahasan menurun dalam artikel Antarktika, lalu sebutkan nilai Gini index Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Antarktika_5180"
+      ],
+      "ranked": [
+        "wikipedia:Meter_740",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Meter_1110",
+        "wikipedia:Kamerun_2960",
+        "wikipedia:Samudra_Hindia_370",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Indonesia_0",
+        "wikipedia:Nonlogam_5550"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-082",
+      "question": "Ringkas pembahasan selandia dalam artikel Tokelau, lalu sebutkan nilai Access to electricity (% of population) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Tokelau_1110"
+      ],
+      "ranked": [
+        "wikipedia:Tokelau_1850",
+        "wikipedia:Perusahaan_Listrik_Negara_2960",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:1_Februari_740",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Meter_1110",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Selandia_Baru_5550"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-083",
+      "question": "Ringkas pembahasan energi dalam artikel Energi gelombang, lalu sebutkan nilai Maternal mortality ratio (modeled estimate, per 100,000 live births) Indonesia tahun 2023.",
+      "gold_chunk_ids": [
+        "wikipedia:Energi_gelombang_0"
+      ],
+      "ranked": [
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Gempa_bumi_dan_tsunami_Samudra_Hindia_2004_7400",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Magister_370",
+        "wikipedia:Energi_2220",
+        "wikipedia:Indonesia_18500",
+        "wikipedia:Meter_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-084",
+      "question": "Ringkas pembahasan setan dalam artikel Iblis, lalu sebutkan nilai Imports of goods and services (current US$) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Iblis_2960"
+      ],
+      "ranked": [
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Adam_Smith_2590",
+        "wikipedia:Inflasi_370",
+        "wikipedia:Sri_Mulyani_2220",
+        "wikipedia:Meter_1110",
+        "wikipedia:Lin_Che_Wei_740",
+        "wikipedia:Hans_K\u00fcng_370",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Meter_740",
+        "wikipedia:Adam_Smith_2220"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-085",
+      "question": "Ringkas pembahasan paduan dalam artikel Tembaga, lalu sebutkan nilai Adolescent fertility rate (births per 1,000 women ages 15-19) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Tembaga_5180"
+      ],
+      "ranked": [
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Demografi_370",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Universitas_Negeri_Gorontalo_740",
+        "wikipedia:Magister_370",
+        "wikipedia:Penduduk_0"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-086",
+      "question": "Ringkas pembahasan ambon dalam artikel Johannes Leimena, lalu sebutkan nilai Exports of goods and services (current US$) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Johannes_Leimena_370"
+      ],
+      "ranked": [
+        "wikipedia:Sosialisme_4810",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Lin_Che_Wei_740",
+        "wikipedia:Dana_Moneter_Internasional_3700",
+        "wikipedia:John_Maynard_Keynes_370",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Kamerun_2960",
+        "wikipedia:Sri_Mulyani_1850",
+        "wikipedia:Sosialisme_4440",
+        "wikipedia:Harimurti_Kridalaksana_370"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-087",
+      "question": "Ringkas pembahasan konsentrasi dalam artikel Timbal, lalu sebutkan nilai GDP per capita (current US$) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Timbal_5920"
+      ],
+      "ranked": [
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Dana_Moneter_Internasional_3700",
+        "wikipedia:Meter_740",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Magister_370",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Konfederasi_Sepak_Bola_Asia_370",
+        "wikipedia:Ekonomi_Indonesia_0"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-088",
+      "question": "Ringkas pembahasan sintesis dalam artikel Logam alkali, lalu sebutkan nilai Renewable energy consumption (% of total final energy consumption) Indonesia tahun 2021.",
+      "gold_chunk_ids": [
+        "wikipedia:Logam_alkali_8880"
+      ],
+      "ranked": [
+        "wikipedia:Energi_2220",
+        "wikipedia:Air_4440",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Teori_puncak_Hubbert_370",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Pertamina_1480",
+        "wikipedia:Baterai_listrik_1480",
+        "wikipedia:Gempa_bumi_dan_tsunami_Samudra_Hindia_2004_7400",
+        "wikipedia:Produk_domestik_bruto_370"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-089",
+      "question": "Ringkas pembahasan kemacetan dalam artikel Serbia dan Montenegro, lalu sebutkan nilai School enrollment, tertiary (% gross) Indonesia tahun 2023.",
+      "gold_chunk_ids": [
+        "wikipedia:Serbia_dan_Montenegro_1110"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Universitas_Negeri_Malang_1850",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Universitas_Bung_Hatta_370",
+        "wikipedia:Universitas_Negeri_Gorontalo_740",
+        "wikipedia:Sekolah_Menengah_Atas_740",
+        "wikipedia:Magister_370",
+        "wikipedia:Sarjana_370",
+        "wikipedia:Meter_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-090",
+      "question": "Ringkas pembahasan menumbangkan dalam artikel Mikrobiologi, lalu sebutkan nilai Air transport, passengers carried Indonesia tahun 2023.",
+      "gold_chunk_ids": [
+        "wikipedia:Mikrobiologi_370"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_4070",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Marga_Minahasa_1110",
+        "wikipedia:Meter_1110",
+        "wikipedia:Kapal_induk_2220",
+        "wikipedia:Kemacetan_740",
+        "wikipedia:Said_Agil_Husin_Al_Munawar_370",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Marga_Minahasa_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-091",
+      "question": "Ringkas pembahasan antitumor dalam artikel Lipid, lalu sebutkan nilai Domestic credit to private sector (% of GDP) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Lipid_1480"
+      ],
+      "ranked": [
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Sri_Mulyani_2220",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2960",
+        "wikipedia:Lembaga_Ilmu_Pengetahuan_Indonesia_370",
+        "wikipedia:Ekonomi_Indonesia_0",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Analisis_fundamental_1110",
+        "wikipedia:Ekonomi_Thailand_740",
+        "wikipedia:Adam_Smith_2590",
+        "wikipedia:Universitas_Sriwijaya_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-092",
+      "question": "Ringkas pembahasan prix dalam artikel Manga, lalu sebutkan nilai Energy use (kg of oil equivalent per capita) Indonesia tahun 2023.",
+      "gold_chunk_ids": [
+        "wikipedia:Manga_4440"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Energi_2220",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Ekonomi_Thailand_740",
+        "wikipedia:Ari_Hernanto_Soemarno_370",
+        "wikipedia:Marga_Minahasa_1110",
+        "wikipedia:Teori_puncak_Hubbert_370",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Sri_Mulyani_2220",
+        "wikipedia:Kilang_minyak_370"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-093",
+      "question": "Ringkas pembahasan diprakarsai dalam artikel Aksara Lontara, lalu sebutkan nilai School enrollment, secondary (% gross) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Aksara_Lontara_740"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Josephus_Ignatius_Gerardus_Maria_Drost_370",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Kota_Kendari_1110",
+        "wikipedia:Universitas_Negeri_Gorontalo_740",
+        "wikipedia:Universitas_Negeri_Malang_1850",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2220",
+        "wikipedia:Nonlogam_5550"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-094",
+      "question": "Ringkas pembahasan administratif dalam artikel Uni Afrika, lalu sebutkan nilai Life expectancy at birth, total (years) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Uni_Afrika_1850"
+      ],
+      "ranked": [
+        "wikipedia:Kamerun_2960",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Magister_370",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2220",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-095",
+      "question": "Ringkas pembahasan dukungan dalam artikel Pembubaran Uni Soviet, lalu sebutkan nilai GDP growth (annual %) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Pembubaran_Uni_Soviet_1110"
+      ],
+      "ranked": [
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Sosialisme_4440",
+        "wikipedia:Ekonomi_Indonesia_1850",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Dana_Moneter_Internasional_3700",
+        "wikipedia:Ekonomi_Indonesia_0",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Meter_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-096",
+      "question": "Ringkas pembahasan purwokerto dalam artikel Purwokerto (kota), lalu sebutkan nilai Population growth (annual %) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Purwokerto_(kota)_2220"
+      ],
+      "ranked": [
+        "wikipedia:Purwokerto_(kota)_2590",
+        "wikipedia:Purwakarta,_Purwakarta_0",
+        "wikipedia:Purwokerto_(kota)_0",
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Ledakan_populasi_0",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Nusa_Tenggara_Timur_740",
+        "wikipedia:Urbanisasi_0"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-097",
+      "question": "Ringkas pembahasan bersertifikat dalam artikel Akuntan publik, lalu sebutkan nilai Urban population (% of total population) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Akuntan_publik_370"
+      ],
+      "ranked": [
+        "wikipedia:Urbanisasi_0",
+        "wikipedia:Kepadatan_penduduk_0",
+        "wikipedia:Sri_Mulyani_2220",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2220",
+        "wikipedia:Ledakan_populasi_0",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Urbanisasi_370"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-098",
+      "question": "Ringkas pembahasan swarangan dalam artikel Pantai Swarangan, lalu sebutkan nilai Food production index (2014-2016 = 100) Indonesia tahun 2022.",
+      "gold_chunk_ids": [
+        "wikipedia:Pantai_Swarangan_0"
+      ],
+      "ranked": [
+        "wikipedia:Labuhan_Haji,_Aceh_Selatan_1110",
+        "wikipedia:Indeks_Persepsi_Korupsi_0",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Analisis_fundamental_1110",
+        "wikipedia:Buruh_1480",
+        "wikipedia:Meter_740",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Kekayaan_intelektual_5180"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-099",
+      "question": "Ringkas pembahasan kolepom dalam artikel Pulau Kolepom, lalu sebutkan nilai Individuals using the Internet (% of population) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Pulau_Kolepom_0"
+      ],
+      "ranked": [
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Indonesia_19980",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2220",
+        "wikipedia:Globalisasi_8140",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:EULA_370",
+        "wikipedia:Sri_Mulyani_2220",
+        "wikipedia:Internet_2220",
+        "wikipedia:Ledakan_populasi_0",
+        "wikipedia:Penduduk_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-100",
+      "question": "Ringkas pembahasan mempersenjatai dalam artikel California, lalu sebutkan nilai Agriculture, forestry, and fishing, value added (% of GDP) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:California_3330"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Negeri_Gorontalo_740",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Sembilan_bahan_pokok_0",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Magister_370",
+        "wikipedia:Indonesia_18130"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-101",
+      "question": "Ringkas pembahasan persia dalam artikel Uni Emirat Arab, lalu sebutkan nilai Mortality rate, under-5 (per 1,000 live births) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Uni_Emirat_Arab_740"
+      ],
+      "ranked": [
+        "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+        "wikipedia:Indonesia_18500",
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2220",
+        "wikipedia:Said_Agil_Husin_Al_Munawar_370",
+        "wikipedia:Magister_370",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2960",
+        "wikipedia:Josephus_Ignatius_Gerardus_Maria_Drost_370",
+        "wikipedia:Universitas_Sriwijaya_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-102",
+      "question": "Ringkas pembahasan gentoo dalam artikel GNOME, lalu sebutkan nilai Annual freshwater withdrawals, total (% of internal resources) Indonesia tahun 2022.",
+      "gold_chunk_ids": [
+        "wikipedia:GNOME_1850"
+      ],
+      "ranked": [
+        "wikipedia:Universitas_Gadjah_Mada_2960",
+        "wikipedia:Meter_1110",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Perusahaan_Listrik_Negara_2960",
+        "wikipedia:Meter_740",
+        "wikipedia:Air_4440",
+        "wikipedia:1_Februari_740",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Nonlogam_7030",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-103",
+      "question": "Ringkas pembahasan soreang dalam artikel Soreang, Bandung, lalu sebutkan nilai Immunization, BCG (% of one-year-old children) Indonesia tahun 2024.",
+      "gold_chunk_ids": [
+        "wikipedia:Soreang,_Bandung_0"
+      ],
+      "ranked": [
+        "wikipedia:Josephus_Ignatius_Gerardus_Maria_Drost_370",
+        "wikipedia:Universitas_Pendidikan_Indonesia_1110",
+        "wikipedia:Universitas_Negeri_Malang_1480",
+        "wikipedia:Kota_Kendari_1110",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Universitas_Negeri_Padang_2590",
+        "wikipedia:Nonlogam_5550",
+        "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2960",
+        "wikipedia:Pemilihan_kepala_daerah_di_Indonesia_1110",
+        "wikipedia:1_Februari_740"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    },
+    {
+      "qid": "hybrid-104",
+      "question": "Ringkas pembahasan angga dalam artikel Ciledug, Cirebon, lalu sebutkan nilai Population density (people per sq. km of land area) Indonesia tahun 2023.",
+      "gold_chunk_ids": [
+        "wikipedia:Ciledug,_Cirebon_1110"
+      ],
+      "ranked": [
+        "wikipedia:Ciledug,_Cirebon_1110",
+        "wikipedia:Geografi_1850",
+        "wikipedia:Kamerun_2960",
+        "wikipedia:Kepadatan_penduduk_0",
+        "wikipedia:Indonesia_17020",
+        "wikipedia:Sensus_0",
+        "wikipedia:Marga_Minahasa_740",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Kabupaten_Bogor_1850",
+        "wikipedia:Banten_1110"
+      ],
+      "recall_1": 1.0,
+      "recall_10": 1.0,
+      "mrr_10": 1.0,
+      "ndcg_10": 1.0
+    },
+    {
+      "qid": "hybrid-105",
+      "question": "Ringkas pembahasan kesimpulan dalam artikel Anoa, lalu sebutkan nilai Domestic general government health expenditure per capita (current US$) Indonesia tahun 2023.",
+      "gold_chunk_ids": [
+        "wikipedia:Anoa_740"
+      ],
+      "ranked": [
+        "wikipedia:Adam_Smith_2590",
+        "wikipedia:Kekayaan_intelektual_5180",
+        "wikipedia:Undang-Undang_Dasar_Negara_Republik_Indonesia_Tahun_1945_4810",
+        "wikipedia:Dokter_spesialis_370",
+        "wikipedia:Universitas_Sriwijaya_1110",
+        "wikipedia:Nonlogam_6660",
+        "wikipedia:Produk_domestik_bruto_0",
+        "wikipedia:Sri_Mulyani_1850",
+        "wikipedia:Penduduk_1110",
+        "wikipedia:Nonlogam_5920"
+      ],
+      "recall_1": 0.0,
+      "recall_10": 0.0,
+      "mrr_10": 0.0,
+      "ndcg_10": 0.0
+    }
+  ]
+}

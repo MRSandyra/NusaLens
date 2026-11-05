@@ -1,0 +1,50 @@
+user_agent: "NusaLens/0.1 (portfolio project)"
+default_rate_limit_per_second: 2
+default_cache_ttl_hours: 168
+
+sources:
+  S1_worldbank:
+    kind: numeric
+    base_url: https://api.worldbank.org/v2
+    requires_key: false
+    license: "CC BY 4.0"
+    rate_limit_per_second: 2
+    countries: [IDN, MYS, THA, VNM, PHL, SGP]
+    per_page: 1000
+
+  S2_wikipedia_id:
+    kind: documents
+    hf_dataset: wikimedia/wikipedia
+    hf_config: 20231101.id
+    requires_key: false
+    license: "CC BY-SA 4.0"
+    target_articles_min: 8000
+    target_articles_max: 15000
+    min_chars: 300
+
+  S3_satudata:
+    kind: mixed
+    base_url: https://data.go.id/api/3/action
+    requires_key: false
+    license: "varies per dataset, recorded per record"
+    rate_limit_per_second: 2
+    max_csv_files: 15
+
+  S4_bmkg:
+    kind: live
+    base_url: https://data.bmkg.go.id
+    requires_key: false
+    license: "open data BMKG"
+    indexed: false
+
+  S5_qa_seed:
+    kind: questions
+    hf_dataset: khalidalt/tydiqa-goldp
+    hf_config: indonesian
+    requires_key: false
+    license: "Apache-2.0"
+
+excluded:
+  bps:
+    base_url: https://webapi.bps.go.id
+    reason: "requires key registration and returns HTTP 403 behind bot protection, unreliable for an automated pipeline"

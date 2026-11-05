@@ -1,0 +1,35 @@
+id: judge
+version: 4
+notes: >
+  v3 scored 60%, still failing on every ABSTAIN item: the model's own "reason" text correctly
+  argued the honest-decline case supports grounded=true, but the "grounded" boolean field still
+  came out false (e.g. abstain-109: reason endorses grounding, grounded=false, score=5) -- a
+  self-contradiction, not a logic gap in the prompt. qwen2.5:3b-instruct appears to carry a strong
+  prior that any declined-to-answer response is "not grounded" and resists overriding that through
+  reasoning alone when asked for a single boolean. v4 asks for a three-way label instead of a
+  boolean, so the model is choosing between three concrete categories rather than fighting its own
+  prior on one field; the GROUNDED/HONEST_DECLINE mapping to the usable boolean happens in Python,
+  not inside the model's own json.
+variables: [question, context, answer]
+template: |
+  Kamu menilai SEBUAH JAWABAN dibandingkan KONTEKS yang diberikan.
+
+  Pilih SATU label dari tiga pilihan ini:
+  - "GROUNDED": jawaban menegaskan fakta/nilai sebagai jawaban sebenarnya, dan SEMUA klaim faktual
+    di dalamnya (angka, nama, sebab-akibat) dapat ditemukan di konteks.
+  - "FABRICATED": jawaban menegaskan fakta/nilai sebagai jawaban sebenarnya, tetapi SATU ATAU LEBIH
+    klaim faktual di dalamnya TIDAK dapat ditemukan di konteks (termasuk mengarang angka, atau
+    secara salah mengklaim bahwa konteks tidak membahas sesuatu yang sebenarnya ada di konteks).
+  - "HONEST_DECLINE": jawaban menolak menjawab atau menyatakan data tidak tersedia/tidak ditemukan,
+    tanpa mengarang angka atau fakta pengganti. Alasan penolakan boleh menyebut pengetahuan umum
+    (misalnya "X adalah entitas fiktif") -- itu bukan klaim yang perlu didukung konteks, karena itu
+    bukan jawaban atas pertanyaan, melainkan alasan menolak menjawabnya.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban yang dinilai: {answer}
+
+  Keluarkan HANYA JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"label": "GROUNDED" | "FABRICATED" | "HONEST_DECLINE", "score": <1 sampai 5>, "reason": "<alasan singkat>"}}

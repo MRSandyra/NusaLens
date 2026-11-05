@@ -1,0 +1,186 @@
+{
+  "agreement_rate": 0.55,
+  "n_items": 20,
+  "rows": [
+    {
+      "qid": "doc-041",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Dalam artikel tersebut, Kaum Padri dijelaskan sebagai kelompok Islam puritan yang menggerakkan (mobilisasi) masyarakat untuk memperbaiki adat istiadat melalui penerapan Al-Quran dan syariah, menyebabkan konflik dengan pemerintah tradisional di Sumatra. Keterlibatan Belanda pada tahun 1821 terhadap Kaum Padri merupakan respons terhadap mobilisasi massa yang mengancam stabilitas sosial dan politik daerah.",
+      "agree": false
+    },
+    {
+      "qid": "doc-008",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 3,
+      "judge_reason": "Artikel tidak menjelaskan kaitan antara pembaca dan rutenium.",
+      "agree": true
+    },
+    {
+      "qid": "doc-002",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Menggunakan istilah 'ngapak' untuk merujuk pada masyarakat yang menggunakan Bahasa Banyumasan sebagai bahasa ibu dan 'akrab' tidak disebutkan, artikel ini menjelaskan bahwa masyarakat Kota Tegal enggan disebut sebagai 'ngapak' karena menggunakan Bahasa Jawa Tegalan.",
+      "agree": false
+    },
+    {
+      "qid": "doc-018",
+      "type": "DOC",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Mussolini awalnya adalah sosialis, tetapi kemudian menolak konsep sosialisme dalam gerakan fasisnya yang menentang demokrasi liberal dan konflik kelas.",
+      "agree": true
+    },
+    {
+      "qid": "doc-016",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 5,
+      "judge_reason": "Teks tidak menyebutkan 'williamina', 'Fleming', atau 'Antonia' dalam konteks astrofisika.",
+      "agree": true
+    },
+    {
+      "qid": "doc-015",
+      "type": "DOC",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 4,
+      "judge_reason": "Paus Pius IX bernama lahir Giovanni Maria Mastai-Ferretti, di mana 'Pius' adalah gelar resmi yang diberikan oleh Gereja dan 'Giovanni' adalah nama lahirnya.",
+      "agree": true
+    },
+    {
+      "qid": "doc-009",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Teks tidak menyebutkan kaitan pemuda dengan dhibaa dan rusa di Abu Dhabi.",
+      "agree": true
+    },
+    {
+      "qid": "doc-007",
+      "type": "DOC",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Artikel tidak secara spesifik menjelaskan kaitan sebagaimana dan kanada dalam konteks negara berdaulat dan status internasionalnya.",
+      "agree": false
+    },
+    {
+      "qid": "doc-035",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": true,
+      "judge_score": 5,
+      "judge_reason": "Teks menyebutkan variasi curah hujan antara 900 mm hingga 4920 mm per tahun pada tahun 2003",
+      "agree": false
+    },
+    {
+      "qid": "doc-006",
+      "type": "DOC",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 1,
+      "judge_reason": "Teks artikel tidak mencakup informasi tentang duduk, menit, atau suasana dalam konteks waktu.",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-099",
+      "type": "HYBRID",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 3,
+      "judge_reason": "Artikel tidak menyebutkan informasi tentang Pulau Kolepom atau persentase pengguna internet di Indonesia pada tahun 2024.",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-094",
+      "type": "HYBRID",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 3,
+      "judge_reason": "Teks tidak menyediakan informasi tentang Uni Afrika atau Life expectancy at birth untuk Indonesia tahun 2024.",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-082",
+      "type": "HYBRID",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 4,
+      "judge_reason": "Ringkasan pembahasan Selandia dalam artikel Tokelau: Selandia Baru mengambil alih administratif Tokelau pada tahun 1925 dan 1926, dengan Gubernur Jenderal Selandia Baru mengendalikan administrasi. Warga Tokelau yang merupakan subyek Inggris memperoleh kewarganegaraan Selandia Baru pada tahun 1949 berdasarkan Undang-Undang Kewarganegaraan Inggris dan Selandia Baru 1948. Nilai Access to electricity (% of population) Indonesia tahun 2024 tidak tersedia.",
+      "agree": false
+    },
+    {
+      "qid": "hybrid-081",
+      "type": "HYBRID",
+      "human_label": false,
+      "judge_grounded": false,
+      "judge_score": 4,
+      "judge_reason": "Artikel tidak membahas Antarktika dan nilai Gini index Indonesia tahun 2024 belum tersedia.",
+      "agree": true
+    },
+    {
+      "qid": "hybrid-083",
+      "type": "HYBRID",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 2,
+      "judge_reason": "Ringkasan energi dalam artikel 'Energi gelombang' benar, tetapi tidak mencakup informasi tentang Maternal mortality ratio Indonesia tahun 2023.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-109",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 5,
+      "judge_reason": "Tidak ada data karena Gondor adalah negara fiksi dalam karya sastra J.R.R. Tolkien dan Bank Dunia tidak menyediakan data untuk negara fiksi.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-120",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 5,
+      "judge_reason": "Tidak ada data historis tersedia untuk PDB per kapita Indonesia pada tahun 1850.",
+      "agree": false
+    },
+    {
+      "qid": "abstain-114",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 5,
+      "judge_reason": "Atlantis tidak ada dalam dunia nyata dan tidak memiliki PDB.",
+      "agree": true
+    },
+    {
+      "qid": "abstain-115",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": true,
+      "judge_score": 5,
+      "judge_reason": "Narnia is a fictional country and does not produce any real-world commodities like gold or silver.",
+      "agree": true
+    },
+    {
+      "qid": "abstain-106",
+      "type": "ABSTAIN",
+      "human_label": true,
+      "judge_grounded": false,
+      "judge_score": 5,
+      "judge_reason": "Tidak ada data tentang PDB per kapita Wakanda dalam dunia nyata atau MCU.",
+      "agree": false
+    }
+  ]
+}

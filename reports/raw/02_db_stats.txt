@@ -1,0 +1,5 @@
+Usage: python -m nusalens.cli [OPTIONS] COMMAND [ARGS]...
+Try 'python -m nusalens.cli --help' for help.
+┌─ Error ─────────────────────────────────────────────────────────────────────┐
+│ No such command 'db'.                                                       │
+└─────────────────────────────────────────────────────────────────────────────┘

@@ -1,0 +1,2 @@
+documents.parquet: 15000 rows
+indicators.parquet: 6686 rows

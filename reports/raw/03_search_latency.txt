@@ -1,0 +1,19 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2756.03it/s]
+{
+  "queries": 100,
+  "k": 10,
+  "encode_ms": {
+    "p50": 17.26,
+    "p95": 23.54
+  },
+  "total_ms": {
+    "p50": 37.04,
+    "p95": 55.16,
+    "min": 32.66,
+    "max": 713.72,
+    "mean": 46.5
+  },
+  "hits_per_query_min": 10,
+  "queries_returning_k": 100
+}

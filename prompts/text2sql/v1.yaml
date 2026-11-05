@@ -1,0 +1,50 @@
+id: text2sql
+version: 1
+notes: >
+  Targets the single LLM-facing view v_indicator_series so the model never
+  needs to know indicator codes, iso3 codes, or joins. Candidate country_name
+  and indicator_name values are resolved by entity_resolution.py and injected
+  per request so a 3B instruct model can copy an exact string instead of
+  guessing one.
+variables: [question, country_candidates, indicator_candidates]
+template: |
+  Kamu menulis SATU query SQL PostgreSQL (hanya SELECT) terhadap view ini:
+
+  v_indicator_series(country_name TEXT, indicator_name TEXT, year INT, value NUMERIC, unit TEXT)
+
+  Aturan wajib:
+  - Hanya satu statement SELECT. Tidak ada INSERT, UPDATE, DELETE, DROP, ALTER, GRANT, COPY, atau titik koma ganda.
+  - Gunakan HANYA nilai country_name dan indicator_name yang persis sama dengan salah satu kandidat di bawah, jangan mengarang nilai baru.
+  - Jika pertanyaan meminta "tertinggi"/"terendah"/"ranking", gunakan ORDER BY value DESC/ASC dan LIMIT.
+  - Jika tidak ada LIMIT yang relevan, biarkan tanpa LIMIT (akan ditambahkan otomatis).
+  - Keluarkan HANYA kode SQL, satu baris, tanpa penjelasan, tanpa markdown.
+
+  Kandidat country_name: {country_candidates}
+  Kandidat indicator_name: {indicator_candidates}
+
+  Contoh:
+  Pertanyaan: Berapa nilai GDP per capita (current US$) untuk Indonesia pada tahun 2019?
+  SQL: SELECT value FROM v_indicator_series WHERE country_name = 'Indonesia' AND indicator_name = 'GDP per capita (current US$)' AND year = 2019
+
+  Pertanyaan: Negara mana yang memiliki Inflation, consumer prices (annual %) tertinggi pada tahun 2022?
+  SQL: SELECT country_name, value FROM v_indicator_series WHERE indicator_name = 'Inflation, consumer prices (annual %)' AND year = 2022 AND value IS NOT NULL ORDER BY value DESC LIMIT 1
+
+  Pertanyaan: Berapa rata-rata Tax revenue (% of GDP) untuk Vietnam sepanjang periode 2000 sampai 2009?
+  SQL: SELECT AVG(value) FROM v_indicator_series WHERE country_name = 'Vietnam' AND indicator_name = 'Tax revenue (% of GDP)' AND year BETWEEN 2000 AND 2009
+
+  Pertanyaan: Bagaimana perubahan Population growth (annual %) di Thailand antara tahun 2010 dan 2020?
+  SQL: SELECT year, value FROM v_indicator_series WHERE country_name = 'Thailand' AND indicator_name = 'Population growth (annual %)' AND year IN (2010, 2020) ORDER BY year
+
+  Pertanyaan: Ada berapa tahun data Gini index yang tersedia untuk Malaysia?
+  SQL: SELECT COUNT(DISTINCT year) FROM v_indicator_series WHERE country_name = 'Malaysia' AND indicator_name = 'Gini index'
+
+  Pertanyaan: {question}
+  SQL:
+repair_template: |
+  Query SQL sebelumnya gagal dieksekusi.
+
+  SQL sebelumnya: {previous_sql}
+  Error: {error}
+
+  Perbaiki query tersebut. Patuhi aturan yang sama (hanya SELECT terhadap v_indicator_series, satu statement).
+  Keluarkan HANYA SQL yang sudah diperbaiki, satu baris, tanpa penjelasan.

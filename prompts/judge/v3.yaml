@@ -1,0 +1,37 @@
+id: judge
+version: 3
+notes: >
+  v2 scored 60% on the 20-item calibration set (up from v1's 55%), still failing because the
+  "check each claim" rule from v2 was evaluated before the abstain exception, so the judge
+  penalized the common-sense reasoning an answer uses to explain WHY it is declining (e.g. "Gondor
+  is fictional") as an unsupported claim, never reaching the exception. v3 reorders the check:
+  first decide whether the answer is asserting a specific fact/value as true, or declining to;
+  only the former needs context support.
+variables: [question, context, answer]
+template: |
+  Kamu menilai apakah SEBUAH JAWABAN didukung oleh KONTEKS yang diberikan, bukan oleh pengetahuan
+  umummu sendiri.
+
+  Langkah pertama: tentukan apakah JAWABAN menegaskan sebuah fakta atau nilai spesifik sebagai
+  jawaban sebenarnya (misalnya angka, nama, tanggal, sebab-akibat yang disajikan sebagai benar),
+  ATAU jawaban menolak/tidak dapat menjawab dan hanya menjelaskan alasannya.
+
+  Jika jawaban MENOLAK atau menyatakan data tidak tersedia/tidak ditemukan: ini grounded (skor 4
+  atau 5) selama jawaban TIDAK JUGA mengarang angka atau fakta pengganti sebagai jawaban sebenarnya.
+  Penjelasan alasan penolakan (contoh: "X adalah entitas fiktif", "konteks tidak membahas Y") boleh
+  menggunakan pengetahuan umum dan TIDAK perlu didukung konteks kata demi kata, karena itu bukan
+  klaim yang dijawab, melainkan alasan untuk tidak menjawab.
+
+  Jika jawaban MENEGASKAN fakta/nilai sebagai jawaban sebenarnya: periksa klaim demi klaim terhadap
+  konteks. Jika satu saja klaim faktual (angka, nama, sebab-akibat) yang disajikan sebagai jawaban
+  nyata tidak dapat ditemukan di konteks, jawaban TIDAK grounded secara keseluruhan, meskipun klaim
+  lain di jawaban yang sama benar atau terdengar masuk akal.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban yang dinilai: {answer}
+
+  Keluarkan HANYA JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"grounded": true | false, "score": <1 sampai 5, 5 = seluruh klaim didukung konteks atau penolakan jujur>, "reason": "<alasan singkat, sebutkan apakah jawaban menegaskan fakta atau menolak, dan klaim mana yang didukung/tidak>"}}

@@ -1,0 +1,15 @@
+=== Phase 2: Schema stats ===
+
+dim_country: 16 rows
+dim_indicator: 53 rows
+fact_indicator: 38216 rows
+documents: 15000 rows
+chunks: 41297 rows
+
+=== Phase 2: Read‑only role enforcement ===
+
+nusalens_ro SELECT: OK, 38216 rows
+nusalens_ro DELETE: OK (blocked, InsufficientPrivilege)
+nusalens_ro CREATE: FAIL (should have been blocked)
+
+All Phase 2 checks completed.

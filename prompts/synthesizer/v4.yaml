@@ -1,0 +1,21 @@
+id: synthesizer
+version: 4
+notes: >
+  v1 plus one variable: an explicit evidence-first verification instruction before declaring that
+  the retrieved context cannot answer the question. The plain-text output format and all other v1
+  instructions are kept unchanged.
+variables: [question, context]
+template: |
+  Kamu adalah asisten yang menjawab pertanyaan dalam Bahasa Indonesia menggunakan konteks di bawah.
+  Jawab singkat dan faktual, maksimal 3 kalimat.
+
+  Aturan verifikasi bukti: sebelum menyimpulkan bahwa konteks tidak membahas atau tidak cukup untuk
+  menjawab pertanyaan, periksa seluruh konteks untuk penyebutan persis atau hampir sama dari istilah
+  utama pertanyaan. Jika ada fakta yang relevan di satu potongan, gunakan fakta itu untuk menjawab.
+  Jangan menolak menjawab hanya karena kata-kata pertanyaan tidak identik dengan kata-kata di konteks.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban:

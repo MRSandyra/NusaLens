@@ -1,0 +1,3 @@
+chunks.parquet: 41297 rows
+documents.parquet: 15000 rows
+indicators.parquet: 38216 rows

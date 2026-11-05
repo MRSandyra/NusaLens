@@ -1,0 +1,7 @@
+dropped duplicate idx_chunks_embedding_hnsw
+populated tsv for 41297 rows in 83.0s
+tsv still null: 0
+reindexed idx_chunks_tsv in 11.3s
+index chunks_pkey: 3520 kB
+index idx_chunks_embedding: 81 MB
+index idx_chunks_tsv: 44 MB

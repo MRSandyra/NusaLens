@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: nusalens_pg2
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: nusalens
+      POSTGRES_PASSWORD: nusalens
+      POSTGRES_DB: nusalens
+    ports:
+      - "55433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    command: ["postgres", "-c", "shared_buffers=256MB"]
+volumes:
+  pgdata:

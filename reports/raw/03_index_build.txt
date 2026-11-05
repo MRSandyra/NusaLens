@@ -1,0 +1,6 @@
+hnsw_chunks_embedding: 18.5s
+gin_chunks_tsv: 0.0s
+index chunks_pkey: 2752 kB
+index idx_chunks_embedding: 81 MB
+index idx_chunks_embedding_hnsw: 81 MB
+index idx_chunks_tsv: 1216 kB

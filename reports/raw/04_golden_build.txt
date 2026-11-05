@@ -1,0 +1,13 @@
+loaded chunks=41297 indicators=38216 documents=15000
+bm25 index built over 41297 chunks, avgdl=391.2
+pools: doc=135 sql=105 hybrid=75 abstain=15
+sql verified kept=105 rejected=0
+hybrid verified kept=50 rejected=0
+round-trip: {'doc_rt_pass': 45, 'doc_rt_fail': 0, 'hybrid_rt_pass': 50, 'hybrid_rt_fail': 11}
+final distribution: {'DOC': 45, 'SQL': 35, 'HYBRID': 25, 'ABSTAIN': 15} total=120
+  DOC: 45/45 OK
+  SQL: 35/35 OK
+  HYBRID: 25/25 OK
+  ABSTAIN: 15/15 OK
+wrote D:\campus\Test\nusalens\eval\golden.jsonl rows=120
+sha256=16da4790acd57953cece89809b805eea44e9b0defd6cd650338ee89f9f2f05bf

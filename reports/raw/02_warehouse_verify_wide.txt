@@ -1,0 +1,43 @@
+-- row counts --
+dim_country: 16
+dim_indicator: 53
+fact_indicator: 38216
+documents: 15000
+chunks: 41297
+-- GDP per capita 2023 across countries --
+('Singapore', 'GDP per capita (current US$)', 2023, Decimal('86382.5900499252'))
+('Australia', 'GDP per capita (current US$)', 2023, Decimal('65058.3773146674'))
+('Selandia Baru', 'GDP per capita (current US$)', 2023, Decimal('49302.341876493'))
+('Korea Selatan', 'GDP per capita (current US$)', 2023, Decimal('35674.095995632'))
+('Jepang', 'GDP per capita (current US$)', 2023, Decimal('35215.003535366'))
+('Brunei Darussalam', 'GDP per capita (current US$)', 2023, Decimal('32890.5491812019'))
+('Tiongkok', 'GDP per capita (current US$)', 2023, Decimal('12951.1782397043'))
+('Malaysia', 'GDP per capita (current US$)', 2023, Decimal('11386.0395636528'))
+('Thailand', 'GDP per capita (current US$)', 2023, Decimal('7210.54130832685'))
+('Indonesia', 'GDP per capita (current US$)', 2023, Decimal('4876.2992959843'))
+('Vietnam', 'GDP per capita (current US$)', 2023, Decimal('4322.82572261566'))
+('Philippines', 'GDP per capita (current US$)', 2023, Decimal('3804.08274131718'))
+('India', 'GDP per capita (current US$)', 2023, Decimal('2434.44826340989'))
+('Kamboja', 'GDP per capita (current US$)', 2023, Decimal('2429.74853452838'))
+('Laos', 'GDP per capita (current US$)', 2023, Decimal('2066.94979776957'))
+('Myanmar', 'GDP per capita (current US$)', 2023, Decimal('1233.19666209269'))
+('India', 'GDP per capita growth (annual %)', 2023, Decimal('6.26741791597422'))
+('Tiongkok', 'GDP per capita growth (annual %)', 2023, Decimal('5.52547619540933'))
+('Philippines', 'GDP per capita growth (annual %)', 2023, Decimal('4.66769736272362'))
+('Vietnam', 'GDP per capita growth (annual %)', 2023, Decimal('4.27616318968813'))
+('Indonesia', 'GDP per capita growth (annual %)', 2023, Decimal('4.16733948268603'))
+('Kamboja', 'GDP per capita growth (annual %)', 2023, Decimal('3.66847775428445'))
+('Laos', 'GDP per capita growth (annual %)', 2023, Decimal('2.31116087572821'))
+('Thailand', 'GDP per capita growth (annual %)', 2023, Decimal('2.2957417568134'))
+('Malaysia', 'GDP per capita growth (annual %)', 2023, Decimal('2.26723785284469'))
+('Korea Selatan', 'GDP per capita growth (annual %)', 2023, Decimal('1.50434142529414'))
+('Jepang', 'GDP per capita growth (annual %)', 2023, Decimal('1.21286714128739'))
+('Australia', 'GDP per capita growth (annual %)', 2023, Decimal('1.09251403364293'))
+('Brunei Darussalam', 'GDP per capita growth (annual %)', 2023, Decimal('0.339025318690261'))
+('Myanmar', 'GDP per capita growth (annual %)', 2023, Decimal('0.255328677987336'))
+('Selandia Baru', 'GDP per capita growth (annual %)', 2023, Decimal('-0.502371566531039'))
+('Singapore', 'GDP per capita growth (annual %)', 2023, Decimal('-3.36069477894166'))
+-- read-only role enforcement --
+ro SELECT ok, rows: 38216
+ro DELETE blocked: ReadOnlySqlTransaction cannot execute DELETE in a read-only transaction
+ro CREATE blocked: ReadOnlySqlTransaction cannot execute CREATE TABLE in a read-only transaction

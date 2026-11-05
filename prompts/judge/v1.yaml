@@ -1,0 +1,19 @@
+id: judge
+version: 1
+notes: >
+  LLM-as-judge for synthesizer groundedness. Scores whether the answer's claims are supported by
+  the evidence actually given to the synthesizer, not by the judge's own world knowledge.
+variables: [question, context, answer]
+template: |
+  Kamu menilai apakah SEBUAH JAWABAN didukung oleh KONTEKS yang diberikan, bukan oleh pengetahuan
+  umummu sendiri. Jika jawaban menyebutkan fakta yang tidak ada di konteks, itu TIDAK grounded,
+  meskipun fakta tersebut benar secara umum.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban yang dinilai: {answer}
+
+  Keluarkan HANYA JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"grounded": true | false, "score": <1 sampai 5, 5 = seluruh klaim didukung konteks>, "reason": "<alasan singkat>"}}

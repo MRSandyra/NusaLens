@@ -1,0 +1,18 @@
+=== chunks ===
+rows: 41297
+cols: ['chunk_id', 'doc_id', 'ord', 'heading_path', 'text', 'token_count']
+{'chunk_id': 'wikipedia:Asam_deoksiribonukleat_0', 'doc_id': 'wikipedia:Asam_deoksiribonukleat', 'ord': 0, 'heading_path': 'Asam deoksiribonukleat', 'text': 'Asam deoksiribonukleat, lebih dikenal dengan singkatan DNA (bahasa Inggris: deoxyribonucleic acid), adalah salah satu je...', 'token_count': 450}
+{'chunk_id': 'wikipedia:Asam_deoksiribonukleat_370', 'doc_id': 'wikipedia:Asam_deoksiribonukleat', 'ord': 370, 'heading_path': 'Asam deoksiribonukleat', 'text': 'dan protista) menyimpan kebanyakan DNA-nya dalam inti sel dan sebagian kecil sisanya dalam organel seperti mitokondria a...', 'token_count': 450}
+
+=== indicators ===
+rows: 38216
+cols: ['country_iso3', 'country_value', 'indicator_code', 'indicator_name', 'year', 'value', 'unit']
+{'country_iso3': 'IDN', 'country_value': 'Indonesia', 'indicator_code': 'NY.GDP.PCAP.CD', 'indicator_name': 'GDP per capita (current US$)', 'year': 2024, 'value': 4925.43644992666, 'unit': ''}
+{'country_iso3': 'IDN', 'country_value': 'Indonesia', 'indicator_code': 'NY.GDP.PCAP.CD', 'indicator_name': 'GDP per capita (current US$)', 'year': 2023, 'value': 4876.2992959843, 'unit': ''}
+
+=== documents ===
+rows: 15000
+cols: ['doc_id', 'source', 'title', 'url', 'lang', 'published_at', 'license', 'text']
+{'doc_id': 'wikipedia:Asam_deoksiribonukleat', 'source': 'S2_wikipedia_id', 'title': 'Asam deoksiribonukleat', 'url': 'https://id.wikipedia.org/wiki/Asam%20deoksiribonukleat', 'lang': 'id', 'published_at': None, 'license': 'CC BY-SA 4.0', 'text': 'Asam deoksiribonukleat, lebih dikenal dengan singkatan DNA (bahasa Inggris: deoxyribonucleic acid), adalah salah satu je...'}
+{'doc_id': 'wikipedia:Anwar_Sadat', 'source': 'S2_wikipedia_id', 'title': 'Anwar Sadat', 'url': 'https://id.wikipedia.org/wiki/Anwar%20Sadat', 'lang': 'id', 'published_at': None, 'license': 'CC BY-SA 4.0', 'text': 'Muhammad Anwar el-Sadat; ) adalah seorang politikus Mesir yang menjabat sebagai presiden Mesir ketiga, dari 15 Oktober 1...'}
+

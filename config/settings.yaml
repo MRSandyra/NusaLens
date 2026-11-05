@@ -1,0 +1,45 @@
+retrieval:
+  mode: rrf_rerank_exp
+  rrf_k: 60
+  top_k_dense: 50
+  top_k_sparse: 50
+  rerank_top_n: 15
+  final_top_k: 8
+
+chunking:
+  target_tokens: 450
+  overlap_tokens: 80
+  min_tokens: 80
+
+embedding:
+  model: intfloat/multilingual-e5-small
+  dimension: 384
+  batch_size: 64
+  query_prefix: "query: "
+  passage_prefix: "passage: "
+
+reranker:
+  model: BAAI/bge-reranker-base
+  device: cpu
+
+llm:
+  endpoint: http://localhost:11434
+  model: qwen3:4b
+  temperature: 0.0
+  max_tokens: 1024
+
+sql_guard:
+  default_limit: 200
+  statement_timeout_ms: 5000
+  max_explain_cost: 1000000
+
+data_quality:
+  max_null_ratio: 0.05
+  min_year: 1960
+  min_document_chars: 300
+
+prompts:
+  router: v1
+  text2sql: v2
+  synthesizer: v1
+  judge: v3

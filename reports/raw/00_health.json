@@ -1,0 +1,26 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4526.86it/s]
+{
+  "overall": "OK",
+  "checks": {
+    "database": {
+      "status": "OK",
+      "server_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg12+2)",
+      "pgvector": "0.8.6"
+    },
+    "llm": {
+      "status": "OK",
+      "model": "qwen3:4b",
+      "available": [
+        "qwen3:4b",
+        "qwen2.5-coder:7b"
+      ]
+    },
+    "embedding": {
+      "status": "OK",
+      "model": "intfloat/multilingual-e5-small",
+      "dimension": 384,
+      "device": "cpu"
+    }
+  }
+}

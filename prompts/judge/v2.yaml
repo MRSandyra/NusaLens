@@ -1,0 +1,33 @@
+id: judge
+version: 2
+notes: >
+  v1 plus two explicit rules found missing by calibration against 20 hand-labeled transcripts
+  (reports/raw/08_judge_calibration.json, 55% agreement for v1): (1) correctly declining to answer
+  because the context does not cover the entity/fact must be scored as grounded, not penalized for
+  lacking a supporting quote, and (2) each individual factual claim in the answer must be checked
+  against context separately, since a fluent answer can mix one supported fact with one fabricated
+  one and still read as plausible overall.
+variables: [question, context, answer]
+template: |
+  Kamu menilai apakah SEBUAH JAWABAN didukung oleh KONTEKS yang diberikan, bukan oleh pengetahuan
+  umummu sendiri.
+
+  Periksa jawaban kalimat demi kalimat atau klaim demi klaim, bukan kesan keseluruhan. Jika satu
+  saja klaim faktual (angka, nama, sebab-akibat) tidak dapat ditemukan di konteks, jawaban TIDAK
+  grounded secara keseluruhan, meskipun klaim lain di jawaban yang sama benar atau terdengar masuk
+  akal.
+
+  Pengecualian penting: jika konteks TIDAK memuat informasi yang relevan dengan pertanyaan (termasuk
+  saat entitas dalam pertanyaan fiktif atau tidak ada di dunia nyata), dan jawaban secara jujur
+  menyatakan bahwa data tidak tersedia atau tidak dapat ditemukan di konteks TANPA mengarang angka
+  atau fakta pengganti, maka itu grounded (skor 4 atau 5). Menolak menjawab karena bukti tidak ada
+  adalah perilaku yang benar, bukan kegagalan.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban yang dinilai: {answer}
+
+  Keluarkan HANYA JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"grounded": true | false, "score": <1 sampai 5, 5 = seluruh klaim didukung konteks atau abstain jujur>, "reason": "<alasan singkat, sebutkan klaim mana yang didukung/tidak>"}}

@@ -1,0 +1,34 @@
+{
+  "batch_size": 32,
+  "effective_batch": 128,
+  "used_cached_loss": false,
+  "matryoshka_dims": [
+    384,
+    256,
+    128,
+    64
+  ],
+  "epochs": 2,
+  "learning_rate": 2e-05,
+  "warmup_ratio": 0.1,
+  "peak_vram_mb": 9009.3,
+  "wall_time_s": 349.4,
+  "n_train_triplets": 13041,
+  "val_ir_scores": {
+    "nusalens-val_cosine_accuracy@1": 0.7306967984934086,
+    "nusalens-val_cosine_accuracy@3": 0.8587570621468926,
+    "nusalens-val_cosine_accuracy@5": 0.9020715630885122,
+    "nusalens-val_cosine_accuracy@10": 0.935969868173258,
+    "nusalens-val_cosine_precision@1": 0.7306967984934086,
+    "nusalens-val_cosine_precision@3": 0.2862523540489642,
+    "nusalens-val_cosine_precision@5": 0.18041431261770247,
+    "nusalens-val_cosine_precision@10": 0.09359698681732581,
+    "nusalens-val_cosine_recall@1": 0.7306967984934086,
+    "nusalens-val_cosine_recall@3": 0.8587570621468926,
+    "nusalens-val_cosine_recall@5": 0.9020715630885122,
+    "nusalens-val_cosine_recall@10": 0.935969868173258,
+    "nusalens-val_cosine_ndcg@10": 0.8358434838899859,
+    "nusalens-val_cosine_mrr@10": 0.8034466266104683,
+    "nusalens-val_cosine_map@100": 0.8052503722142116
+  }
+}

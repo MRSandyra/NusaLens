@@ -1,0 +1,315 @@
+{
+  "chunks": {
+    "columns": [
+      {
+        "name": "chunk_id",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "doc_id",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "ord",
+        "type": "integer",
+        "nullable": "NO"
+      },
+      {
+        "name": "heading_path",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "text",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "token_count",
+        "type": "integer",
+        "nullable": "YES"
+      },
+      {
+        "name": "embedding",
+        "type": "USER-DEFINED",
+        "nullable": "YES"
+      },
+      {
+        "name": "tsv",
+        "type": "tsvector",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "dim_country": {
+    "columns": [
+      {
+        "name": "iso3",
+        "type": "character",
+        "nullable": "NO"
+      },
+      {
+        "name": "name_id",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "name_en",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "region",
+        "type": "text",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "dim_dataset": {
+    "columns": [
+      {
+        "name": "dataset_id",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "publisher",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "license",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "dim_indicator": {
+    "columns": [
+      {
+        "name": "code",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "name_id",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "name_en",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "unit",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "topic",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "source",
+        "type": "text",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "documents": {
+    "columns": [
+      {
+        "name": "doc_id",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "source",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "lang",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "license",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "published_at",
+        "type": "date",
+        "nullable": "YES"
+      },
+      {
+        "name": "text",
+        "type": "text",
+        "nullable": "NO"
+      }
+    ],
+    "sample_rows": []
+  },
+  "eval_run": {
+    "columns": [
+      {
+        "name": "run_id",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "tag",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "started_at",
+        "type": "timestamp with time zone",
+        "nullable": "YES"
+      },
+      {
+        "name": "finished_at",
+        "type": "timestamp with time zone",
+        "nullable": "YES"
+      },
+      {
+        "name": "metrics",
+        "type": "jsonb",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "fact_indicator": {
+    "columns": [
+      {
+        "name": "iso3",
+        "type": "character",
+        "nullable": "NO"
+      },
+      {
+        "name": "indicator_code",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "year",
+        "type": "integer",
+        "nullable": "NO"
+      },
+      {
+        "name": "value",
+        "type": "numeric",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "query_log": {
+    "columns": [
+      {
+        "name": "log_id",
+        "type": "integer",
+        "nullable": "NO"
+      },
+      {
+        "name": "question",
+        "type": "text",
+        "nullable": "NO"
+      },
+      {
+        "name": "route",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "sql",
+        "type": "text",
+        "nullable": "YES"
+      },
+      {
+        "name": "retrieved_chunk_ids",
+        "type": "ARRAY",
+        "nullable": "YES"
+      },
+      {
+        "name": "per_stage_latency_ms",
+        "type": "jsonb",
+        "nullable": "YES"
+      },
+      {
+        "name": "token_counts",
+        "type": "jsonb",
+        "nullable": "YES"
+      },
+      {
+        "name": "prompt_versions",
+        "type": "jsonb",
+        "nullable": "YES"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": []
+  },
+  "schema_migrations": {
+    "columns": [
+      {
+        "name": "version",
+        "type": "integer",
+        "nullable": "NO"
+      },
+      {
+        "name": "applied_at",
+        "type": "timestamp with time zone",
+        "nullable": "YES"
+      }
+    ],
+    "sample_rows": [
+      {
+        "version": 1,
+        "applied_at": "2026-09-30 08:14:59.224456+00:00"
+      },
+      {
+        "version": 2,
+        "applied_at": "2026-09-30 08:14:59.241216+00:00"
+      },
+      {
+        "version": 3,
+        "applied_at": "2026-09-30 08:14:59.248872+00:00"
+      }
+    ]
+  }
+}

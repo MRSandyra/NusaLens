@@ -1,0 +1,15 @@
+id: router
+version: 2
+notes: v1 + structured JSON output, so the label can be parsed without relying on the model stopping after one word.
+variables: [question]
+template: |
+  Klasifikasikan pertanyaan berikut ke dalam salah satu dari empat kategori:
+  - SQL: pertanyaan tentang angka/statistik dari data indikator (PDB, inflasi, populasi, dan sejenisnya) yang bisa dijawab dengan satu query.
+  - DOC: pertanyaan tentang penjelasan, definisi, sejarah, atau konteks naratif dari sebuah artikel.
+  - HYBRID: pertanyaan yang meminta tren/angka DAN konteks penjelasan sekaligus.
+  - ABSTAIN: pertanyaan yang datanya tidak tersedia atau tidak bisa dijawab secara faktual dari data yang ada (misalnya menyebut tahun di masa depan, atau topik di luar cakupan data).
+
+  Pertanyaan: {question}
+
+  Jawab HANYA dengan JSON satu baris dalam format berikut, tanpa teks lain:
+  {{"type": "SQL" | "DOC" | "HYBRID" | "ABSTAIN", "reason": "<alasan singkat>"}}

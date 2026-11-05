@@ -1,0 +1,26 @@
+{
+  "os": "Windows-10-10.0.26300-SP0",
+  "python_version": "3.11.18 (main, Oct 26 2026, 14:08:50) [MSC v.1944 64 bit (AMD64)]",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "cpu_count": 20,
+  "ram": {
+    "total_mb": 32452,
+    "available_mb": 18311
+  },
+  "disk_free_gb": 534.38,
+  "gpu_nvidia_smi": {
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "vram_total_mb": 16311,
+    "vram_used_mb": 1019,
+    "vram_free_mb": 15032,
+    "driver_version": "621.01"
+  },
+  "torch": {
+    "torch_installed": true,
+    "torch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_device_name": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda_total_vram_mb": 16283
+  },
+  "disk_ok": true
+}

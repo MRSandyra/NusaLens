@@ -1,0 +1,162 @@
+[
+  {
+    "qid": "doc-007",
+    "question": "Dalam artikel Kanada, bagaimana negaranya dijelaskan kaitannya dengan sebagaimana dan kanada?",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Kanada_2960"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Provinsi_dan_wilayah_di_Kanada_0",
+      "wikipedia:Kanada_0",
+      "wikipedia:Kanada_1850",
+      "wikipedia:Kanada_2590",
+      "wikipedia:Negara_370"
+    ],
+    "cause": "entity confusion (Kanada vs Provinsi dan wilayah di Kanada)"
+  },
+  {
+    "qid": "hybrid-081",
+    "question": "Ringkas pembahasan menurun dalam artikel Antarktika, lalu sebutkan nilai Gini index Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Antarktika_5180"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Indonesia_17020",
+      "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740",
+      "wikipedia:Inflasi_740",
+      "wikipedia:Antarktika_4810",
+      "wikipedia:Analisis_fundamental_1110"
+    ],
+    "cause": "dual-intent query: indicator clause drags retrieval to indicator-topic chunks"
+  },
+  {
+    "qid": "hybrid-084",
+    "question": "Ringkas pembahasan setan dalam artikel Iblis, lalu sebutkan nilai Imports of goods and services (current US$) Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Iblis_2960"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Iblis_4070",
+      "wikipedia:Inflasi_370",
+      "wikipedia:Surah_Al-Hijr_370",
+      "wikipedia:Roh_370",
+      "wikipedia:One_Piece_1480"
+    ],
+    "cause": "dual-intent query: indicator clause drags retrieval to indicator-topic chunks"
+  },
+  {
+    "qid": "hybrid-085",
+    "question": "Ringkas pembahasan paduan dalam artikel Tembaga, lalu sebutkan nilai Adolescent fertility rate (births per 1,000 women ages 15-19) Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Tembaga_5180"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Demografi_370",
+      "wikipedia:Indonesia_17020",
+      "wikipedia:Ledakan_populasi_0",
+      "wikipedia:Mangan_2960",
+      "wikipedia:Penduduk_0"
+    ],
+    "cause": "dual-intent query: indicator clause drags retrieval to indicator-topic chunks"
+  },
+  {
+    "qid": "hybrid-086",
+    "question": "Ringkas pembahasan ambon dalam artikel Johannes Leimena, lalu sebutkan nilai Exports of goods and services (current US$) Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Johannes_Leimena_370"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Johannes_Latuharhary_370",
+      "wikipedia:Johannes_Leimena_0",
+      "wikipedia:Johannes_Latuharhary_2220",
+      "wikipedia:Johannes_Leimena_3330",
+      "wikipedia:Johannes_Latuharhary_1850"
+    ],
+    "cause": "entity confusion (Johannes Leimena vs Johannes Latuharhary, similar biographies)"
+  },
+  {
+    "qid": "hybrid-087",
+    "question": "Ringkas pembahasan konsentrasi dalam artikel Timbal, lalu sebutkan nilai GDP per capita (current US$) Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Timbal_5920"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Produk_domestik_bruto_0",
+      "wikipedia:Ekonomi_Indonesia_0",
+      "wikipedia:Produk_domestik_bruto_370",
+      "wikipedia:Penduduk_1110",
+      "wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740"
+    ],
+    "cause": "dual-intent query: indicator clause drags retrieval to indicator-topic chunks"
+  },
+  {
+    "qid": "hybrid-090",
+    "question": "Ringkas pembahasan menumbangkan dalam artikel Mikrobiologi, lalu sebutkan nilai Air transport, passengers carried Indonesia tahun 2023.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Mikrobiologi_370"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Marga_Minahasa_1110",
+      "wikipedia:Marga_Minahasa_740",
+      "wikipedia:Marga_Minahasa_1850",
+      "wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_4070",
+      "wikipedia:Pangan_0"
+    ],
+    "cause": "weak lexical signal: rare content word, no strong term overlap with gold chunk"
+  },
+  {
+    "qid": "hybrid-091",
+    "question": "Ringkas pembahasan antitumor dalam artikel Lipid, lalu sebutkan nilai Domestic credit to private sector (% of GDP) Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Lipid_1480"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Analisis_fundamental_1110",
+      "wikipedia:Sri_Mulyani_1850",
+      "wikipedia:Ekonomi_Indonesia_0",
+      "wikipedia:Pasar_valuta_asing_740",
+      "wikipedia:Informasi_370"
+    ],
+    "cause": "dual-intent query: indicator clause drags retrieval to indicator-topic chunks"
+  },
+  {
+    "qid": "hybrid-092",
+    "question": "Ringkas pembahasan prix dalam artikel Manga, lalu sebutkan nilai Energy use (kg of oil equivalent per capita) Indonesia tahun 2023.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Manga_4440"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Marga_Minahasa_1110",
+      "wikipedia:Kilang_minyak_370",
+      "wikipedia:Marga_Minahasa_740",
+      "wikipedia:Ari_Hernanto_Soemarno_370",
+      "wikipedia:Informasi_740"
+    ],
+    "cause": "near-homonym confusion (Manga vs Marga Minahasa)"
+  },
+  {
+    "qid": "hybrid-096",
+    "question": "Ringkas pembahasan purwokerto dalam artikel Purwokerto (kota), lalu sebutkan nilai Population growth (annual %) Indonesia tahun 2024.",
+    "ndcg_10": 0.0,
+    "gold_chunk_ids": [
+      "wikipedia:Purwokerto_(kota)_2220"
+    ],
+    "top5_retrieved": [
+      "wikipedia:Indonesia_17020",
+      "wikipedia:Nusa_Tenggara_Timur_740",
+      "wikipedia:Purwakarta,_Purwakarta_0",
+      "wikipedia:Ledakan_populasi_0",
+      "wikipedia:Kota_2960"
+    ],
+    "cause": "near-homonym confusion (Purwokerto vs Purwakarta)"
+  }
+]

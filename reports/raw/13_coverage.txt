@@ -1,0 +1,50 @@
+........................................................................ [ 73%]
+..........................                                               [100%]
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.11.18-final-0 _______________
+
+Name                                       Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------
+src\nusalens\__init__.py                       1      0   100%
+src\nusalens\agents\__init__.py                0      0   100%
+src\nusalens\agents\entity_resolution.py      50      2    96%   46, 54
+src\nusalens\agents\router.py                 60     11    82%   26-30, 34-38, 72, 89, 99
+src\nusalens\agents\sql_guard.py              56      8    86%   39, 46-47, 51, 55, 65-66, 70
+src\nusalens\agents\synthesizer.py            34      3    91%   40, 43-44
+src\nusalens\agents\text2sql.py               93     18    81%   34, 69-71, 90-91, 100-101, 105-107, 120, 132-133, 138, 143-145
+src\nusalens\api\__init__.py                   0      0   100%
+src\nusalens\api\app.py                      143     19    87%   31-33, 38-40, 72, 160-161, 167-168, 178-185
+src\nusalens\cli.py                          162     42    74%   31-32, 41, 43-44, 52-53, 55, 62-63, 73-74, 98, 104-119, 139, 150-151, 158, 180-181, 194, 200, 204, 209, 218, 222-226, 232
+src\nusalens\config.py                        46      1    98%   76
+src\nusalens\data_cli.py                      43     25    42%   19-71, 81-82, 89
+src\nusalens\eval\__init__.py                  0      0   100%
+src\nusalens\eval\e2e_harness.py              55     55     0%   11-93
+src\nusalens\eval\retrieval_harness.py        68     38    44%   40-41, 45-119, 123
+src\nusalens\index\__init__.py                 0      0   100%
+src\nusalens\ingest\__init__.py                0      0   100%
+src\nusalens\ingest\base.py                   72     16    78%   58-69, 78, 99-100, 103
+src\nusalens\ingest\wikipedia.py              45     45     0%   1-69
+src\nusalens\ingest\wikipedia_filters.py      25      0   100%
+src\nusalens\ingest\worldbank.py              71     71     0%   1-125
+src\nusalens\llm\__init__.py                   0      0   100%
+src\nusalens\llm\judge.py                     18      0   100%
+src\nusalens\llm\ollama_client.py             32      8    75%   39-46, 55-56
+src\nusalens\llm\prompt_registry.py           24      0   100%
+src\nusalens\mcp_server\__init__.py            0      0   100%
+src\nusalens\mcp_server\main.py              162     51    69%   49-51, 88-109, 137-163, 183-184, 195-196, 209-210, 236-237, 298-301, 305
+src\nusalens\obs\__init__.py                   0      0   100%
+src\nusalens\observability.py                  6      0   100%
+src\nusalens\pipeline.py                     141     34    76%   56-58, 87, 116, 132, 169-211
+src\nusalens\retrieval\__init__.py             0      0   100%
+src\nusalens\retrieval\chunker.py             28      3    89%   37-39
+src\nusalens\retrieval\embed_chunks.py        31      2    94%   52-53
+src\nusalens\retrieval\hybrid_search.py       71     10    86%   41, 49-52, 56-59, 93
+src\nusalens\retrieval\query_expand.py        23      4    83%   14, 22, 30-31
+src\nusalens\retrieval\search_dense.py        29      0   100%
+src\nusalens\retrieval\search_sparse.py       35      2    94%   25, 48
+src\nusalens\warehouse\__init__.py             0      0   100%
+src\nusalens\warehouse\schema_card.py         23      4    83%   36-39
+src\nusalens\warehouse\seed.py                58     31    47%   61-76, 80-95, 99-111
+------------------------------------------------------------------------
+TOTAL                                       1705    503    70%
+98 passed in 374.09s (0:06:14)

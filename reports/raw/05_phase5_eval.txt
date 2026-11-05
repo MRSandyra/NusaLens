@@ -1,0 +1,38 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Evaluating dense...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3443.19it/s]
+D:\My Life\Projects\nusalens\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\User\.cache\huggingface\hub\models--BAAI--bge-reranker-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+D:\My Life\Projects\nusalens\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\User\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  15%|#4        | 30/201 [00:00<00:00, 294.00it/s]Loading weights:  36%|###6      | 73/201 [00:00<00:00, 370.47it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 697.35it/s]
+  recall@1=27.14%, recall@10=50.00%, ndcg@10=0.390
+Evaluating sparse...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2578.30it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   4%|4         | 9/201 [00:00<00:10, 18.78it/s]Loading weights:  25%|##5       | 51/201 [00:00<00:01, 109.62it/s]Loading weights:  52%|#####1    | 104/201 [00:00<00:00, 211.15it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 285.69it/s]
+  recall@1=38.57%, recall@10=75.71%, ndcg@10=0.584
+Evaluating rrf...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3235.32it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  27%|##6       | 54/201 [00:00<00:00, 516.54it/s]Loading weights:  53%|#####2    | 106/201 [00:00<00:00, 514.52it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 901.72it/s]
+  recall@1=38.57%, recall@10=75.71%, ndcg@10=0.564
+Evaluating rrf_rerank...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3070.94it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   1%|          | 2/201 [00:00<00:40,  4.89it/s]Loading weights:  14%|#3        | 28/201 [00:00<00:02, 70.62it/s]Loading weights:  40%|###9      | 80/201 [00:00<00:00, 189.46it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 307.38it/s]
+  recall@1=44.29%, recall@10=80.00%, ndcg@10=0.630
+Evaluating rrf_rerank_exp...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3051.59it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  27%|##7       | 55/201 [00:00<00:00, 549.16it/s]Loading weights:  61%|######1   | 123/201 [00:00<00:00, 592.60it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 874.80it/s]
+  recall@1=44.29%, recall@10=80.00%, ndcg@10=0.630
+
+Results saved to D:\My Life\Projects\nusalens\reports\raw\05_retrieval_summary.json
+
+=== Comparison Table ===
+Mode       | Recall@1 | Recall@10 | MRR@10 | nDCG@10 | p50ms | p95ms
+-----------|----------|-----------|--------|---------|-------|-------
+dense      |    27.1% |     50.0% |  0.354 |   0.390 |  42.8 |   50.5
+sparse     |    38.6% |     75.7% |  0.527 |   0.584 |  47.3 |   76.4
+rrf        |    38.6% |     75.7% |  0.503 |   0.564 |  99.0 |  134.5
+rrf_rerank |    44.3% |     80.0% |  0.574 |   0.630 | 4689.8 | 4878.2
+rrf_rerank_exp |    44.3% |     80.0% |  0.574 |   0.630 | 4637.6 | 4702.8

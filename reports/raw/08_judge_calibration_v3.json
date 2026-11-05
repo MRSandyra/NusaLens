@@ -1,0 +1,166 @@
+{
+  "agreement_rate": 0.6,
+  "n_items": 20,
+  "rows": [
+    {
+      "qid": "doc-041",
+      "human": false,
+      "judge": false,
+      "score": 0,
+      "agree": true,
+      "reason": ""
+    },
+    {
+      "qid": "doc-008",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true,
+      "reason": "Jawaban hanya menegaskan bahwa artikel tidak menjelaskan kaitan antara pembaca dan rutenium, tetapi tidak menyatakan apakah klaim tersebut didukung oleh konteks artikel"
+    },
+    {
+      "qid": "doc-002",
+      "human": false,
+      "judge": true,
+      "score": 4,
+      "agree": false,
+      "reason": "Jawaban menegaskan fakta yang didukung oleh konteks dan menolak klaim yang tidak didukung, seperti klaim tentang istilah 'akrab' yang tidak disebutkan dalam artikel dan tidak relevan dengan konteks artikel."
+    },
+    {
+      "qid": "doc-018",
+      "human": true,
+      "judge": true,
+      "score": 4,
+      "agree": true,
+      "reason": "Jawaban menegaskan fakta dan menunjukkan pemahaman tentang perubahan pendirian Mussolini dari sosialis ke fasis, tetapi tidak mencakup semua aspek sosialisme yang dijelaskan dalam artikel tersebut."
+    },
+    {
+      "qid": "doc-016",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true,
+      "reason": "Jawaban hanya menegaskan bahwa artikel Astrofisika tidak membahas kaitan antara Williamina Fleming, Antonia, atau Alexander Fleming dengan topik astrofisika, tanpa memberikan alasan atau bukti yang lebih lanjut untuk mengklaim bahwa tidak ada kaitan tersebut."
+    },
+    {
+      "qid": "doc-015",
+      "human": true,
+      "judge": true,
+      "score": 4,
+      "agree": true,
+      "reason": "jawaban menegaskan fakta dan menunjukkan kaitan antara nama Pius dan Giovanni dalam konteks Gereja Katolik"
+    },
+    {
+      "qid": "doc-009",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true,
+      "reason": "Teks tidak menyebutkan kaitan pemuda dengan dhibaa dan rusa di Abu Dhabi"
+    },
+    {
+      "qid": "doc-007",
+      "human": true,
+      "judge": true,
+      "score": 4,
+      "agree": true,
+      "reason": "Jawaban menegaskan fakta yang didukung oleh konteks dan tidak menolak klaim-klaim yang disebutkan dalam artikel"
+    },
+    {
+      "qid": "doc-035",
+      "human": false,
+      "judge": true,
+      "score": 4,
+      "agree": false,
+      "reason": "Jawaban menegaskan fakta yang didukung oleh teks dan menolak klaim yang tidak didukung, seperti mengatakan tahun 2003 dan variasi curah hujan 900-4920 mm per tahun untuk provinsi Sumatera Selatan, bukan kabupaten Ogan Komering Ilir."
+    },
+    {
+      "qid": "doc-006",
+      "human": false,
+      "judge": false,
+      "score": 2,
+      "agree": true,
+      "reason": "Jawaban menegaskan bahwa artikel tidak membahas tentang duduk, menit, atau suasana, meskipun klaim ini benar berdasarkan konteks artikel yang hanya membahas radon, tidak ada kaitannya dengan menit atau suasana. Namun, jawaban menolak klaim yang tidak didukung secara langsung tanpa menambahkan argumen yang lebih spesifik mengenai keterkaitan artikel dengan topik-topik tersebut."
+    },
+    {
+      "qid": "hybrid-099",
+      "human": false,
+      "judge": false,
+      "score": 2,
+      "agree": true,
+      "reason": "Jawaban menegaskan fakta bahwa artikel tidak menyebutkan informasi tentang Pulau Kolepom, namun menyatakan bahwa data terakhir untuk Indonesia pada tahun 2022 adalah 77% pengguna internet. Informasi tentang tahun 2024 tidak disebutkan dalam artikel."
+    },
+    {
+      "qid": "hybrid-094",
+      "human": false,
+      "judge": false,
+      "score": 3,
+      "agree": true,
+      "reason": "Jawaban menegaskan bahwa tidak ada informasi tentang artikel Uni Afrika dalam teks yang diberikan, yang benar. Namun, jawaban tidak menolak klaim tentang nilai Life expectancy at birth untuk Indonesia tahun 2024, yang tidak dapat diringkas dalam teks yang diberikan."
+    },
+    {
+      "qid": "hybrid-082",
+      "human": true,
+      "judge": true,
+      "score": 4,
+      "agree": true,
+      "reason": "Jawaban menegaskan fakta yang didukung oleh konteks dan menolak klaim yang tidak didukung, seperti data Access to electricity (% of population) Indonesia tahun 2024 yang belum dirilis"
+    },
+    {
+      "qid": "hybrid-081",
+      "human": false,
+      "judge": false,
+      "score": 1,
+      "agree": true,
+      "reason": "Jawaban menolak klaim tentang Gini index Indonesia tahun 2024 dan tidak menyertakan klaim tentang Antarktika yang disebutkan dalam pertanyaan"
+    },
+    {
+      "qid": "hybrid-083",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false,
+      "reason": ""
+    },
+    {
+      "qid": "abstain-109",
+      "human": true,
+      "judge": false,
+      "score": 5,
+      "agree": false,
+      "reason": "Jawaban menegaskan bahwa Bank Dunia tidak menyediakan data untuk negara fiksi dan mengatakan bahwa Gondor adalah negara fiksi, yang didukung oleh konteks yang menyebutkan Gondor adalah negara fiksi dalam karya sastra J.R.R. Tolkien."
+    },
+    {
+      "qid": "abstain-120",
+      "human": true,
+      "judge": false,
+      "score": 1,
+      "agree": false,
+      "reason": "Jawaban hanya menegaskan bahwa data tidak tersedia dan tidak mengklaim mendukung atau menolak klaim spesifik tentang nilai PDB per kapita Indonesia pada tahun 1850."
+    },
+    {
+      "qid": "abstain-114",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false,
+      "reason": "Jawaban menolak klaim dan tidak memberikan data PDB untuk Atlantis, yang merupakan fakta yang tidak dapat didukung atau ditolak berdasarkan konteks yang diberikan."
+    },
+    {
+      "qid": "abstain-115",
+      "human": true,
+      "judge": false,
+      "score": 1,
+      "agree": false,
+      "reason": "Jawaban menolak klaim yang diberikan dan tidak ada dalam konteks yang diberikan"
+    },
+    {
+      "qid": "abstain-106",
+      "human": true,
+      "judge": false,
+      "score": 0,
+      "agree": false,
+      "reason": "Jawaban menolak klaim tentang PDB per kapita Wakanda dan tidak memberikan alasan yang valid untuk menolak klaim tersebut."
+    }
+  ]
+}

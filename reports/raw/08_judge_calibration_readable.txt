@@ -1,0 +1,300 @@
+=== doc-041 (DOC) ===
+Q: Dalam artikel Indonesia, bagaimana knil dijelaskan kaitannya dengan dikerahkan dan padri?
+GOLD FACTS: ['knil', 'dikerahkan', 'padri']
+ANSWER: Dalam artikel tersebut, "keterlibatan" (mungkin yang dimaksudkan sebagai typo dari "knil") dijelaskan sebagai kaitannya dengan "dikerahkan" (mobilisasi) dan "padri" sebagai berikut: Kaum Padri merupakan kelompok Islam yang puritan yang telah menunaikan haji ke Makkah dan kemudian secara aktif menggerakkan (mobilisasi) masyarakat untuk memperbaiki adat istiadat melalui penerapan Al-Quran dan syariah. Hal ini menyebabkan konflik dengan pemerintah tradisional di Sumatra, sehingga pada tahun 1821, p
+CONTEXT:
+  [wikipedia:Sejarah_Nusantara_(1800–1942)_2220] Hindia Timur" (belakangan dikenal sebagai KNIL). 1831 Pemerintah Hindia Belanda berhasil membuat anggaran berimbang. Pasukan-pasukan Belanda memerangi kaum Padri di Sumatra dan mencapai wilayah Bonjol. 1832 Belanda menggulingkan Sultan Jailolo dan me
+  [wikipedia:Hindia_Belanda_4440] penjara di seluruh koloni. Penjara Meester Cornelis di Batavia memenjarakan narapidana yang paling bandel. Di penjara Sawahlunto di Sumatra para tahanan harus melakukan kerja kasar di tambang batu bara. Penjara terpisah dibangun untuk remaja (Jawa Ba
+  [wikipedia:Tentara_Nasional_Indonesia_0] Tentara Nasional Indonesia (disingkat TNI) adalah nama untuk angkatan bersenjata dari negara Indonesia. Pada awal dibentuk, lembaga ini bernama Tentara Keamanan Rakyat (TKR) ,lalu TKR dibubarkan dan kemudian berdirilah Tentara Republik Indonesia (TRI
+  [wikipedia:Indonesia_6290] KNIL kembali dikerahkan setelah Perang Padri selesai pada tahun 1838, dan pada tahun yang sama, pihak Bone akhirnya menyerah dan bersedia mengakui kembali Perjanjian Bungaya. Di Jawa, pemerintah kolonial Belanda merencanakan pembangunan jalan di seki
+  [wikipedia:Hindia_Belanda_1480] dibangun untuk menanam tanaman komersial dan suku Jawa, Cina, Melayu, Batak, dan India. orang dikirim ke perkebunan di Sumatera dan Jawa untuk melakukan kerja kasar. Diperkirakan lebih dari 500.000 kuli diangkut ke Sumatera selama akhir abad ke-19 da
+  [wikipedia:Hindia_Belanda_4810] wilayah Aceh selama empat dekade dalam perang gerilya yang sangat menguras biaya, dengan tingkat korban yang tinggi di kedua belah pihak. Otoritas militer kolonial berusaha mencegah perang terhadap penduduk dengan menggunakan 'strategi kekaguman'. Ke
+  [wikipedia:Perang_Padri_0] Perang Padri (juga dikenal sebagai Perang Minangkabau) adalah perang yang terjadi dari tahun 1803 sampai 1837 di Sumatera Barat, Indonesia antara kaum Padri dan Adat. Kaum Padri adalah umat muslim yang ingin menerapkan Syariat Islam di negeri Minangk
+  [wikipedia:Pengadilan_Agama_370] Indonesia adalah Peradilan Agama yang merupakan peradilan khusus, bertugas dan berwenang menerima, memutus, mempertimbangkan kronologis kejadian yang sebenarnya, bukti-bukti yang sebenarnya tampa di rekayasa dan menyelesaikan perkara-perkara di tingk
+
+=== doc-008 (DOC) ===
+Q: Dalam artikel Rutenium, bagaimana menghormati dijelaskan kaitannya dengan saya dan rutenium?
+GOLD FACTS: ['menghormati', 'saya', 'rutenium']
+ANSWER: Dalam artikel Rutenium yang Anda sebutkan, **tidak ada penjelasan mengenai kaitan antara "saya" (diri Anda) dan rutenium**. Artikel tersebut berisi informasi teknis tentang sifat kimia, produksi, aplikasi, dan sumber rutenium sebagai unsur kimia, tetapi **tidak menyebutkan hubungan atau kaitan dengan pembaca (saya)**. Artikel ini fokus pada aspek ilmiah dan teknis rutenium, seperti struktur kristal, penggunaan dalam reaktor nuklir, ekstraksi, dan sifat kimia, tanpa merujuk pada individu atau kon
+CONTEXT:
+  [wikipedia:Rutenium_0] Rutenium adalah sebuah unsur kimia dengan lambang Ru dan nomor atom 44. Ia adalah sebuah logam transisi langka yang termasuk dalam golongan platina pada tabel periodik. Seperti logam lain dari golongan platina, rutenium tidak bereaksi terhadap sebagi
+  [wikipedia:Rutenium_2220] untuk menghormati Tanah Air saya, dengan rutenium. Saya berhak menyebutnya dengan nama ini karena Tn. Osann melepaskan ruteniumnya dan kata itu belum ada dalam kimia." Dengan demikian, Claus memulai tren yang berlanjut hingga hari ini - menamai sebua
+  [wikipedia:Rodium_0] Rodium adalah sebuah unsur kimia dengan lambang Rh dan nomor atom 45. Ia adalah sebuah logam transisi yang sangat langka, berwarna putih keperakan, keras, dan tahan korosi. Ia merupakan salah satu logam mulia dan anggota golongan platina. Ia hanya me
+  [wikipedia:Logam_alkali_11470] rubidium, dan nilai ini ditingkatkan sebesar 50 sampai 100 kali tidak menunjukkan efek negatif pada orang yang diuji. Tikus dapat bertahan hingga 50% substitusi kalium oleh rubidium. Rubidium (dan pada tingkat yang lebih rendah cesium) dapat berfungs
+  [wikipedia:Rutenium_370] pertama dari kiri tabel periodik di mana logam transisi baris kedua dan ketiga menunjukkan perbedaan mencolok dalam perilaku kimia. Seperti besi tetapi tidak seperti osmium, rutenium dapat membentuk kation berair dalam keadaan oksidasi yang lebih ren
+  [wikipedia:Praseodimium_2590] objek utama persaingan geopolitik di dunia yang menggunakan energi terbarukan. Namun, perspektif ini telah dikritik karena gagal mengenali bahwa sebagian besar turbin angin tidak menggunakan magnet permanen dan karena meremehkan kekuatan insentif eko
+  [wikipedia:Rutenium_740] dalam strukturnya). Rutenium memiliki hasil produk fisi yang relatif tinggi dalam fisi nuklir dan mengingat radioisotopnya yang berumur paling panjang memiliki waktu paruh "hanya" sekitar satu tahun, sering muncul proposal untuk memulihkan rutenium d
+  [wikipedia:Rutenium_1110] atau logam spons yang dapat diolah melalui teknik metalurgi serbuk atau las listrik argon. Rutenium terkandung dalam bahan bakar nuklir bekas baik sebagai produk fisi langsung maupun sebagai produk absorpsi neutron oleh produk fisi berumur panjang . 
+
+=== doc-002 (DOC) ===
+Q: Dalam artikel Bahasa Jawa Banyumasan, bagaimana banyumasan dijelaskan kaitannya dengan akrab dan ngapak?
+GOLD FACTS: ['banyumasan', 'akrab', 'ngapak']
+ANSWER: Dalam artikel tersebut, "Banyumasan" merujuk pada bahasa (Bahasa Banyumasan) dan daerah tempat bahasa tersebut digunakan. "Ngapak" adalah sebutan untuk masyarakat yang menggunakan Bahasa Banyumasan sebagai bahasa ibu. Sementara itu, istilah "akrab" tidak disebutkan dalam artikel ini, sehingga kemungkinan besar merupakan kesalahan penulisan atau istilah yang tidak relevan dengan konteks artikel. Artikel juga menjelaskan bahwa kebanyakan masyarakat Kota Tegal enggan disebut sebagai "ngapak" karena
+CONTEXT:
+  [wikipedia:Kabupaten_Banyumas_0] Kabupaten Banyumas () adalah sebuah wilayah kabupaten yang terletak di Provinsi Jawa Tengah, Indonesia. Ibu kotanya adalah Kota Purwokerto, kabupaten ini berbatasan dengan Kabupaten Brebes di utara; Kabupaten Purbalingga, Kabupaten Banjarnegara, dan 
+  [wikipedia:Orang_Banyumasan_0] Jawa Banyumasan (Ngoko: Wong Jawa Banyumasan; Krama: Tiyang Jawi Toyåjênéan) adalah etnis Jawa yang berasal dari Jawa Tengah (bagian barat) yang lebih akrab disebut sebagai "wong ngapak" dengan slogannya yang terkenal "Ora Ngapak Ora Kêpénak". Wilaya
+  [wikipedia:Bahasa_Jawa_Banyumasan_0] Bahasa Jawa Banyumasan () atau yang lebih akrab disebut sebagai bahasa Ngapak adalah dialek bahasa Jawa yang dituturkan di Jawa Tengah bagian barat, lebih tepatnya di dua eks-keresidenan, Banyumas dan Pekalongan. Eks-Keresidenan Banyumas meliputi Ban
+  [wikipedia:Cablaka_0] Cablaka atau blakasuta adalah salah satu karakter khas masyarakat Banyumasan yang bermakna berterus terang/apa adanya/apa mestinya/tanpa basa basi/blak-blakan. Dalam hal mengungkapkan sesuatu termasuk mengritik, masyarakat Banyumasan selalu melakukan
+  [wikipedia:Penginyongan_0] Penginyongan adalah sebuah istilah / kata yang umumnya digunakan oleh orang Banyumas dalam keseharian untuk menceritakan atau menggambarkan tentang dirinya. Kata ini memiliki kata dasar inyong yang berati saya atau aku. Penginyongan sendiri mereprese
+  [wikipedia:Kabupaten_Banyumas_370] dan Sumpiuh. Transportasi Kabupaten Banyumas dilalui jalan negara yang menghubungkan kota Tegal-Purwokerto, Purwokerto-Temangggung-Magelang/Semarang, serta jalan lintas selatan Bandung-Yogyakarta-Surabaya. Wangon merupakan persimpangan jalur Yogyakar
+  [wikipedia:Ebeg_0] Ebeg (Hanacaraka: ꧋ꦌꦧꦺꦒ꧀, ) adalah bentuk kesenian tari daerah Banyumasan yang menggunakan boneka kuda yang terbuat dari anyaman bambu dan kepalanya diberi ijuk sebagai rambut. Tarian Ebeg di daerah Banyumas menggambarkan prajurit perang yang sedang 
+  [wikipedia:Kota_Tegal_4070] diidentifikasi dan dijelaskan di dalam Kamus Bahasa Jawa Tegal–Indonesia terbitan Balai Bahasa Jawa Tengah, Kementerian Pendidikan dan Kebudayaan, 2017. Oleh karena itu, kebanyakan masyarakat Tegal enggan disebut sebagai orang ngapak karena "ngapak" 
+
+=== doc-018 (DOC) ===
+Q: Dalam artikel Benito Mussolini, bagaimana sosialis dijelaskan kaitannya dengan liberal dan fasis?
+GOLD FACTS: ['sosialis', 'liberal', 'fasis']
+ANSWER: Dalam artikel Benito Mussolini, sosialis dijelaskan sebagai posisi politik awal Mussolini yang ia tempuh sebelum berpindah ke fasis. Awalnya, Mussolini adalah politikus sosialis dan anggota Direktorat Nasional Partai Sosialis Italia (PSI) pada tahun 1912. Namun, ia dikeluarkan dari partai karena mendukung intervensi militer dalam Perang Dunia I, yang bertentangan dengan sikap netral PSI. Hal ini menunjukkan bahwa sosialis pada masa awal Mussolini dipengaruhi oleh pemikiran nasionalis dan politik
+CONTEXT:
+  [wikipedia:Benito_Mussolini_2960] pasukan cadangan. Ia dipanggil pada 31 Agustus dan melapor dengan unit lamanya, Bersaglieri. Setelah melewati kursus untuk mengingat pengalaman berperang selama dua minggu, ia dikirim ke lini depamIsonzo. Di sana, ia turut berjuang dalam Pertempuran 
+  [wikipedia:Benito_Mussolini_4810] baik sosialis dan kristen serta liberal. Kaum fasis masih minoritas karena hanya terdiri dari empat kementrian dengan Mussolini mengambil tiga posisi sekaligus, yaitu urusan dalam dan luar negeri serta presiden dewan. Kursi fasis lainnya dijabat oleh
+  [wikipedia:Benito_Mussolini_7030] pembunuhan terhadap dirinya yang gagal merupakan akibat dari perlindungan Tuhan. Selain itu, Mussolini juga dicitrakan sebagai seorang populis yang dia nyatakan pada bulan Maret 1929 bahwa dia merespon 1.887.112 petisi yang sampai kepadanya yang dia 
+  [wikipedia:Benito_Mussolini_2590] menggambarkan perubahan sikapnya dalam sebuah pidato yang mengakui negara sebagai sebuah entitas. Sebelum perang, ia menolak ide ini. Ia berkata: Mussolini terus menggaungkan pendapatnya tentang kebutuhan sebuah elit yang berada di garda depan revolu
+  [wikipedia:Benito_Mussolini_1110] serikat buruh di Lausanne. Angelica Balabanoff dikatakan pernah mengenalkan Mussolini kepada Vladimir Lenin, yang kemudian mengkritik kaum sosialis Italia karena kehilangan Mussolini dari gerakan. Pada tahun 1903, ia ditangkap polisi Bern karena mend
+  [wikipedia:Benito_Mussolini_3700] Buku tersebut menggambarkan sejumlah ide yang disokong oleh fasisme, seperti kepemimpinan oleh sekelompok elit yang mengedepankan negara sebagai tujuan akhir; perlawanan terhadap demokrasi; perlindungan sistem kelas dan kolaborasi kelas; penolakan eg
+  [wikipedia:Benito_Mussolini_740] Orang-orang mengunjungi kedua kota itu untuk melihat tempat lahir Mussolini. Ayah Benito, Alessandro Mussolini, adalah seorang pengrajin besi dan penganut sosialisme; sementara ibunya, Rosa (nama belakang lahir Maltoni), adalah seorang guru sekolah K
+  [wikipedia:Benito_Mussolini_0] Benito Amilcare Andrea Mussolini (; 29 Juli 1883 – 28 April 1945) adalah seorang politikus dan wartawan yang mendirikan dan memimpin Partai Fasis Nasional. Ia menjabat sebagai Perdana Menteri Italia sejak Pawai ke Roma di tahun 1922 hingga pemecatann
+
+=== doc-016 (DOC) ===
+Q: Dalam artikel Astrofisika, bagaimana williamina dijelaskan kaitannya dengan fleming dan antonia?
+GOLD FACTS: ['williamina', 'fleming', 'antonia']
+ANSWER: Dalam artikel Astrofisika yang diberikan (bagian [wikipedia:Astronomi_3330]), **tidak ada penjelasan tentang "williamina"** atau kaitannya dengan Fleming dan Antonia. Berikut analisisnya:
+
+1. **"Williamina"** bukanlah istilah yang muncul dalam teks Astrofisika yang disediakan. Teks tersebut berfokus pada proses diferensiasi planet, evolusi bintang, dan struktur bintang, **bukan tentang tokoh astronom atau penemuan terkait penicillin**.
+
+2. **Fleming** dalam konteks teks ini merujuk pada **Sir Al
+CONTEXT:
+  [wikipedia:Astrofisika_370] Williamina Fleming, Antonia Maury, dan Annie Jump Cannon, mengklasifikasikan spektrum yang terekam pada pelat fotografi. Pada tahun 1890, tersusun katalog lebih dari 10.000 bintang yang dikelompokkan ke dalam tiga belas jenis spektral. Pada 1924, Can
+  [wikipedia:Astronomi_0] Astronomi (, dari ástron 'bintang' dan nómos 'hukum'), juga disebut ilmu bintang atau ilmu falak, adalah ilmu alam yang mempelajari benda langit dan fenomena alam yang terjadi di luar Bumi, termasuk fenomena di atmosfer atas Bumi yang berasal dari lu
+  [wikipedia:Astrofisika_0] Astrofisika adalah bidang ilmu yang mempelajari sifat-sifat fisika fenomena dan objek astronomi di jagat raya. Astrofisika membahas objek-objek di luar angkasa dan juga Bumi. Terkadang, penamaannya dapat berganti dengan astronomi karena lingkup studi
+  [wikipedia:Renee_Fleming_0] Renée Lynn Fleming (lahir 14 Februari 1959) adalah seorang penyanyi sopran Amerika, yang dikenal karena penampilannya dalam opera, konser, rekaman, teater, film, dan acara-acara publik yang besar.[1] Sebagai penerima National Medal of Arts, Fleming t
+  [wikipedia:Kimia_3700] valensi sedemikian rupa untuk menciptakan konfigurasi elektron gas mulia (delapan elektron di kulit terluarnya) untuk masing-masing atom. Atom yang cenderung bergabung sedemikian rupa sehingga masing-masing memiliki delapan elektron dalam kulit valen
+  [wikipedia:Alexander_Fleming_0] Sir Alexander Fleming () adalah ilmuwan Skotlandia yang berhasil menemukan penisilin, yaitu sejenis antibiotik yang dihasilkan oleh jamur Penicillium notatum. Zat temuannya ini dapat digunakan untuk membunuh banyak jenis bakteri yang berbahaya bagi t
+  [wikipedia:Astronomi_3330] berlainan mulai saling memisahkan diri dalam proses yang disebut diferensiasi planet. Proses demikian bisa menghasilkan inti yang berbatu-batu atau terdiri dari materi-materi logam, diliputi oleh lapisan mantel dan lalu permukaan luar. Inti planet in
+  [wikipedia:Nonlogam_6660] The Inorganic Chemistry of the Non-metals, Methuen Educational, London, Emsley J 2011, Nature's Building Blocks: An A–Z Guide to the Elements, Oxford University Press, Oxford, Encyclopædia Britannica 2021, Periodic table, diakses tanggal 5 September 
+
+=== doc-015 (DOC) ===
+Q: Dalam artikel Paus Pius IX, bagaimana paus dijelaskan kaitannya dengan pius dan giovanni?
+GOLD FACTS: ['paus', 'pius', 'giovanni']
+ANSWER: Dalam Gereja Katolik, "Pius" adalah nama yang diambil dari bahasa Latin yang berarti "suci" dan digunakan sebagai bagian dari nama Paus. "Giovanni" adalah nama lahir dalam bahasa Italia yang berarti "John". Sebagai contoh, Paus Pius IX bernama lahir Giovanni Maria Mastai-Ferretti. Dengan demikian, kaitannya adalah bahwa "Pius" merupakan gelar resmi yang diberikan oleh Gereja, sedangkan "Giovanni" adalah nama lahir orang tersebut sebelum menjadi Paus.
+CONTEXT:
+  [wikipedia:Paus_Pius_IX_0] Paus Pius IX (; 13 Mei 1792 – 7 Februari 1878), lahir Giovanni Maria Mastai-Ferretti, adalah kepala Gereja Katolik dari 16 Juni 1846 hingga wafatnya pada 7 Februari 1878. Dia adalah paus terpilih dengan masa pemerintahan terlama dalam sejarah Gereja 
+  [wikipedia:Paus_Aleksander_VI_0] Paus Alexander VI, lahir dengan nama Rodrigo de Borja (Valencia: Roderic Llançol i de Borja [roðeˈɾiɡ ʎanˈsɔɫ i ðe ˈβɔɾdʒa],Spanyol: Rodrigo Lanzol y de Borja [roˈðɾiɣo lanˈθol i ðe ˈβorxa]; 1 Januari 1431 - 18 Agustus 1503), adalah Paus dan kepala N
+  [wikipedia:Paus_Yohanes_Paulus_II_0] Santo Paus Yohanes Paulus II (), yang bernama asli Karol Józef Wojtyła, adalah Paus, Uskup Roma, dan kepala Gereja Katolik Roma sejak 16 Oktober 1978 hingga kematiannya. Ia terpilih sebagai paus pada usia 58 tahun melalui Konklaf Kepausan Oktober 197
+  [wikipedia:Paus_Pius_X_0] Paus Pius X (lahir Giuseppe Melchiorre Sarto; ) memegang jabatan Paus pemimpin gereja Katolik Roma antara tahun 1903 hingga 1914 (11 tahun). Pius X dibeatifikasi pada tahun 1951 dan dikanonisasikan pada tahun 1954 oleh Paus Pius XII. Hari perayaannya
+  [wikipedia:Paus_Pius_XI_0] Paus Pius XI, () lahir dengan nama Ambrogio Damiano Achille Ratti (; ) adalah kepala Gereja Katolik dari 6 Februari 1922 hingga kematiannya pada tahun 1939. Dia adalah pemegang kedaulatan Kota Vatikan dari ciptaannya sebagai negara merdeka pada 11 Fe
+  [wikipedia:Paus_Pius_XII_3330] tahun. Hal ini adalah sebuah hal yang penuh kontroversi karena kemungkinan nyata dari sebuah peristiwa memalukan yang luar biasa, dan juga karena kekhawatiran dalam masalah teknis karena usaha penggalian ini akan dilakukan di bawah altar utama, dekat
+  [wikipedia:Paus_Pius_XII_0] Paus Pius XII (Latin: Pius PP. XII), nama lahir Eugenio Maria Giuseppe Giovanni Pacelli () adalah seorang Paus Gereja Katolik Roma yang menjabat dari tanggal 2 Maret 1939 hingga 9 Oktober 1958. Ia menjabat sebagai paus ke-260. Sebelum terpilih sebaga
+  [wikipedia:Paus_Pius_VI_0] Paus Pius VI memegang jabatan Paus pemimpin gereja Katolik Roma antara tahun (1775-1799). Dia nama aslinya adalah Giovanni Angelo Braschi (Cesena, 25 Desember 1717 – 29 Agustus 1799), Pius VI adalah Paus yang mengutuk Revolusi Perancis dan Penindasan
+
+=== doc-009 (DOC) ===
+Q: Dalam artikel Abu Dhabi, bagaimana pemuda dijelaskan kaitannya dengan dhibaa dan rusa?
+GOLD FACTS: ['pemuda', 'dhibaa', 'rusa']
+ANSWER: Tidak ada informasi dalam teks yang menjelaskan kaitan pemuda dengan dhibaa dan rusa di Abu Dhabi. Teks yang diberikan berfokus pada Dubai dan latar belakang Yasser Arafat, bukan Abu Dhabi. Pertanyaan ini mungkin mengacu pada konteks yang tidak tercakup dalam teks yang disediakan.
+CONTEXT:
+  [wikipedia:Abu_Dhabi_370] Pengembangan Budaya, Pemuda dan Masyarakat "Daerah ini memiliki banyak Dhibaa [rusa] dan mendapat julukan itu". Sebuah cerita lama menceritakan tentang seorang pria yang dulu mengejar Dhabi [rusa] dinobatkan sebagai "bapak" dari hewan, maka nama itu.
+  [wikipedia:Abu_Dhabi_0] Abu Dhabi (Bahasa Arab: أبوظبي ʼAbū Ẓaby, Bahasa Indonesia: Bapak Rusa) adalah ibu kota dan kota terbesar kedua di negara Uni Emirat Arab, menurut jumlah penduduknya dan luas wilayah, Abu Dhabi merupakan yang terbesar dari tujuh emirat yang membentuk
+  [wikipedia:Kepulauan_Andaman_1850] variasi dipertimbangkan untuk komersial. Sebagian besar spesies kayu komersial adalah Gurjan (Dipterocarpaceae spp.) dan Padauk (Pterocarpus dalbergiodies). Kayu marmer (Diospyros marmorata) Padauk (Pterocarpus dalbergioides) Abu-abu perak (formasi k
+  [wikipedia:Uni_Emirat_Arab_1110] usia 15–65 adalah 2.75 age group, ketidakseimbangan seks rasio penduduk merupakan ketidakseimbangan gender terbesar kedua di dunia setelah Qatar. Agama Islam adalah yang terbesar dan menjadi agama resmi negara UEA. Pemerintah memberikan wewenang kepa
+  [wikipedia:Dubai_0] Dubai ( ) adalah kota terpadat di negara Uni Emirat Arab dan merupakan ibukota Emirat Dubai. Kota ini terletak di sepanjang pantai tenggara Jazirah Arab dan di selatan teluk Persia, Kotamadya Dubai disebut Kota Dubai untuk membedakannya dari Emirat D
+  [wikipedia:Uni_Emirat_Arab_0] Uni Emirat Arab (), disingkat UEA atau Persatuan Emirat Arab disingkat PEA, adalah sebuah negara keamiran di Asia Barat. Negara ini terletak di sebelah timur Jazirah Arab dan berbatasan dengan Oman dan Arab Saudi, dan memiliki perbatasan maritim di T
+  [wikipedia:Yasser_Arafat_740] masuk ke Universitas Raja Fuad I dan lulus enam tahun kemudian. Dia mengatakan bahwa pemahamannya tentang Yudaisme dan Zionisme-nya semakin meningkat setelah terlibat dalam diskusi dengan beberapa orang Yahudi. Arafat juga membaca karya-karya yang di
+  [wikipedia:Mohammad_bin_Rasyid_al-Maktoum_740] untuk setiap anak pada tahun 2015. Jumlah disumbangkan untuk kampanye ini telah melebihi USD 1,65 miliar (Sekitar US $ 450 juta). Noor Dubai Pada tanggal 3 Desember 2008, Sheikh Mohammad juga meluncurkan baru Ramadhan inisiatif dengan nama "Noor Duba
+
+=== doc-007 (DOC) ===
+Q: Dalam artikel Kanada, bagaimana negaranya dijelaskan kaitannya dengan sebagaimana dan kanada?
+GOLD FACTS: ['negaranya', 'sebagaimana', 'kanada']
+ANSWER: Dalam artikel Kanada, negara ini dijelaskan sebagai negara berdaulat yang merupakan anggota Perserikatan Bangsa-Bangsa (UN), terbentuk dari tiga koloni (Nova Scotia, New Brunswick, dan Quebec) melalui British North America Act 1867, dan pada tahun 1982 mendapatkan kemerdekaan konstitusional melalui Akta Kanada 1982. Canada tidak termasuk dalam kategori 13 entitas yang kedaulatannya diperdebatkan, melainkan diakui sebagai negara berdaulat yang memiliki kekuatan hukum dan status internasional penu
+CONTEXT:
+  [wikipedia:Provinsi_dan_wilayah_di_Kanada_0] Kanada adalah sebuah federasi dari sepuluh provinsi, dan tiga wilayah (teritori). Perbedaan utama antara provinsi, dan wilayah adalah provinsi diciptakan berdasarkan Constitution Act Kanada, sedangkan wilayah diciptakan berdasarkan hukum federal. Ole
+  [wikipedia:Kanada_0] Kanada (Inggris dan Prancis: Canada) merupakan negara paling utara di kawasan Amerika Utara. Kerajaan (monarki konstitusional) ini terdiri dalam 10 provinsi dan 3 teritori, dengan menganut sistem desentralisasi. Kanada berdiri pada tahun 1867, setela
+  [wikipedia:Kanada_1850] yang dapat ditolak oleh provinsi, namun dalam kenyataan ini jarang terjadi. "Persamaan pembayaran" dibuat oleh pemerintah federal untuk memastikan standar seragam pelayanan sesuai, dan pajak dijaga antara provinsi yang kaya, dan miskin. Hukum krimina
+  [wikipedia:Kanada_2590] naik sebanyak 5.0 persen dengan populasi total sebanyak 35,151,728 orang. Menurut sensus tahun 2016, Bangsa Inggris, Bangsa Skotlandia, Bangsa Prancis, dan Bangsa Irlandia merupakan keturunan suku bangsa paling banyak di Kanada dengan total populasi 
+  [wikipedia:Negara_370] kedaulatan. Tiap-tiap negara bagian mempunyai wewenang menyusun undang-undang dasar sendiri. Pemerintah pusat mempunyai kedaulatan terhadap negara bagian dalam urusan dalam maupun luar. Contoh negara federasi yaitu Amerika Serikat, Rusia, Brasil, dan
+  [wikipedia:Kanada_370] Lawrence, dan daerah Atlantik Kanada. Pemukiman Britania berdiri di sepanjang daerah pesisir Atlantik, dan sekeliling Teluk Hudson. Dengan ekspansi koloni Prancis, dan Britania itu, dan perang antara Prancis, dan Britania di Eropa, Perang Prancis dan
+  [wikipedia:Pariwisata_di_Kanada_0] Kanada, sebagai negara Barat yang kaya memiliki banyak wisatawan domestik dan asing. Kanada dikenal dengan lansekapnya yang luas dan indah dan beberapa "landmark" yang memegang rekor. Beberapa atraksi utama dari negara ini termasuk alam liar yang lua
+  [wikipedia:Quebec_0] Québec (dalam bahasa Inggris dilafalkan atau ) dan dalam bahasa Prancis Québec (dilafalkan ) adalah provinsi terbesar di Kanada secara geografis, dan terbesar kedua menurut populasi setelah Ontario. Provinsi ini memiliki penduduk sejumlah 7.568.640 j
+
+=== doc-035 (DOC) ===
+Q: Dalam artikel Kabupaten Ogan Komering Ilir, bagaimana tahunnya dijelaskan kaitannya dengan penghujan dan berkisar?
+GOLD FACTS: ['tahunnya', 'penghujan', 'berkisar']
+ANSWER: Iklim Provinsi Sumatera Selatan memiliki variasi curah hujan antara **900 mm hingga 4920 mm per tahun** pada tahun **2003**. Data ini disebutkan dalam teks sebagai "variasinya curah hujan antara 9/7 – 492/23 mm sepanjang tahun 2003", yang kemungkinan besar merupakan notasi typo untuk angka 900–4920 mm (dengan "/" sebagai pembatas angka dan satuan). 
+
+**Catatan**: Kabupaten Ogan Komering Ilir (yang disebutkan sebagai wilayah dengan luas terbesar di Sumatera Selatan) tidak memiliki deskripsi khusu
+CONTEXT:
+  [wikipedia:Kabupaten_Ogan_Komering_Ilir_0] Ogan Komering Ilir (OKI) adalah kabupaten di Sumatera Selatan, Indonesia. Kabupaten ini memiliki luas 19.023,47 km² dan berpenduduk sekitar 731.721 jiwa. Ibu kotanya adalah Kecamatan Kayu Agung. Pada tahun 2020, kabupaten ini memiliki 18 Kecamatan ya
+  [wikipedia:Kabupaten_Ogan_Komering_Ilir_740] sampai September setiap tahunnya, sedangkan musim penghujan berkisar antara bulan Oktober sampai bulan Maret. Penyimpangan musim biasanya terjadi sekali dalam lima tahun, berupa musim kemarau yang lebih panjang dari musim penghujan, dengan rata – rat
+  [wikipedia:Kabupaten_Ogan_Ilir_0] Ogan Ilir (Jawi: اوڬن ايلير) adalah salah satu kabupaten di Provinsi Sumatera Selatan. Ogan Ilir berada di jalur lintas timur Sumatra dan pusat pemerintahannya terletak sekitar 35 km dari Kota Palembang. Kabupaten ini merupakan pemekaran dari Kabupat
+  [wikipedia:Kabupaten_Ogan_Komering_Ulu_0] Ogan Komering Ulu (OKU) adalah kabupaten di provinsi Sumatera Selatan, Indonesia. Ibu kotanya adalah Baturaja. Kabupaten ini terkenal dengan wilayah dengan jumlah penduduk terbanyak Suku Ogan di Provinsi Sumatera Selatan. Namun di lain sisi, juga ter
+  [wikipedia:Nomor_telepon_di_Indonesia_370] selatan 0626—Kabupaten Samosir bagian barat 0627—Kabupaten Dairi—Kabupaten Pakpak Bharat 0628— Wilayah selatan metropolitan Mebidangro (Kabupaten Deli Serdang bagian selatan dan Kabupaten Karo) 0630—Kabupaten Nias Selatan 0631—Kabupaten Tapanuli Teng
+  [wikipedia:Kabupaten_Ogan_Komering_Ilir_370] 45 meter di atas permukaan air laut. Lokasi tertinggi berada kecamatan Mesuji Makmur, dengan titik ketinggian sekitar 45 meter dpal, sedangkan daerah terendah terletak di kawasan timur yang termasuk di wilayah Kecamatan Air Sugihan, dengan rata-rata 
+  [wikipedia:Sumatera_Selatan_740] yang bernama Sriwijaya itu didirikan pada tanggal 17 Juni 683 Masehi. Tanggal tersebut kemudian menjadi hari jadi Kota Palembang yang diperingati setiap tahunnya. Geografi Provinsi Sumatera Selatan secara astronomis terletak antara 1–4° Lintang Selat
+  [wikipedia:Kabupaten_Ogan_Komering_Ulu_Selatan_0] Ogan Komering Ulu Selatan (OKU Selatan) adalah kabupaten di Provinsi Sumatera Selatan, Indonesia. ibu kota kabupaten ini terletak di Kecamatan Muaradua. Kabupaten Ogan Komering Ulu Selatan merupakan hasil pemekaran dari wilayah Kabupaten Ogan Komerin
+
+=== doc-006 (DOC) ===
+Q: Dalam artikel Radon, bagaimana duduk dijelaskan kaitannya dengan menit dan suasana?
+GOLD FACTS: ['duduk', 'menit', 'suasana']
+ANSWER: The provided Radon article text does not contain any information about "sitting" (duduk), "minutes" (menit), or "atmosphere" (suasana) in the context of time. The article focuses on radon's properties, environmental concentrations, production sources, and measurement units (e.g., Bq/m³), but there is no discussion of sitting, time units, or their relationship to atmospheric conditions. The term "suasana" in Indonesian may refer to the atmosphere (air) in the context of environmental factors, but
+CONTEXT:
+  [wikipedia:Radon_4440] duduk selama beberapa menit atau jam dalam suasana radon tinggi, seperti di Bad Schmiedeberg, Jerman. Radon telah diproduksi secara komersial untuk digunakan dalam terapi radiasi, tetapi sebagian besar telah digantikan oleh radionuklida yang dibuat d
+  [wikipedia:Radon_0] Radon adalah sebuah unsur kimia dengan lambang Rn dan nomor atom 86. Ia adalah sebuah gas mulia yang bersifat radioaktif, tak berwarna, tak berbau, dan tak berasa. Ia terjadi secara alami dalam jumlah kecil sebagai perantara dalam rantai peluruhan ra
+  [wikipedia:Radon_370] paparan dosis rendah. Berbeda dengan radon yang berbentuk gas, anak radon berbentuk padat dan menempel pada permukaan, seperti partikel debu di udara, yang dapat menyebabkan kanker paru-paru bila terhirup. Karakteristik Sifat fisik Radon adalah gas y
+  [wikipedia:Radon_2960] kira-kira 1 gram radium, yang melepaskan radon dalam jumlah kecil ke atmosfer. Dalam skala global, diperkirakan 2,4 miliar curie (90 EBq) radon dilepaskan dari tanah setiap tahunnya. Ini setara dengan sekitar . Konsentrasi radon dapat sangat berbeda 
+  [wikipedia:Radon_3330] daripada air permukaan, karena radon terus menerus diproduksi oleh peluruhan radioaktif 226Ra yang terdapat dalam batuan. Demikian pula, zona jenuh suatu tanah seringkali memiliki kandungan radon yang lebih tinggi daripada zona tak jenuh karena kehil
+  [wikipedia:Radon_2590] nuklir Pennsylvania, seorang pekerja ditemukan terkontaminasi radioaktivitas. Konsentrasi radon yang tinggi di rumahnya kemudian diidentifikasi sebagai penyebabnya. Keterjadian Satuan konsentrasi Semua pembahasan tentang konsentrasi radon di lingkung
+  [wikipedia:Radon_1850] lingkungan mengizinkan akumulasi debu dalam jangka waktu yang lama, 210Pb dan produk peluruhannya juga dapat berkontribusi pada tingkat radiasi secara keseluruhan. Karena muatan elektrostatisnya, progeni radon menempel pada permukaan atau partikel de
+  [wikipedia:Detik_370] beberapa tahun, dua astronomer di United States Naval Observatory (USNO) dan dua astronomer di National Physical Laboratory (Teddington, England) menentukan hubungan dari hyperfine transition frequency atom sesium dan detik ephemeris. Dengan mengguna
+
+=== hybrid-099 (HYBRID) ===
+Q: Ringkas pembahasan kolepom dalam artikel Pulau Kolepom, lalu sebutkan nilai Individuals using the Internet (% of population) Indonesia tahun 2024.
+GOLD FACTS: ['kolepom', 'dolok', '72.78075544']
+ANSWER: Pembahasan tentang Pulau Kolepom tidak terdapat dalam artikel yang diberikan. Nilai persentase individu yang menggunakan internet di Indonesia pada tahun 2024 tidak disebutkan dalam artikel, namun berdasarkan data terakhir pada tahun 2022, persentase pengguna internet adalah sekitar **77%** dari jumlah penduduk.
+CONTEXT:
+  [wikipedia:Indonesia_17020] juta orang tenaga kerja. Sektor jasa mempekerjakan 36,9%, dan sisanya sektor industri sebesar 18,8%. Rekan perdagangan terbesar Indonesia adalah Jepang, Amerika Serikat, dan negara-negara jirannya yaitu Malaysia, Singapura dan Australia. Meski kaya a
+  [wikipedia:Pulau_Kolepom_0] Pulau Kolepom (disebut juga Pulau Dolok atau Pulau Yos Sudarso) adalah sebuah pulau yang termasuk dalam wilayah Kabupaten Merauke, Provinsi Papua Selatan. Pulau ini dipisahkan oleh selat yang sempit dari pulau utama Nugini. Nama pulau ini berasal dar
+  [wikipedia:Globalisasi_8140] ukuran ekonomi digital secara keseluruhan di angka $20,4 triliun, setara dengan kira-kira 13,8% dari aktivitas penjualan dunia. Walaupun banyak pihak mengklaim perdagangan Internet membawa keuntungan ekonomi, ada pula bukti bahwa beberapa elemen Inte
+  [wikipedia:1_Februari_740] nasional untuk yang pertama kalinya. 2004 - 251 orang tewas terinjak-injak dan 244 lainnya luka-luka dalam desak-desakan rombongan jemaah haji di Arab Saudi. 2004 - Penampilah Janet Jackson dalam pertunjukan jeda pertandingan Super Bowl XXXVIII yang 
+  [wikipedia:Ledakan_populasi_0] Ledakan populasi atau kelebihan penduduk adalah kondisi terlalu banyak manusia di Bumi sehingga sumber daya yang ada tidak cukup untuk memenuhi kebutuhan mereka. Dengan kondisi saat ini, diperkirakan Bumi masih mampu memenuhii kebutuhan sekitar 11 mi
+  [wikipedia:Indonesia_0] Indonesia (), dikenal dengan nama resmi Republik Indonesia atau lebih lengkapnya Negara Kesatuan Republik Indonesia, adalah negara kepulauan di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Oseania sehing
+  [wikipedia:Indonesia_19980] Indonesia yang dirilis setiap tahun meningkat. Film Laskar Pelangi (2008) yang diangkat dari novel karya Andrea Hirata menjadi film terlaris Indonesia dengan jumlah penonton terbanyak sepanjang sejarah perfilman Indonesia hingga tahun 2016. Kesusastr
+  [wikipedia:Penduduk_1110] Amerika Serikat (332.486.698 jiwa) Indonesia (278.173.879 jiwa) Pakistan (225.839.946 jiwa) Brazil (212.332.794 jiwa) Nigeria (197.911.988 jiwa) Bangladesh (171.779.628 jiwa) Russia (152.610.309 jiwa) Jepang (126.417.244 jiwa) Catatan Kaki Referensi 
+
+=== hybrid-094 (HYBRID) ===
+Q: Ringkas pembahasan administratif dalam artikel Uni Afrika, lalu sebutkan nilai Life expectancy at birth, total (years) Indonesia tahun 2024.
+GOLD FACTS: ['administratif', 'komisi', '71.288']
+ANSWER: Tidak ada informasi artikel Uni Afrika dalam teks yang diberikan sehingga tidak dapat diringkas. Nilai life expectancy at birth untuk Indonesia tahun 2024 tidak tersedia dalam teks yang diberikan.
+CONTEXT:
+  [wikipedia:Uni_Afrika_0] Uni Afrika, disingkat UA (bahasa Inggris: African Union, disingkat AU) adalah sebuah uni yang terdiri dari 54 negara Afrika. UA diumumkan dalam Deklarasi Sirte di Sirte, Libya, pada 9 September 1999. Organisasi ini didirikan pada 26 Mei 2001 di Addis
+  [wikipedia:Penduduk_1110] Amerika Serikat (332.486.698 jiwa) Indonesia (278.173.879 jiwa) Pakistan (225.839.946 jiwa) Brazil (212.332.794 jiwa) Nigeria (197.911.988 jiwa) Bangladesh (171.779.628 jiwa) Russia (152.610.309 jiwa) Jepang (126.417.244 jiwa) Catatan Kaki Referensi 
+  [wikipedia:Uni_Afrika_1850] administratif dan politik dalam membuat Komisi AU dan badan-badan lain benar-benar efektif. Peran Uni Afrika Salah satu perdebatan utama dalam kaitannya dengan pencapaian integrasi kontinental yang lebih besar adalah prioritas relatif yang harus dibe
+  [wikipedia:Afrika_0] Afrika adalah benua terbesar kedua di dunia setelah Asia dan kedua terbanyak penduduknya setelah Asia. Dengan luas wilayah 30.224.050 km² termasuk pulau-pulau yang berdekatan, Afrika meliputi 20,3% dari seluruh total daratan Bumi. Dengan populasi mil
+  [wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2960] Djamil, M.A. Prof. Dr. Frans Sayogie, M.Pd. Prof. Dr. Hamid Nasuki, M.Ag. Prof. dr. Hari Hendarto, Sp.PD-KEMD., Ph.D. Prof. Dr. H. Husni Rahim Prof. Iik Arifin Mansurnoor, M.A., Ph.D. Prof. Dr. Imam Subchi, M.A. Prof. Drs. Jajang Jahroni, M.A., Ph.D.
+  [wikipedia:Universitas_Negeri_Padang_2590] Fisika (S2) Departemen Kimia Pendidikan Kimia (S1) Kimia (S1) Pendidikan Kimia (S2) Departemen Matematika Pendidikan Matematika (S1) Matematika (S1) Pendidikan Matematika (S2) Departemen Ilmu Pengetahuan Alam Pendidikan Ilmu Pengetahuan Alam (S1) Pen
+  [wikipedia:Harapan_hidup_0] Harapan hidup adalah perkiraan jumlah tahun hidup dari individu yang berdiam di suatu wilayah dari sekelompok makhluk hidup tertentu. Lihat pula Age-adjusted life expectancy Morbiditas Mortalitas Demografi (ilmu populasi) Ekonomi Daftar negara berdas
+  [wikipedia:Indonesia_17020] juta orang tenaga kerja. Sektor jasa mempekerjakan 36,9%, dan sisanya sektor industri sebesar 18,8%. Rekan perdagangan terbesar Indonesia adalah Jepang, Amerika Serikat, dan negara-negara jirannya yaitu Malaysia, Singapura dan Australia. Meski kaya a
+
+=== hybrid-082 (HYBRID) ===
+Q: Ringkas pembahasan selandia dalam artikel Tokelau, lalu sebutkan nilai Access to electricity (% of population) Indonesia tahun 2024.
+GOLD FACTS: ['selandia', 'kewarganegaraan', '99.9']
+ANSWER: Ringkasan pembahasan Selandia dalam artikel Tokelau: Dalam artikel Tokelau, Selandia Baru (New Zealand) dijelaskan sebagai negara yang mengambil alih yurisdiksi administratif Tokelau pada tahun 1925. Administrasi Tokelau secara resmi berada di bawah Gubernur Jenderal Selandia Baru sejak tahun 1926. Selain itu, pada tahun 1949, warga Tokelau yang merupakan subyek Inggris memperoleh kewarganegaraan Selandia Baru berdasarkan Undang-Undang Kewarganegaraan Inggris dan Selandia Baru 1948.
+
+Nilai Acces
+CONTEXT:
+  [wikipedia:Selandia_Baru_4070] dini dari Eropa membagi-bagi Selandia Baru ke dalam beberapa provinsi, yang menikmati taraf otonomi tinggi. Karena adanya tekanan keuangan, dan keinginan untuk mengkonsolidasi rel kereta api, pendidikan, penjualan tanah, dan kebijakan-kebijakan lainn
+  [wikipedia:Tokelau_0] Tokelau (;; sebelumnya dikenal sebagai Kepulauan Union, dan sampai tahun 1976, secara resmi dikenal sebagai Kepulauan Tokelau) adalah wilayah dependensi dari Selandia Baru yang berlokasi di Samudra Pasifik bagian selatan. Kepulauan ini terdiri dari t
+  [wikipedia:Indonesia_17020] juta orang tenaga kerja. Sektor jasa mempekerjakan 36,9%, dan sisanya sektor industri sebesar 18,8%. Rekan perdagangan terbesar Indonesia adalah Jepang, Amerika Serikat, dan negara-negara jirannya yaitu Malaysia, Singapura dan Australia. Meski kaya a
+  [wikipedia:Tokelau_1850] Sasaran 100% listrik terbarukan tercapai pada 7 November 2012, menurut Menteri Luar Negeri Selandia Baru, Murray McCully. Sebelumnya listrik dihasilkan menggunakan generator diesel dan hanya tersedia sekitar 16 jam/hari. Tiga stasiun tenaga surya den
+  [wikipedia:Tokelau_1110] Selandia Baru. Ketika Undang-Undang Kewarganegaraan Inggris dan Selandia Baru 1948 mulai berlaku pada tanggal 1 Januari 1949, warga Tokelau yang merupakan subyek Inggris memperoleh kewarganegaraan Selandia Baru; status yang masih mereka pegang. Polit
+  [wikipedia:Tokelau_1480] menjalani proses dekolonisasi". Geografi Tokelau mencakup tiga atol di Samudra Pasifik Selatan antara garis bujur atau sekitar pertengahan antara Hawaii dan Selandia Baru. Dari Atafu di utara hingga Fakaofo di selatan, Tokelau terbentang kurang dari 
+  [wikipedia:1_Februari_740] nasional untuk yang pertama kalinya. 2004 - 251 orang tewas terinjak-injak dan 244 lainnya luka-luka dalam desak-desakan rombongan jemaah haji di Arab Saudi. 2004 - Penampilah Janet Jackson dalam pertunjukan jeda pertandingan Super Bowl XXXVIII yang 
+  [wikipedia:Tokelau_740] Perjanjian Tokehega. Siklon tropis Topan Percy menyerang dan merusak Tokelau pada akhir Februari dan awal Maret 2005. Peramal cuaca meremehkan kekuatan topan dan lamanya waktu topan tersebut di sekitar Tokelau. Hal itu bertepatan dengan air pasang ya
+
+=== hybrid-081 (HYBRID) ===
+Q: Ringkas pembahasan menurun dalam artikel Antarktika, lalu sebutkan nilai Gini index Indonesia tahun 2024.
+GOLD FACTS: ['menurun', 'dingin', '34.9']
+ANSWER: The provided article does not contain any discussion about Antarctica. Therefore, there is no downward discussion on Antarctica in the article. 
+
+As for the Gini index of Indonesia in 2024, it is **not yet available** since the year 2024 has not occurred (as of 2023), and no official data exists for this year. The latest available Gini index for Indonesia (as of 2023) is approximately **0.38**, but this does not reflect the 2024 value. 
+
+**Jawaban:**  
+Artikel tidak membahas Antarktika sama seka
+CONTEXT:
+  [wikipedia:Indonesia_17020] juta orang tenaga kerja. Sektor jasa mempekerjakan 36,9%, dan sisanya sektor industri sebesar 18,8%. Rekan perdagangan terbesar Indonesia adalah Jepang, Amerika Serikat, dan negara-negara jirannya yaitu Malaysia, Singapura dan Australia. Meski kaya a
+  [wikipedia:Perhimpunan_Bangsa-Bangsa_Asia_Tenggara_740] Bruto Indeks Pembangunan Manusia {|class="wikitable floatright" style="font-size:95%; text-align:right;" |- ! style="text-align:center; width:120px" | Negara ! style="text-align:center;" cosplan | IPM ! style="text-align:center;" | Kategori |-bgcolor
+  [wikipedia:Inflasi_740] sampai 100% / tahun) Hiperinflasi (lebih dari 100% / tahun) Mengukur inflasi Inflasi diukur dengan menghitung perubahan tingkat persentase perubahan sebuah indeks harga. Indeks harga tersebut di antaranya: Indeks harga konsumen (IHK) atau consumer pr
+  [wikipedia:Analisis_fundamental_1110] total produksi barang dan jasa yang diproduksi oleh penduduk negara tersebut baik yang bertempat tinggal/ berdomisili di dalam negeri maupun yang berada di luar negeri dalam suatu periode tertentu. Produksi domestik bruto (PDB) adalah penjumlahan sel
+  [wikipedia:Universitas_Negeri_Padang_2590] Fisika (S2) Departemen Kimia Pendidikan Kimia (S1) Kimia (S1) Pendidikan Kimia (S2) Departemen Matematika Pendidikan Matematika (S1) Matematika (S1) Pendidikan Matematika (S2) Departemen Ilmu Pengetahuan Alam Pendidikan Ilmu Pengetahuan Alam (S1) Pen
+  [wikipedia:Universitas_Sriwijaya_1110] Teknik Mesin (S1) Arsitektur (S1) Teknik Geologi (S1) Teknik Lingkungan (S1) Teknik Geomatika (S1) Fakultas Kedokteran (FK) Pendidikan Dokter (S1) Ilmu Keperawatan (S1) Kedokteran Gigi (S1) Psikologi (S1) Kedokteran Hewan (S1) Fakultas Pertanian (FP)
+  [wikipedia:Indonesia_0] Indonesia (), dikenal dengan nama resmi Republik Indonesia atau lebih lengkapnya Negara Kesatuan Republik Indonesia, adalah negara kepulauan di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Oseania sehing
+  [wikipedia:Pasar_saham_740] yang akan terjadi di masa depan. Analisis fundamental Analisis fundamental merupakan salah satu cara untuk melakukan investasi di pasar saham. Metode analisisnya terbagi menjadi dua yaitu analisis informasi laba atau analisi arus kas. Analisis fundam
+
+=== hybrid-083 (HYBRID) ===
+Q: Ringkas pembahasan energi dalam artikel Energi gelombang, lalu sebutkan nilai Maternal mortality ratio (modeled estimate, per 100,000 live births) Indonesia tahun 2023.
+GOLD FACTS: ['energi', 'gelombang', '140.0']
+ANSWER: Ringkasan energi dalam artikel "Energi gelombang": Energi dalam gelombang merupakan transfer energi dari satu tempat ke tempat lain melalui medium atau ruang hampa udara tanpa terjadi perpindahan permanen partikel medium. Gelombang mekanik (seperti gelombang longitudinal dan transversal) serta gelombang elektromagnetik (seperti cahaya dan radio) dapat mengangkut energi. Dalam gelombang longitudinal, partikel medium bergerak sejajar dengan arah rambat, sedangkan dalam gelombang transversal, parti
+CONTEXT:
+  [wikipedia:Universitas_Negeri_Padang_2590] Fisika (S2) Departemen Kimia Pendidikan Kimia (S1) Kimia (S1) Pendidikan Kimia (S2) Departemen Matematika Pendidikan Matematika (S1) Matematika (S1) Pendidikan Matematika (S2) Departemen Ilmu Pengetahuan Alam Pendidikan Ilmu Pengetahuan Alam (S1) Pen
+  [wikipedia:Energi_gelombang_0] Energi gelombang adalah jenis energi yang bisa diperoleh dengan memanfaatkan gelombang laut. Teknologi baru Teknologi terbaru ini menggunakan istilah Permanent Magnet Linear Buoy (bahasa Indonesia: Pelampung Magnet Pemanen Linier). Teknologi yang sud
+  [wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_4070] M.A. Prof. Dr. H. Hadri Hasan, M.A. Prof. Dr. H. Zaini Dahlan, M.A. Prof. Dr. Azyumardi Azra, M.A. Prof. Dr. Komaruddin Hidayat Prof. Dr. H. Abdul Aziz Dahlan Prof. Dr. H. Sulaiman Abdullah Prof. Dr. K.H. Ahmadi Isa, M.A. Prof. Dr. H. Mahmoed Joenoes
+  [wikipedia:Universitas_Pendidikan_Indonesia_1110] (S2) Pendidikan Geografi (S2) Pendidikan Sosiologi (S2) Pendidikan Ilmu Pengetahuan Sosial (S2) Pendidikan Kewarganegaraan (S3) Pendidikan Sejarah (S3) Pendidikan Geografi (S3) Pendidikan Ilmu Pengetahuan Sosial (S3) Fakultas Pendidikan Bahasa dan Sa
+  [wikipedia:Indonesia_18500] Anggaran pemerintah untuk sektor kesehatan adalah sekitar 3,3% dari PDB pada tahun 2016. Sebagai bagian dari upaya mencapai cakupan kesehatan semesta, pemerintah meluncurkan Jaminan Kesehatan Nasional (JKN) pada tahun 2014. Meskipun ada peningkatan y
+  [wikipedia:Universitas_Sriwijaya_1110] Teknik Mesin (S1) Arsitektur (S1) Teknik Geologi (S1) Teknik Lingkungan (S1) Teknik Geomatika (S1) Fakultas Kedokteran (FK) Pendidikan Dokter (S1) Ilmu Keperawatan (S1) Kedokteran Gigi (S1) Psikologi (S1) Kedokteran Hewan (S1) Fakultas Pertanian (FP)
+  [wikipedia:Universitas_Islam_Negeri_Syarif_Hidayatullah_Jakarta_2960] Djamil, M.A. Prof. Dr. Frans Sayogie, M.Pd. Prof. Dr. Hamid Nasuki, M.Ag. Prof. dr. Hari Hendarto, Sp.PD-KEMD., Ph.D. Prof. Dr. H. Husni Rahim Prof. Iik Arifin Mansurnoor, M.A., Ph.D. Prof. Dr. Imam Subchi, M.A. Prof. Drs. Jajang Jahroni, M.A., Ph.D.
+  [wikipedia:Gelombang_0] Gelombang adalah getaran yang merambat. Bentuk ideal dari suatu gelombang akan mengikuti gerak sinusoide. Selain radiasi elektromagnetik, dan mungkin radiasi gravitasi, yang bisa berjalan lewat ruang hampa udara, gelombang juga terdapat pada medium (
+
+=== abstain-109 (ABSTAIN) ===
+Q: Berapa jumlah penduduk Gondor menurut data Bank Dunia?
+GOLD FACTS: []
+ANSWER: Tidak ada data karena Gondor adalah negara fiksi dari karya sastra J.R.R. Tolkien dan Bank Dunia tidak menyediakan data untuk negara fiksi. Bank Dunia hanya memiliki data statistik untuk negara-negara nyata di dunia.
+CONTEXT:
+  [wikipedia:Honduras_1480] Amerika Serikat, 617.392 penduduk diidentifikasi sebagai orang Honduras, naik dari 217.569 pada tahun 2000. Etnis Etnis masyarakat Honduras adalah 90% Mestizo, 7% Indian Amerika, 2% Hitam dan 1% Putih (2017). Sensus Honduras tahun 1927 tidak memberik
+  [wikipedia:Honduras_1110] jawab atas ribuan penahanan yang diduga sewenang-wenang dan untuk beberapa penghilangan paksa dan eksekusi di luar hukum terhadap lawan pemerintah de facto, termasuk anggota Partai Persatuan Demokrasi. Namun, bukti tentang tindakan ini belum diberika
+  [wikipedia:Asia_740] Kekaisaran Mongol menaklukkan sebagian besar Asia pada abad ke-13, wilayah yang membentang dari Cina hingga Eropa. Sebelum invasi Mongol, Dinasti Song dilaporkan memiliki sekitar 120 juta warga; sensus 1300 yang mengikuti invasi melaporkan sekitar 60
+  [wikipedia:Mongolia_Dalam_0] Mongolia Dalam (Mongolian: s , Öbür Monggol dan c , Övör Mongol; , tetapi secara resmi diromanisasi menjadi Nei Mongol) adalah sebuah daerah otonom setingkat provinsi di dalam Republik Rakyat Tiongkok. Ibu kota provinsi ini berada di Hohhot, dan kota
+  [wikipedia:Norwegia_1850] pendapatan antargenerasi. Ekonomi Norwegia adalah contoh ekonomi campuran; negara kesejahteraan kapitalis yang makmur, menampilkan kombinasi aktivitas pasar bebas dan kepemilikan negara yang besar di sektor-sektor kunci tertentu, yang dipengaruhi ole
+  [wikipedia:Mongolia_2220] Bangsa Mongol cukup homogen, Etnis Mongol berjumlah sekitar 95% dari populasi dan terdiri dari Khalkha dan kelompok lain, semuanya dibedakan terutama oleh dialek bahasa Mongol. Khalkha merupakan 86% dari populasi etnis Mongol. 14% sisanya termasuk Oi
+  [wikipedia:Yordania_2590] ini dikaitkan dengan efek ketidakstabilan regional yang menyebabkan penurunan aktivitas turis, penurunan investasi asing, peningkatan pengeluaran militer, serangan terhadap jaringan pipa Mesir, runtuhnya perdagangan dengan Irak dan Suriah, biaya mena
+  [wikipedia:Gabon_1480] une vedette internationale. Ialah aktor kulit hitam pertama Afrika yang menjadi pemeran uama di film Prancis. Pierre-Marie Dong bermain di film pendek pada tahun 1972 dan 1973, Imunga Ivanga untuk filmnya Dolè pada tahun 2001, dan pada tahun yang sam
+
+=== abstain-120 (ABSTAIN) ===
+Q: Berapa nilai PDB per kapita Indonesia pada tahun 1850?
+GOLD FACTS: []
+ANSWER: Tidak ada data yang tersedia untuk nilai PDB per kapita Indonesia pada tahun 1850. Pada periode tersebut, Indonesia masih berada di bawah pemerintahan Belanda sebagai bagian dari Hindia Belanda, dan konsep PDB per kapita sebagai indikator ekonomi modern tidak diterapkan dalam skala nasional pada abad ke-19. Selain itu, informasi yang diberikan dalam pertanyaan tidak mencantumkan data ekonomi historis seperti PDB per kapita untuk tahun tersebut. Data ekonomi yang akurat untuk periode ini sangat t
+CONTEXT:
+  [wikipedia:Produk_domestik_bruto_0] Produk domestik bruto (PDB) atau dalam bahasa Inggris gross domestic product (GDP) adalah nilai pasar semua barang dan jasa yang diproduksi oleh suatu negara pada periode tertentu. PDB merupakan salah satu metode yang paling sering digunakan untuk me
+  [wikipedia:Ekonomi_Indonesia_1110] ekonomi makro dan penghapusan beberapa kebijakan ekonomi yang dinilai membebani anggaran negara dan berpotensi melebarkan defisit anggaran, berupa penutupan program pesawat nasional, permobilan nasional hingga subsidi ekspor komoditas. Rupiah masih b
+  [wikipedia:Ekonomi_Indonesia_0] Ekonomi Indonesia merupakan ekonomi terbesar di Asia Tenggara dan merupakan salah satu ekonomi pasar berkembang. Sebagai negara berpenghasilan menengah & anggota G-20, Indonesia tergolong ke dalam negara industri baru. Indonesia adalah ekonomi terbes
+  [wikipedia:Keseimbangan_kemampuan_berbelanja_0] Keseimbangan kemampuan berbelanja, kadang-kadang juga disebut paritas daya beli (bahasa Inggris: purchasing power parity - PPP) dalam ilmu ekonomi adalah sebuah metode yang digunakan untuk menghitung sebuah alternatif nilai tukar antar mata uang dari
+  [wikipedia:Negara_maju_0] Negara maju (atau negara berpenghasilan tinggi, negara industri) adalah negara berdaulat yang memiliki kualitas hidup yang tinggi, ekonomi yang maju dan infrastruktur teknologi yang canggih relatif dibandingkan negara-negara yang kurang maju lainnya.
+  [wikipedia:Produk_domestik_bruto_370] menurut PDB Daftar negara menurut PDB (Nominal) Daftar negara menurut PDB (PPP) Daftar negara menurut PDB (Nominal) per kapita Daftar negara menurut PDB (PPP) per kapita Perkembangan PDB Indonesia Berikut ini daftar total PDB nominal Indonesia: Lihat
+  [wikipedia:Sejarah_Nusantara_(1800–1942)_2220] Hindia Timur" (belakangan dikenal sebagai KNIL). 1831 Pemerintah Hindia Belanda berhasil membuat anggaran berimbang. Pasukan-pasukan Belanda memerangi kaum Padri di Sumatra dan mencapai wilayah Bonjol. 1832 Belanda menggulingkan Sultan Jailolo dan me
+  [wikipedia:Dana_alokasi_umum_0] Dana Alokasi Umum (DAU) adalah sejumlah dana yang harus dialokasikan Pemerintah Pusat kepada setiap Daerah Otonom (Provinsi/Kabupaten/Kota) di Indonesia setiap tahunnya sebagai dana pembangunan. DAU merupakan salah satu komponen belanja pada APBN, da
+
+=== abstain-114 (ABSTAIN) ===
+Q: Berapa PDB Atlantis pada tahun 2015?
+GOLD FACTS: []
+ANSWER: Atlantis adalah tempat mitologis yang tidak ada dalam dunia nyata dan tidak memiliki status negara. Oleh karena itu, tidak ada data PDB untuk Atlantis pada tahun 2015 atau tahun lainnya.
+
+$$
+\boxed{0}
+$$
+CONTEXT:
+  [wikipedia:Kosta_Rika_1110] 41,3 miliar pada 2011 menjadi US $ 52,6 miliar pada 2015. Estimasi PDB untuk 2017 adalah US $ 61,5 miliar dan estimasi PDB per kapita (paritas daya beli) adalah US $ 12.382. Meningkatnya hutang dan defisit anggaran adalah perhatian utama negara. Sebu
+  [wikipedia:Produk_domestik_bruto_0] Produk domestik bruto (PDB) atau dalam bahasa Inggris gross domestic product (GDP) adalah nilai pasar semua barang dan jasa yang diproduksi oleh suatu negara pada periode tertentu. PDB merupakan salah satu metode yang paling sering digunakan untuk me
+  [wikipedia:Negara_maju_0] Negara maju (atau negara berpenghasilan tinggi, negara industri) adalah negara berdaulat yang memiliki kualitas hidup yang tinggi, ekonomi yang maju dan infrastruktur teknologi yang canggih relatif dibandingkan negara-negara yang kurang maju lainnya.
+  [wikipedia:Kepulauan_Marshall_370] sedikit sumber daya alam, dan impornya jauh melebihi ekspor. Menurut CIA, nilai ekspor pada tahun 2013 adalah sekitar $53,7 juta sementara perkiraan impor adalah $133,7 juta. Hasil pertanian antara lain kelapa, tomat, melon, talas, sukun, buah-buahan
+  [wikipedia:Dana_Moneter_Internasional_1480] DMI. Sistem Bretton Woods bertahan sampai tahun 1971, ketika pemerintah A.S. menghentikan ketertukaran (konvertibilitas) dolar Amerika Serikat (dan cadangan dolar yang dipegang negara lain) dengan emas. Keputusan tersebut dikenal sebagai Kejutan Nixo
+  [wikipedia:Produk_domestik_bruto_370] menurut PDB Daftar negara menurut PDB (Nominal) Daftar negara menurut PDB (PPP) Daftar negara menurut PDB (Nominal) per kapita Daftar negara menurut PDB (PPP) per kapita Perkembangan PDB Indonesia Berikut ini daftar total PDB nominal Indonesia: Lihat
+  [wikipedia:Oslo_740] berperan sebagai pelabuhan penumpang. Sekitar 6.000 kapal bersandar tiap tahunnya, dengan muatan total 6 juta kargo dan 5 juta penumpang. Produk domestik bruto Oslo adalah NOK268.047 miliar tahun 2003, 17% PDB negara. Kawasan metropolitan Moss dan Dr
+  [wikipedia:Keseimbangan_kemampuan_berbelanja_0] Keseimbangan kemampuan berbelanja, kadang-kadang juga disebut paritas daya beli (bahasa Inggris: purchasing power parity - PPP) dalam ilmu ekonomi adalah sebuah metode yang digunakan untuk menghitung sebuah alternatif nilai tukar antar mata uang dari
+
+=== abstain-115 (ABSTAIN) ===
+Q: Berapa produksi emas Narnia per tahun?
+GOLD FACTS: []
+ANSWER: Narnia adalah negara fiksi yang tidak ada dalam dunia nyata, sehingga tidak memiliki produksi emas. Jawaban yang tepat adalah **0 ton**. 
+
+**Jawaban:** 0 ton
+CONTEXT:
+  [wikipedia:Emas_6660] tahun 1980 tidak terlampaui hingga 3 Januari 2008, ketika maksimum baru ditetapkan pada AS$865,35 per troy ons. Rekor harga lainnya ditetapkan pada 17 Maret 2008, pada AS$1.023,50 per troy ons (AS$32,91/g). Pada akhir tahun 2009, pasar emas mengalami
+  [wikipedia:Perak_4070] tembaga-nikel, timah, dan timbal-seng yang diperoleh dari Peru, Bolivia, Meksiko, China, Australia, Chile, Polandia dan Serbia. Peru, Bolivia dan Meksiko telah menambang perak sejak 1546, dan masih merupakan produsen utama dunia. Tambang perak terata
+  [wikipedia:Freeport_Indonesia_740] – Kontrak Karya I (Freeport Indonesia Inc.) berlaku selama 30 tahun dan mulai beroperasi tahun 1973. (1967-1991 24 tahun) 1988 – Freeport menemukan cadangan Grasberg. Investasi yang besar dan risiko tinggi, sehingga memerlukan jaminan investasi jangk
+  [wikipedia:Tabang,_Kutai_Kartanegara_370] curah hujan terendah terjadi pada bulan Maret yaitu sebanyak 90 mm dengan 6 hari hujan selama sebulan. Potensi tanaman perkebunan di Kecamatan Tabang terfokus pada 2 komoditi Karet dan Kelapa Sawit. Pada tahun 2018, luas tanaman sawit mencapai 1401 H
+  [wikipedia:Jawa_Barat_2220] tujuan ekspor meski dalam jumlah yang sedikit. Selain itu, Jawa Barat menjadi lokasi produksi baja, alas kaki, furnitur, rotan, elektronika, dan komponen pesawat. Pertanian Pertanian menjadi salah satu sektor ekonomi unggulan di Jawa Barat. Pertanian
+  [wikipedia:Ghana_1850] "negara Afrika sub-Sahara pertama yang mencapai tujuan mengurangi separuh kemiskinan, seperti yang terkandung dalam tujuan 1 Tujuan Pembangunan Milenium". Pembagian administratif Militer Pada tahun 1957, Angkatan Bersenjata Ghana (GAF) terdiri dari m
+  [wikipedia:Kabupaten_Sumenep_2960] pisang, pepaya, jeruk, jambu biji, rambutan, sawo, blimbing, salak dan avokad sangat beravariatif. Komoditas Perkebunan dan Kehutanan Berdasarkan data statistik Tahun 2010 (Sumber: Dinas Perkebunan dan Kehutanan Kabupaten Sumenep dan Perum Perhutani 
+  [wikipedia:Freeport-McMoRan_370] trem dengan bentang tunggal terpanjang di dunia. Trem ini sangat penting untuk pengangkutan manusia, barang, maupun hasil tambang, karena terdapat sebuah tebing setinggi yang memisahkan tambang Ertsberg (di ketinggian ) dengan pabrik pengolah (di ket
+
+=== abstain-106 (ABSTAIN) ===
+Q: Berapa PDB per kapita Wakanda pada tahun 2023?
+GOLD FACTS: []
+ANSWER: Wakanda adalah negara fiksi yang dikenal dalam universa Marvel Cinematic Universe (MCU) dan tidak ada dalam dunia nyata. Oleh karena itu, tidak ada data PDB per kapita untuk Wakanda pada tahun 2023 atau tahun lainnya. Pertanyaan ini tidak dapat dijawab berdasarkan informasi yang diberikan karena Wakanda bukan negara realistis yang memiliki statistik ekonomi resmi. 
+
+**Jawaban:** Wakanda adalah negara fiksi dan tidak memiliki PDB per kapita yang dapat diukur.
+CONTEXT:
+  [wikipedia:Ekonomi_Indonesia_0] Ekonomi Indonesia merupakan ekonomi terbesar di Asia Tenggara dan merupakan salah satu ekonomi pasar berkembang. Sebagai negara berpenghasilan menengah & anggota G-20, Indonesia tergolong ke dalam negara industri baru. Indonesia adalah ekonomi terbes
+  [wikipedia:Produk_domestik_bruto_0] Produk domestik bruto (PDB) atau dalam bahasa Inggris gross domestic product (GDP) adalah nilai pasar semua barang dan jasa yang diproduksi oleh suatu negara pada periode tertentu. PDB merupakan salah satu metode yang paling sering digunakan untuk me
+  [wikipedia:Panama_1480] Naso Tjër Di Ngäbe-Buglé Madugandí Wargandí Ekonomi Sebelum pandemi COVID-19, ekonomi Panama tumbuh empat kali lipat rata-rata regional, mendorongnya ke status berpenghasilan tinggi dengan sejarah inflasi yang rendah. Perekonomian Panama terutama did
+  [wikipedia:Negara_maju_0] Negara maju (atau negara berpenghasilan tinggi, negara industri) adalah negara berdaulat yang memiliki kualitas hidup yang tinggi, ekonomi yang maju dan infrastruktur teknologi yang canggih relatif dibandingkan negara-negara yang kurang maju lainnya.
+  [wikipedia:Zimbabwe_2960] karena kemerosotan pemerintahan dan ekonomi "pemerintah mendorong korupsi untuk menutupi ketidakmampuannya mendanai lembaganya sendiri". Pada tanggal 22 Oktober 2015, presiden Robert Mugabe dianugerahi Penghargaan Perdamaian Konfusius, sebuah tanding
+  [wikipedia:1_Maret_1110] pada peluncurannya yang ke-11, membawa muatan terberat sampai saat ini sebesar 8500 kilogram (8.5 ton). 2002 - Mata uang peseta resmi dihentikan penggunaannya sebagai mata uang resmi Spanyol dan digantikan dengan Euro (€). 2003 - Pengelolaan United S
+  [wikipedia:Guyana_1110] menghadapi ujian pertama mereka ketika Pemberontakan Rupununi, sebuah gerakan separatis berdarah di selatan Guyana, berusaha untuk mencaplok wilayah tersebut ke Venezuela yang dibendung 3 hari kemudian dengan jumlah korban tewas antara 70 dan 100 ora
+  [wikipedia:Republik_Demokratik_Kongo_5180] Tinggi) yang akan mempertahankan negara dari pengepungan atau perang dan memberikan nasihat tentang reformasi sektor keamanan, perlucutan senjata/demobilisasi, dan kebijakan pertahanan nasional. FARDC diorganisir atas dasar brigade, yang tersebar di 

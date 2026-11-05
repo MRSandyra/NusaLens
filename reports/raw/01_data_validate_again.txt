@@ -1,0 +1,13 @@
+--- chunks.parquet ---
+rows: 41297
+--- documents.parquet ---
+rows: 15000
+duplicate doc_id: 0
+documents under 300 chars: 0 (empty: 0)
+--- indicators.parquet ---
+rows: 38216
+null ratio on value: 0.0000 (max 0.05)
+duplicate pk (country,indicator,year): 0
+rows with year outside [1960,2030]: 0
+
+OK: all data quality checks passed

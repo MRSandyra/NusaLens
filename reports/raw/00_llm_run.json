@@ -1,0 +1,19 @@
+{
+  "runtime": "ollama",
+  "runtime_version": "ollama version is 0.34.1",
+  "model": "qwen3:4b",
+  "prompt": "Sebutkan tiga sektor utama ekonomi Indonesia dan jelaskan masing-masing dalam satu kalimat.",
+  "response": "1. Agriculture: Indonesia's agricultural sector is a vital part of the economy, contributing significantly through the export of commodities such as palm oil, coffee, and rubber.  \n2. Industry: The industrial sector, which includes manufacturing and processing activities, plays a crucial role in Indonesia's economy by producing goods like textiles, food products, and electronics.  \n3. Services: The services sector, the largest contributor to Indonesia's GDP, encompasses industries such as tourism, finance, telecommunications, and retail, driving economic growth and employment.",
+  "prompt_eval_count": 35,
+  "eval_count": 1907,
+  "eval_duration_ns": 172205556000,
+  "wall_seconds": 174.737,
+  "tokens_per_second_eval": 11.07,
+  "tokens_per_second_wall": 10.91,
+  "vram_idle_mb": 4047,
+  "vram_after_load_mb": 4047,
+  "vram_peak_mb": 4047,
+  "vram_model_footprint_mb": 0,
+  "vram_budget_mb": 6144,
+  "within_vram_budget": true
+}

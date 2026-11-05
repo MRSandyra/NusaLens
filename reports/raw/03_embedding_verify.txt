@@ -1,0 +1,9 @@
+total chunks: 41297
+null embeddings: 0
+non-null embeddings: 41297
+embedding dims: 384 (distinct dim values: 1)
+norm min: 0.99999993
+norm max: 1.00000012
+norm avg: 1.00000003
+norm stddev: 0.0000000291
+norms within 1e-3 of 1.0: 41297 / 41297

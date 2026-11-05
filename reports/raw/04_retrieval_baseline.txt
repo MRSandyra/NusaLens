@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+evaluating retrieval over 70 DOC/HYBRID items (k=10)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3092.35it/s]
+{
+  "n_items": 70,
+  "recall_at_1": 0.3,
+  "recall_at_3": 0.42857142857142855,
+  "recall_at_5": 0.4857142857142857,
+  "recall_at_10": 0.5142857142857142,
+  "mrr_at_10": 0.38015873015873014,
+  "ndcg_at_10": 0.4132483063376749,
+  "hit_rate": 0.5142857142857142,
+  "latency_p50_ms": 48.589299996820046,
+  "latency_p95_ms": 225.45580000223708
+}
+wrote D:\campus\Test\nusalens\eval\results\baseline-dense.json
+recorded eval_run row run_id=821988e7-b550-4f5d-9955-02116ab97a3b

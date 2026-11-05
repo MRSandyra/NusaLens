@@ -1,0 +1,11 @@
+rows: 120
+distribution: {'DOC': 45, 'SQL': 35, 'HYBRID': 25, 'ABSTAIN': 15}
+unique qid: True
+unique question: True
+DOC/HYBRID with gold_chunk_ids: 70 / 70
+SQL/HYBRID with gold_sql: 60 / 60
+ABSTAIN with no chunk and no sql: 15 / 15
+items carrying gold_answer_facts: 105
+recomputed sha256: 16da4790acd57953cece89809b805eea44e9b0defd6cd650338ee89f9f2f05bf
+recorded  sha256: 16da4790acd57953cece89809b805eea44e9b0defd6cd650338ee89f9f2f05bf
+FROZEN HASH MATCHES: True

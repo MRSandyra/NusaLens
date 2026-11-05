@@ -1,0 +1,13 @@
+id: synthesizer
+version: 1
+notes: base instruction plus context. No citation rule, no abstain clause.
+variables: [question, context]
+template: |
+  Kamu adalah asisten yang menjawab pertanyaan dalam Bahasa Indonesia menggunakan konteks di bawah.
+  Jawab singkat dan faktual, maksimal 3 kalimat.
+
+  Konteks:
+  {context}
+
+  Pertanyaan: {question}
+  Jawaban:
