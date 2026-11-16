@@ -1,6 +1,6 @@
 # NusaLens
 
-Ask a question about Indonesia in Indonesian; get an answer grounded in World Bank indicators and indexed Wikipedia articles, with citations, SQL shown, and an honest "I don't know" when the evidence isn't there.
+NusaLens is a local research assistant for Indonesian public-policy analysts preparing evidence-backed country briefs. It helps them answer questions in Indonesian that combine socioeconomic figures—such as poverty, inequality, or population trends—with concise background context, using World Bank indicators and indexed Wikipedia articles. Each answer exposes its citations and SQL, and returns an honest "I don't know" when the available evidence is insufficient.
 
 ![NusaLens UI: SQL route with trend chart](reports/figures/11_ui_sql.png)
 
@@ -33,6 +33,8 @@ Every number below traces to a report file; see `reports/14_portfolio.md` for th
 | Full pipeline reproducibility | 1980 s (33 min) from `setup` through `test` | `reports/13_quality.md` |
 
 Groundedness is the one target not met, and that is reported here rather than hidden: the synthesizer sometimes denies a fact that is sitting verbatim in its own top-ranked retrieved chunk. Three prompt iterations, including v4's explicit evidence-verification instruction, did not fix it. The local judge also remains below its 70% calibration target after a two-call v5 trial. Root cause and experiments are in `reports/09_e2e.md`, `reports/raw/08_synth_eval_v4.json`, `reports/raw/08_judge_calibration_v5.json`, and `docs/DECISIONS.md` (D15, D16, D19).
+
+**Recommendation:** The 68.6% fact-coverage result means NusaLens is not ready to deploy as-is for real policy queries; first replace or constrain the current generative synthesis step—using extractive answer selection or a stronger synthesis model—and validate that fact coverage meets the 80% target without reducing abstain recall.
 
 ## Architecture
 
