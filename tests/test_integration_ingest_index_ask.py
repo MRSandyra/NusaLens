@@ -16,6 +16,8 @@ from nusalens.retrieval.embed_chunks import embed_chunks
 from nusalens.retrieval.hybrid_search import HybridSearcher
 from nusalens.warehouse.seed import load_documents
 
+pytestmark = pytest.mark.integration
+
 N_DOCS = 50
 FIXTURE_PREFIX = "integration_fixture:"
 

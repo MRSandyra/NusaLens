@@ -4,17 +4,19 @@ import collections
 import statistics
 import time
 from decimal import Decimal
+from pathlib import Path
 
 import psycopg
+import httpx
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from starlette.middleware.base import BaseHTTPMiddleware
 
 from nusalens.agents.sql_guard import execute_readonly, validate_sql
 from nusalens.config import settings
 from nusalens.pipeline import Pipeline
 from nusalens.retrieval.hybrid_search import HybridSearcher
+from nusalens.warehouse.migrations.runner import MIGRATIONS_DIR
 
 app = FastAPI(title="NusaLens API", version="0.1.0")
 
@@ -36,6 +38,49 @@ def get_searcher() -> HybridSearcher:
     return _searcher
 
 
+def readiness() -> dict[str, str]:
+    """Return dependency states without constructing models or running a user query."""
+    state = {"database": "unavailable", "migrations": "unavailable", "index": "unavailable", "ollama": "unavailable"}
+    try:
+        with psycopg.connect(settings.db_dsn, connect_timeout=5) as conn, conn.cursor() as cur:
+            cur.execute("SELECT 1")
+            state["database"] = "ok"
+            cur.execute("SELECT to_regclass('public.schema_migrations')")
+            if cur.fetchone()[0] is None:
+                state["migrations"] = "missing"
+            else:
+                cur.execute("SELECT count(*) FROM schema_migrations")
+                applied = cur.fetchone()[0]
+                expected = len(list(Path(MIGRATIONS_DIR).glob("[0-9][0-9][0-9]_*.sql")))
+                state["migrations"] = "ok" if applied >= expected else f"pending ({applied}/{expected})"
+                if state["migrations"] == "ok":
+                    cur.execute("SELECT count(*) FROM chunks")
+                    n_chunks = cur.fetchone()[0]
+                    state["index"] = "ok" if n_chunks else "empty"
+    except Exception:
+        # The detail belongs in server logs, not an unauthenticated readiness response.
+        pass
+
+    try:
+        response = httpx.get(f"{settings.llm_endpoint}/api/tags", timeout=3.0)
+        response.raise_for_status()
+        available = {model["name"] for model in response.json().get("models", [])}
+        required = {settings.generator_model, settings.text2sql_model, settings.router_model}
+        missing = required - available
+        state["ollama"] = "ok" if not missing else f"missing models: {', '.join(sorted(missing))}"
+    except Exception:
+        pass
+    return state
+
+
+def require_ready(*requirements: str) -> None:
+    state = readiness()
+    missing = {name: state[name] for name in requirements if state[name] != "ok"}
+    if missing:
+        detail = "; ".join(f"{name}={value}" for name, value in missing.items())
+        raise HTTPException(status_code=503, detail=f"service unavailable: {detail}")
+
+
 # ---------------------------------------------------------------------------
 # In-memory rate limit: fixed 60s window, per client IP.
 # ---------------------------------------------------------------------------
@@ -44,20 +89,31 @@ RATE_LIMIT_PER_MINUTE = 30
 _request_log: dict[str, collections.deque] = collections.defaultdict(collections.deque)
 
 
-class RateLimitMiddleware(BaseHTTPMiddleware):
-    async def dispatch(self, request: Request, call_next):
-        client_ip = request.client.host if request.client else "unknown"
+class RateLimitMiddleware:
+    """Small ASGI middleware; avoids BaseHTTPMiddleware's streaming/task-group edge cases."""
+
+    def __init__(self, app):
+        self.app = app
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] != "http":
+            await self.app(scope, receive, send)
+            return
+        client = scope.get("client")
+        client_ip = client[0] if client else "unknown"
         now = time.time()
         window = _request_log[client_ip]
         while window and now - window[0] > 60:
             window.popleft()
         if len(window) >= RATE_LIMIT_PER_MINUTE:
-            return JSONResponse(
+            response = JSONResponse(
                 status_code=429,
                 content={"error": f"rate limit exceeded: {RATE_LIMIT_PER_MINUTE} requests per 60s", "error_type": "RateLimited"},
             )
+            await response(scope, receive, send)
+            return
         window.append(now)
-        return await call_next(request)
+        await self.app(scope, receive, send)
 
 
 app.add_middleware(RateLimitMiddleware)
@@ -65,7 +121,8 @@ app.add_middleware(RateLimitMiddleware)
 
 @app.exception_handler(Exception)
 async def global_error_handler(request: Request, exc: Exception) -> JSONResponse:
-    return JSONResponse(status_code=500, content={"error": str(exc), "error_type": type(exc).__name__})
+    # Do not leak DSNs, SQL, or internal topology through an HTTP error.
+    return JSONResponse(status_code=500, content={"error": "internal server error", "error_type": type(exc).__name__})
 
 
 # ---------------------------------------------------------------------------
@@ -85,11 +142,11 @@ class AskResponse(BaseModel):
     route: str
     route_source: str
     answer: str
-    sources: list[SourceModel] = []
+    sources: list[SourceModel] = Field(default_factory=list)
     sql: str | None = None
     confidence: float
     abstained: bool
-    per_stage_latency_ms: dict = {}
+    per_stage_latency_ms: dict = Field(default_factory=dict)
 
 
 class SearchRequest(BaseModel):
@@ -134,6 +191,9 @@ class IndicatorsResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str
     database: str
+    migrations: str
+    index: str
+    ollama: str
 
 
 class MetricsResponse(BaseModel):
@@ -149,17 +209,13 @@ class MetricsResponse(BaseModel):
 
 @app.get("/health", response_model=HealthResponse)
 def health() -> HealthResponse:
-    try:
-        with psycopg.connect(settings.db_dsn, connect_timeout=5) as conn:
-            conn.execute("SELECT 1")
-        db_status = "ok"
-    except Exception as exc:
-        db_status = f"error: {exc}"
-    return HealthResponse(status="ok", database=db_status)
+    state = readiness()
+    return HealthResponse(status="ok" if all(value == "ok" for value in state.values()) else "degraded", **state)
 
 
 @app.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest) -> AskResponse:
+    require_ready("database", "migrations", "index", "ollama")
     result = get_pipeline().answer(req.question)
     return AskResponse(
         route=result.route, route_source=result.route_source, answer=result.summary,
@@ -171,6 +227,7 @@ def ask(req: AskRequest) -> AskResponse:
 
 @app.post("/search", response_model=SearchResponse)
 def search(req: SearchRequest) -> SearchResponse:
+    require_ready("database", "migrations", "index")
     hits, _retrieve_ms, _rerank_ms = get_searcher().search_rrf_rerank_exp_timed(req.query, k=req.k)
     doc_ids = list(dict.fromkeys(h.doc_id for h, _ in hits))
     titles: dict[str, tuple] = {}
@@ -187,10 +244,11 @@ def search(req: SearchRequest) -> SearchResponse:
 
 @app.post("/sql", response_model=SqlResponse)
 def run_sql(req: SqlRequest) -> SqlResponse:
+    require_ready("database", "migrations")
     result = validate_sql(req.sql, settings.db_dsn)
     if not result.ok:
         raise HTTPException(status_code=400, detail=result.reason)
-    cols, rows = execute_readonly(result.sql, settings.db_ro_dsn)
+    cols, rows = execute_readonly(result.sql, settings.db_ro_dsn, dsn_for_explain=settings.db_dsn)
     # Postgres NUMERIC comes back as Decimal, which Pydantic serializes to a JSON string rather
     # than a number; cast to float so clients (the UI's chart included) get real numeric JSON.
     out_rows = [[float(v) if isinstance(v, Decimal) else v for v in r] for r in rows]
@@ -199,6 +257,7 @@ def run_sql(req: SqlRequest) -> SqlResponse:
 
 @app.get("/indicators", response_model=IndicatorsResponse)
 def indicators() -> IndicatorsResponse:
+    require_ready("database", "migrations")
     with psycopg.connect(settings.db_dsn) as conn, conn.cursor() as cur:
         cur.execute("SELECT code, name_id, name_en, unit, topic FROM dim_indicator ORDER BY name_id")
         cols = [d[0] for d in cur.description]
@@ -208,6 +267,7 @@ def indicators() -> IndicatorsResponse:
 
 @app.get("/metrics", response_model=MetricsResponse)
 def metrics() -> MetricsResponse:
+    require_ready("database", "migrations")
     with psycopg.connect(settings.db_dsn) as conn, conn.cursor() as cur:
         cur.execute("SELECT route, abstained, per_stage_latency_ms FROM query_log")
         rows = cur.fetchall()

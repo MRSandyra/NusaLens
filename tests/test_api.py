@@ -1,8 +1,18 @@
 from fastapi.testclient import TestClient
+import pytest
 
 from nusalens.api.app import app
 
+pytestmark = pytest.mark.integration
+
 client = TestClient(app)
+
+
+@pytest.fixture(autouse=True)
+def clear_rate_limit():
+    # TestClient uses one synthetic client IP; isolate the fixed-window state between tests.
+    from nusalens.api.app import _request_log
+    _request_log.clear()
 
 
 def test_health_returns_200():

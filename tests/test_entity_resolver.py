@@ -4,6 +4,8 @@ from sentence_transformers import SentenceTransformer
 from nusalens.agents.entity_resolution import EntityResolver
 from nusalens.config import settings
 
+pytestmark = pytest.mark.integration
+
 
 @pytest.fixture(scope="module")
 def resolver():

@@ -4,8 +4,9 @@ from pathlib import Path
 import pyarrow.parquet as pq
 from sentence_transformers import SentenceTransformer
 import psycopg
+import torch
 
-MODEL_NAME = "intfloat/multilingual-e5-small"
+from nusalens.config import settings
 
 
 def _format_vector(vec: list[float]) -> str:
@@ -13,18 +14,21 @@ def _format_vector(vec: list[float]) -> str:
 
 
 def embed_chunks(parquet_path: Path, dsn: str, batch_size: int = 64) -> None:
-    model = SentenceTransformer(MODEL_NAME, device="cuda")
+    # A clean CPU-only machine is the baseline supported quickstart.  CUDA is an optimization,
+    # not a hidden prerequisite for index generation.
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model = SentenceTransformer(settings.embedding_model, device=device)
     table = pq.read_table(parquet_path)
     df = table.to_pandas()
     texts = df["text"].tolist()
     start = time.time()
     all_emb = model.encode(texts, batch_size=batch_size, normalize_embeddings=True)
     elapsed = time.time() - start
-    print(f"Encoded {len(texts)} chunks in {elapsed:.1f}s ({len(texts)/elapsed:.2f} chunks/sec)")
+    print(f"Encoded {len(texts)} chunks on {device} in {elapsed:.1f}s ({len(texts)/elapsed:.2f} chunks/sec)")
     # Bulk upsert using executemany with vector formatted as string
     with psycopg.connect(dsn) as conn:
         with conn.cursor() as cur:
-            rows = []
+            rows: list[tuple] = []
             for i, row in df.iterrows():
                 emb = _format_vector(all_emb[i].tolist())
                 rows.append((row["chunk_id"], row["doc_id"], row["ord"], row["heading_path"], row["text"], row["token_count"], emb))
@@ -49,5 +53,4 @@ def embed_chunks(parquet_path: Path, dsn: str, batch_size: int = 64) -> None:
     print(f"Loaded {len(rows)} chunk embeddings into DB")
 
 if __name__ == "__main__":
-    dsn = "postgresql://nusalens:nusalens@localhost:55433/nusalens"
-    embed_chunks(Path("data/gold/chunks.parquet"), dsn)
+    embed_chunks(Path(settings.data_dir) / "gold" / "chunks.parquet", settings.db_dsn)

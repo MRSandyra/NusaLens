@@ -1,5 +1,6 @@
-from nusalens.agents.sql_guard import validate_sql
+from nusalens.agents.sql_guard import execute_readonly, validate_sql
 from nusalens.config import settings
+import pytest
 
 DESTRUCTIVE_PAYLOADS = [
     "DROP TABLE documents",
@@ -26,6 +27,18 @@ def test_comment_smuggled_second_statement_is_rejected():
     assert not result.ok
 
 
+def test_non_allowlisted_relation_is_rejected_before_execution():
+    result = validate_sql("SELECT * FROM documents", settings.db_dsn)
+    assert not result.ok
+    assert "disallowed relation" in result.reason
+
+
+def test_execution_boundary_revalidates_unsafe_sql():
+    with pytest.raises(ValueError, match="unsafe SQL rejected"):
+        execute_readonly("DROP TABLE documents", "postgresql://unused")
+
+
+@pytest.mark.integration
 def test_safe_select_is_accepted_and_gets_a_limit():
     result = validate_sql(
         "SELECT value FROM v_indicator_series WHERE country_name = 'Indonesia' "
@@ -36,6 +49,7 @@ def test_safe_select_is_accepted_and_gets_a_limit():
     assert "LIMIT" in result.sql.upper()
 
 
+@pytest.mark.integration
 def test_existing_limit_is_not_duplicated():
     result = validate_sql(
         "SELECT value FROM v_indicator_series WHERE country_name = 'Indonesia' LIMIT 5",

@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 import psycopg
-from psycopg.sql import SQL, Identifier, Literal
 
 MIGRATIONS_DIR = Path(__file__).resolve().parent
 

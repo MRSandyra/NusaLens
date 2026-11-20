@@ -4,8 +4,11 @@ an unreachable port, which is safe but not worth running on every pytest invocat
 docs/DECISIONS.md D30 for that verification.
 """
 from fastapi.testclient import TestClient
+import pytest
 
 from nusalens.api.app import app
+
+pytestmark = pytest.mark.safe_integration
 
 client = TestClient(app)
 

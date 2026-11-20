@@ -2,9 +2,7 @@ import time
 import structlog
 import hashlib
 import json
-import re
 import httpx
-from datetime import datetime, timezone
 from pathlib import Path
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 

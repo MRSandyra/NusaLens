@@ -19,6 +19,35 @@ if "history" not in st.session_state:
     st.session_state.history = []
 
 
+@st.cache_data(ttl=5, show_spinner=False)
+def api_health() -> dict:
+    try:
+        response = httpx.get(f"{API_BASE}/health", timeout=3.0)
+        response.raise_for_status()
+        return response.json()
+    except httpx.HTTPError:
+        return {"status": "unreachable"}
+
+
+def api_error(response: httpx.Response) -> str:
+    """Preserve actionable API errors instead of Streamlit's opaque HTTP status string."""
+    try:
+        body = response.json()
+        return body.get("detail") or body.get("error") or response.text
+    except ValueError:
+        return response.text
+
+
+health = api_health()
+if health["status"] != "ok":
+    if health["status"] == "unreachable":
+        st.error("API tidak dapat dihubungi. Jalankan `nusalens serve` setelah bootstrap selesai.")
+    else:
+        problems = [f"{name}: {value}" for name, value in health.items() if name != "status" and value != "ok"]
+        st.warning("Layanan belum siap (" + "; ".join(problems) + "). "
+                   "Jalankan `make bootstrap` atau lihat README sebelum mengirim pertanyaan.")
+
+
 def fetch_series(country: str, indicator: str) -> pd.DataFrame | None:
     sql = (
         f"SELECT year, value FROM v_indicator_series WHERE country_name = '{country}' "
@@ -34,7 +63,7 @@ def fetch_series(country: str, indicator: str) -> pd.DataFrame | None:
         df["year"] = df["year"].astype(int)
         df["value"] = df["value"].astype(float)
         return df.set_index("year")
-    except Exception:
+    except (httpx.HTTPError, KeyError, TypeError, ValueError):
         return None
 
 
@@ -45,9 +74,11 @@ if ask_clicked and question.strip():
     with st.spinner("Memproses pertanyaan..."):
         try:
             resp = httpx.post(f"{API_BASE}/ask", json={"question": question}, timeout=120.0)
-            resp.raise_for_status()
-            result = resp.json()
-        except Exception as exc:
+            if resp.is_error:
+                result = {"error": api_error(resp), "status_code": resp.status_code}
+            else:
+                result = resp.json()
+        except httpx.HTTPError as exc:
             result = {"error": str(exc)}
     st.session_state.history.insert(0, {"question": question, "result": result})
 
@@ -57,6 +88,8 @@ if st.session_state.history:
 
     if "error" in result:
         st.error(f"Gagal menjawab: {result['error']}")
+        if result.get("status_code") == 503:
+            st.info("Tidak ada inferensi yang dijalankan. Periksa Ollama, migration database, dan index terlebih dahulu.")
     else:
         route_label = {"SQL": "Data terstruktur (SQL)", "DOC": "Dokumen (pencarian)",
                        "HYBRID": "Gabungan (SQL + dokumen)", "ABSTAIN": "Tidak dijawab"}.get(result["route"], result["route"])
@@ -67,6 +100,8 @@ if st.session_state.history:
 
         st.subheader("Jawaban")
         st.write(result["answer"])
+        if result["abstained"]:
+            st.warning("NusaLens menahan jawaban karena bukti yang tersedia tidak mencukupi.")
 
         if result.get("sources"):
             st.subheader("Sumber")
@@ -96,7 +131,7 @@ if st.session_state.history:
                     for chunk in search_resp.json()["chunks"]:
                         st.markdown(f"**[{chunk['chunk_id']}]** {chunk.get('title', '')}")
                         st.caption(chunk["text"][:400])
-                except Exception as exc:
+                except httpx.HTTPError as exc:
                     st.caption(f"Tidak dapat memuat potongan dokumen: {exc}")
 
         with st.expander("Latensi per tahap"):

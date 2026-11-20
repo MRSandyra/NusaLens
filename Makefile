@@ -1,14 +1,25 @@
 PYTHON := .venv/Scripts/python
 
-.PHONY: setup health ingest index eval train-embed serve mcp test all db-up db-down
+.PHONY: setup setup-env models migrate seed health ingest index bootstrap verify eval train-embed serve mcp test test-unit test-integration all db-up db-down
 
-setup:
-	uv sync
+setup-env:
+	uv sync --group dev
+
+models:
+	ollama pull qwen3:4b
+	ollama pull qwen2.5:3b-instruct
+	$(PYTHON) scripts/download_models.py
+
+setup: setup-env
 	$(PYTHON) scripts/detect_hardware.py > reports/raw/00_hardware.json
 	docker compose up -d
 	$(PYTHON) scripts/wait_for_db.py
-	docker compose exec -T db psql -U nusalens -d nusalens -c "CREATE EXTENSION IF NOT EXISTS vector;"
-	$(PYTHON) -m nusalens.cli health
+
+migrate:
+	$(PYTHON) -m nusalens.warehouse.migrations.runner
+
+seed:
+	$(PYTHON) -m nusalens.warehouse.seed
 
 db-up:
 	docker compose up -d
@@ -26,6 +37,8 @@ index:
 	$(PYTHON) -m nusalens.retrieval.chunker
 	$(PYTHON) -m nusalens.retrieval.embed_chunks
 
+bootstrap: setup models migrate ingest seed index health
+
 eval:
 	$(PYTHON) scripts/phase5_eval.py
 
@@ -39,6 +52,17 @@ mcp:
 	$(PYTHON) -m nusalens.mcp_server.main --transport stdio
 
 test:
-	$(PYTHON) -m pytest tests/ -v
+	$(PYTHON) -m pytest -m "not integration" -v
 
-all: setup ingest index eval train-embed test
+test-unit:
+	$(PYTHON) -m pytest -m "not integration and not safe_integration" -v
+
+test-integration:
+	$(PYTHON) scripts/preflight_runtime.py
+	$(PYTHON) -m pytest -m safe_integration -v
+	$(PYTHON) -m pytest -m integration -v
+
+verify:
+	$(PYTHON) scripts/verify_evaluation.py
+
+all: bootstrap verify test

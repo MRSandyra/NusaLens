@@ -62,7 +62,9 @@ def _check_embedding() -> dict:
     except ImportError as exc:
         return {"status": "ERROR", "detail": f"sentence-transformers not installed: {exc}"}
     try:
-        model = SentenceTransformer(settings.embedding_model, device="cpu")
+        # Health must be diagnostic and fast: never make an implicit multi-GB network download.
+        # `make models` owns artifact acquisition; health only verifies its local result.
+        model = SentenceTransformer(settings.embedding_model, device="cpu", local_files_only=True)
         vector = model.encode("query: uji koneksi", normalize_embeddings=True)
         return {
             "status": "OK",
@@ -71,7 +73,7 @@ def _check_embedding() -> dict:
             "device": "cpu",
         }
     except Exception as exc:
-        return {"status": "ERROR", "detail": f"{type(exc).__name__}: {exc}"}
+        return {"status": "ERROR", "detail": f"{type(exc).__name__}: {exc}. Run `make models` to cache it."}
 
 
 @app.command()

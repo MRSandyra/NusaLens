@@ -5,7 +5,7 @@ from pathlib import Path
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-from .base import SourceError, append_manifest, file_rows, sha256_file
+from .base import SourceError, append_manifest, sha256_file
 
 
 WORLDBANK_INDICATORS = [

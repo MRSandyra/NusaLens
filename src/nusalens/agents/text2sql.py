@@ -1,7 +1,6 @@
 import re
 from dataclasses import dataclass, field
 
-import psycopg
 from sentence_transformers import SentenceTransformer
 
 from nusalens.agents.entity_resolution import EntityResolver
@@ -39,7 +38,8 @@ def _extract_sql(text: str) -> str:
 
 
 class Text2SQLAgent:
-    def __init__(self, dsn: str = None, ro_dsn: str = None, model: str = None, endpoint: str = None, prompt_version: str | None = "v2"):
+    def __init__(self, dsn: str | None = None, ro_dsn: str | None = None, model: str | None = None,
+                 endpoint: str | None = None, prompt_version: str | None = "v2"):
         self.dsn = dsn or settings.db_dsn
         self.ro_dsn = ro_dsn or settings.db_ro_dsn
         self.model = model or settings.text2sql_model
@@ -100,7 +100,7 @@ class Text2SQLAgent:
                 continue
 
             try:
-                cols, rows = execute_readonly(result.sql, self.ro_dsn)
+                cols, rows = execute_readonly(result.sql, self.ro_dsn, dsn_for_explain=self.dsn)
             except Exception as exc:
                 last_error = str(exc)
                 continue
@@ -140,5 +140,5 @@ def verbalize(question: str, columns: list[str], rows: list[tuple], sql: str) ->
         return f"Jawaban: {rows[0][0]}.\n\nSQL: {sql}"
 
     lines = [", ".join(f"{c}={v}" for c, v in zip(columns, row)) for row in rows[:10]]
-    body = "\n".join(f"- {l}" for l in lines)
+    body = "\n".join(f"- {line}" for line in lines)
     return f"Hasil:\n{body}\n\nSQL: {sql}"

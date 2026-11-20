@@ -1,5 +1,4 @@
 """Phase 2 verification: schema stats and read‑only role enforcement."""
-import json
 import psycopg
 from nusalens.config import settings
 

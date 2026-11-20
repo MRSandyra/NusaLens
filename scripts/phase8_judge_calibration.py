@@ -9,6 +9,7 @@ Step 2 (this script, mode=score): read back the same file once the "human_label"
 filled in for every item, run the LLM judge on each transcript, and compute agreement.
 """
 import json
+import sys
 import random
 from argparse import ArgumentParser
 from pathlib import Path

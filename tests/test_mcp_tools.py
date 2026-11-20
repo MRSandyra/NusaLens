@@ -4,6 +4,8 @@ import pytest
 
 from nusalens.mcp_server.main import server
 
+pytestmark = pytest.mark.integration
+
 
 @pytest.mark.asyncio
 async def test_list_tools_resources_prompts():

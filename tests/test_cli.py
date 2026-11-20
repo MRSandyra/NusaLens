@@ -1,6 +1,9 @@
 from typer.testing import CliRunner
+import pytest
 
 from nusalens.cli import app
+
+pytestmark = pytest.mark.integration
 
 runner = CliRunner()
 

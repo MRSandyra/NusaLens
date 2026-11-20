@@ -6,7 +6,6 @@ guardrail re-proof. Prints the full transcript as JSON to stdout.
 import asyncio
 import json
 import sys
-from pathlib import Path
 
 from mcp import Client, StdioServerParameters
 

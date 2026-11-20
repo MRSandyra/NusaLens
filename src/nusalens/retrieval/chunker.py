@@ -1,7 +1,5 @@
-import json
 import time
 from pathlib import Path
-from typing import Iterable
 
 import pyarrow as pa
 import pyarrow.parquet as pq

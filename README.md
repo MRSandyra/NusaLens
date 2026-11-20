@@ -2,6 +2,8 @@
 
 NusaLens is a local research assistant for Indonesian public-policy analysts preparing evidence-backed country briefs. It helps them answer questions in Indonesian that combine socioeconomic figures—such as poverty, inequality, or population trends—with concise background context, using World Bank indicators and indexed Wikipedia articles. Each answer exposes its citations and SQL, and returns an honest "I don't know" when the available evidence is insufficient.
 
+> **Primary limitation — not production-ready:** recorded end-to-end fact coverage is **68.6%**, below the project's **80%** production target. Retrieval/routing and abstention results do not compensate for this evidence-coverage gap. Do not use generated answers for real policy decisions without independently checking the cited evidence. See [Verification](#verification) and [Limitations and next steps](#limitations-and-next-steps).
+
 ![NusaLens UI: SQL route with trend chart](reports/figures/11_ui_sql.png)
 
 More screenshots: [DOC route with citations](reports/figures/11_ui_doc.png), [ABSTAIN route](reports/figures/11_ui_abstain.png).
@@ -29,7 +31,7 @@ Every number below traces to a report file; see `reports/14_portfolio.md` for th
 | Follow-up synthesizer prompt trial | v4 evidence-verification instruction: 57.1% fact coverage, unchanged from v1; abstain recall remains 0% | `reports/raw/08_synth_eval_v4.json` |
 | Follow-up judge trial | v5 two-call evidence analysis then boolean decision: 55% agreement, below v3's 60% | `reports/raw/08_judge_calibration_v5.json` |
 | End-to-end latency, p95 | 44.5 s overall; 4.0 s for SQL-only, 36 ms for a correctly abstained question | `reports/09_e2e.md` |
-| Test coverage | 70% on `src/nusalens/`, 98 tests passing | `reports/raw/13_coverage.txt` |
+| Test coverage (recorded pre-audit run) | 70% on `src/nusalens/`, 98 tests passing | `reports/raw/13_coverage.txt` |
 | Full pipeline reproducibility | 1980 s (33 min) from `setup` through `test` | `reports/13_quality.md` |
 
 Groundedness is the one target not met, and that is reported here rather than hidden: the synthesizer sometimes denies a fact that is sitting verbatim in its own top-ranked retrieved chunk. Three prompt iterations, including v4's explicit evidence-verification instruction, did not fix it. The local judge also remains below its 70% calibration target after a two-call v5 trial. Root cause and experiments are in `reports/09_e2e.md`, `reports/raw/08_synth_eval_v4.json`, `reports/raw/08_judge_calibration_v5.json`, and `docs/DECISIONS.md` (D15, D16, D19).
@@ -63,23 +65,57 @@ Detailed flow, data schema, and sequence diagram: `docs/ARCHITECTURE.md`.
 
 ## Quickstart
 
-```bash
-docker compose up -d
-```
-```bash
-uv sync
-```
-```bash
-ollama pull qwen3:4b && ollama pull qwen2.5:3b-instruct
-```
-```bash
-python -m nusalens.cli health
-```
-```bash
-python -m nusalens.cli ask "Berapa nilai Gini index untuk Vietnam pada tahun 2022?"
+Prerequisites: Python 3.11 with [uv](https://docs.astral.sh/uv/), Docker Compose, and Ollama. GNU Make is optional. The first bootstrap requires network access and downloads the retrieval models plus source datasets; it can take substantial disk space and time. Generated data, model weights, and index artifacts are intentionally ignored by Git.
+
+PowerShell on Windows:
+
+```powershell
+Copy-Item .env.example .env
+.\scripts\bootstrap.ps1
 ```
 
+macOS/Linux, or Windows with GNU Make:
+
+```bash
+cp .env.example .env
+make bootstrap
+```
+
+`bootstrap.ps1` / `make bootstrap` performs the reproducible local setup in this order: installs locked Python dependencies, starts Postgres, downloads the two Ollama models and Hugging Face embedding/reranker models, applies migrations, ingests the World Bank and Indonesian Wikipedia sources, seeds the warehouse, generates embeddings/indexes (CPU is supported), and checks health. Start the Ollama service first (`ollama serve`) if it is not already running.
+
+To run the same stages separately, which is useful after an interrupted large download:
+
+```bash
+make setup       # Python environment + Postgres
+make models      # Ollama + Hugging Face model downloads
+make migrate
+make ingest      # downloads/generates data/gold/*.parquet
+make seed
+make index       # generates data/gold/chunks.parquet and DB vectors
+```
+
+```bash
+make health
+```
+```bash
+make verify
+```
+
+`make verify` (or `./.venv/Scripts/python.exe scripts/verify_evaluation.py` on PowerShell) reads the checked-in evaluation artifacts and prints one JSON summary for retrieval, routing, abstention, and evidence coverage. It does not rerun a benchmark or change metrics. Add `--require-fact-coverage-target` to `scripts/verify_evaluation.py` when a non-zero exit is required for the 80% fact-coverage gate.
+
+Once health is `OK`, start the API and Streamlit UI with `make serve`, then ask a question. The UI reports an actionable unavailable/degraded state when Ollama is down, migrations are pending, or the retrieval index is empty; it labels insufficient evidence as an abstention rather than an answered result.
+
+Run `make test-unit` for offline tests, and `make test-integration` only after `make bootstrap`; the latter fails fast with a dependency summary instead of producing misleading database/model connection failures. CI runs the offline unit suite and safe HTTP integration tests (no external service or model), while the full local integration suite remains an explicit post-bootstrap check.
+
 Full demo script with more questions and what to show: `docs/DEMO.md`.
+
+## Verification
+
+```bash
+make verify
+```
+
+The recorded artifact summary currently reports the `rrf_rerank_exp` retrieval configuration, routing accuracy, abstain recall, and document/hybrid fact coverage. It explicitly sets `production_gate` to `NOT_MET` until fact coverage reaches the 80% target in a newly run benchmark. This is a report of stored evidence, not a new benchmark claim.
 
 ## Limitations and next steps
 

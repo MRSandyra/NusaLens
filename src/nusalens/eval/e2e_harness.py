@@ -1,7 +1,5 @@
 import json
 import time
-import uuid
-from pathlib import Path
 
 import psycopg
 from nusalens.config import settings, PROJECT_ROOT
@@ -32,7 +30,7 @@ def evaluate() -> dict:
             rows = exec_sql(sql)
             elapsed = (time.perf_counter() - start) * 1000
             latencies.append(elapsed)
-        except Exception as e:
+        except Exception:
             # treat as failure
             continue
         if not rows:

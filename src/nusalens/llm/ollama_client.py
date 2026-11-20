@@ -23,7 +23,7 @@ def generate_with_meta(model: str, prompt: str, temperature: float = 0.0, num_pr
 
 def _generate_raw(model: str, prompt: str, temperature: float, num_predict: int,
                    endpoint: str | None) -> dict:
-    last_exc = None
+    last_exc: httpx.HTTPStatusError | None = None
     for attempt in range(3):
         try:
             resp = httpx.post(
@@ -41,7 +41,9 @@ def _generate_raw(model: str, prompt: str, temperature: float, num_predict: int,
             if exc.response.status_code < 500 or attempt == 2:
                 raise
             time.sleep(2 * (attempt + 1))
-    raise last_exc
+    if last_exc is not None:
+        raise last_exc
+    raise RuntimeError("Ollama generation failed without an HTTP response")
 
 
 def extract_json(text: str) -> dict | None:

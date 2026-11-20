@@ -1,10 +1,8 @@
 import time
 from dataclasses import dataclass
 
-import psycopg
 from sentence_transformers import CrossEncoder
 
-from nusalens.config import settings
 from nusalens.retrieval.query_expand import expand_query, load_acronyms
 from nusalens.retrieval.search_dense import DenseSearcher
 from nusalens.retrieval.search_sparse import SparseSearcher

@@ -1,9 +1,8 @@
 # No prompt text lives in Python; every template is loaded from prompts/<role>/vN.yaml.
-from pathlib import Path
 
 import yaml
 
-from nusalens.config import PROJECT_ROOT, settings
+from nusalens.config import PROJECT_ROOT
 
 
 def _settings_prompts() -> dict:

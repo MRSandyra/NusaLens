@@ -6,6 +6,8 @@ import pytest
 from nusalens.config import settings
 from nusalens.warehouse.seed import load_documents, seed_dim_country
 
+pytestmark = pytest.mark.integration
+
 
 def test_seed_dim_country_is_idempotent():
     with psycopg.connect(settings.db_dsn) as conn, conn.cursor() as cur:

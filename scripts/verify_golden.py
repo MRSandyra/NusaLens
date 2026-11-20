@@ -1,7 +1,6 @@
 import hashlib
 import json
 from collections import Counter
-from pathlib import Path
 
 from nusalens.config import PROJECT_ROOT
 

@@ -5,7 +5,6 @@ depend on the synthesizer prompt; only the synthesis LLM call varies.
 """
 import json
 import random
-import re
 import time
 from argparse import ArgumentParser
 from pathlib import Path

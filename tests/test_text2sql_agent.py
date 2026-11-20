@@ -1,4 +1,8 @@
+import pytest
+
 from nusalens.agents.text2sql import Text2SQLAgent
+
+pytestmark = pytest.mark.integration
 
 
 def test_ask_returns_correct_value_for_a_known_sql_question():

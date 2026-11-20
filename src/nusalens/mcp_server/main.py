@@ -5,6 +5,7 @@ import json
 
 import httpx
 import psycopg
+from psycopg import sql as psycopg_sql
 from mcp.server.mcpserver import MCPServer
 from pydantic import BaseModel, Field
 
@@ -175,7 +176,7 @@ def run_readonly_sql(params: RunReadonlySqlParams) -> dict:
         result = validate_sql(params.sql, settings.db_dsn)
         if not result.ok:
             return _error(ValueError(result.reason), sql=params.sql)
-        cols, rows = execute_readonly(result.sql, settings.db_ro_dsn)
+        cols, rows = execute_readonly(result.sql, settings.db_ro_dsn, dsn_for_explain=settings.db_dsn)
         return {"ok": True, "sql": result.sql, "columns": cols, "rows": [list(r) for r in rows]}
     except Exception as exc:
         return _error(exc)
@@ -264,7 +265,7 @@ def stats_resource() -> str:
     out = {}
     with psycopg.connect(settings.db_dsn) as conn, conn.cursor() as cur:
         for t in tables:
-            cur.execute(f"SELECT count(*) FROM {t}")
+            cur.execute(psycopg_sql.SQL("SELECT count(*) FROM {}").format(psycopg_sql.Identifier(t)))
             out[t] = cur.fetchone()[0]
     return json.dumps(out, default=str)
 

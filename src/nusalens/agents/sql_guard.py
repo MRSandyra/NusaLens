@@ -6,12 +6,17 @@ import sqlglot
 import yaml
 from sqlglot import exp
 
-from nusalens.config import PROJECT_ROOT, settings
+from nusalens.config import PROJECT_ROOT
 
 _DENYLIST = re.compile(
-    r"\b(INSERT|UPDATE|DELETE|DROP|ALTER|GRANT|REVOKE|TRUNCATE|CREATE|COPY)\b|\bpg_",
+    r"\b(INSERT|UPDATE|DELETE|DROP|ALTER|GRANT|REVOKE|TRUNCATE|CREATE|COPY|CALL|DO|SET|SHOW)\b|\bpg_",
     re.IGNORECASE,
 )
+
+# The public SQL surface is deliberately narrower than the database role.  The role is a
+# second line of defence; this allow-list makes it impossible for an API/MCP caller to read
+# system catalogs or arbitrary public tables through a syntactically-valid SELECT.
+_ALLOWED_RELATIONS = {"v_indicator_series"}
 
 
 def _load_sql_guard_config() -> dict:
@@ -53,6 +58,13 @@ def validate_sql(raw_sql: str, dsn_for_explain: str) -> ValidationResult:
     if not isinstance(parsed, exp.Select):
         return ValidationResult(False, sql, f"expected a SELECT, got {type(parsed).__name__}")
 
+    relations = {table.name.lower() for table in parsed.find_all(exp.Table)}
+    if not relations:
+        return ValidationResult(False, sql, "query must read from v_indicator_series")
+    disallowed = relations - _ALLOWED_RELATIONS
+    if disallowed:
+        return ValidationResult(False, sql, f"disallowed relation(s): {', '.join(sorted(disallowed))}")
+
     if parsed.args.get("limit") is None:
         parsed = parsed.limit(default_limit)
     bounded_sql = parsed.sql(dialect="postgres")
@@ -71,9 +83,18 @@ def validate_sql(raw_sql: str, dsn_for_explain: str) -> ValidationResult:
     return ValidationResult(True, bounded_sql, "ok", total_cost)
 
 
-def execute_readonly(sql: str, dsn_ro: str) -> tuple[list[str], list[tuple]]:
+def execute_readonly(sql: str, dsn_ro: str, *, dsn_for_explain: str | None = None) -> tuple[list[str], list[tuple]]:
+    """Validate then execute one bounded read-only query.
+
+    This function is the only dynamic-SQL execution boundary.  It intentionally validates again
+    even when a caller validated to prepare a friendly API error: no future caller can bypass the
+    AST, allow-list, cost, timeout, and read-only-role guardrails by calling this helper directly.
+    """
+    result = validate_sql(sql, dsn_for_explain or dsn_ro)
+    if not result.ok:
+        raise ValueError(f"unsafe SQL rejected: {result.reason}")
     with psycopg.connect(dsn_ro) as conn, conn.cursor() as cur:
-        cur.execute(sql)
+        cur.execute(result.sql)
         cols = [d[0] for d in cur.description]
         rows = cur.fetchall()
     return cols, rows

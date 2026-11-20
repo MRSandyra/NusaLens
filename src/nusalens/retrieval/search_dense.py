@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 import psycopg
+from psycopg import sql as psycopg_sql
 from sentence_transformers import SentenceTransformer
 
 MODEL_NAME = "intfloat/multilingual-e5-small"
@@ -44,6 +45,8 @@ class DenseSearcher:
             LIMIT %s
         """
         with self._connect() as conn, conn.cursor() as cur:
-            cur.execute(f"SET hnsw.ef_search = {self.ef_search}")
+            # PostgreSQL cannot bind SET values; format the typed integer as a literal rather
+            # than accepting configuration text as executable SQL.
+            cur.execute(psycopg_sql.SQL("SET hnsw.ef_search = {}").format(psycopg_sql.Literal(int(self.ef_search))))
             cur.execute(sql, (qvec, qvec, k))
             return [DenseHit(r[0], r[1], r[2], float(r[3])) for r in cur.fetchall()]

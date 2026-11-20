@@ -1,9 +1,13 @@
-import psycopg
 from typing import Any
+
+import psycopg
+from psycopg import sql
 
 
 def _sample_rows(cur, table: str, n: int = 3) -> list[dict]:
-    cur.execute(f"SELECT * FROM {table} LIMIT {n}")
+    # Identifiers cannot be bound as parameters. Quote this catalog-derived name rather than
+    # interpolating it so future callers cannot turn schema inspection into dynamic SQL.
+    cur.execute(sql.SQL("SELECT * FROM {} LIMIT %s").format(sql.Identifier(table)), (n,))
     cols = [desc[0] for desc in cur.description]
     return [dict(zip(cols, row)) for row in cur.fetchall()]
 
@@ -20,7 +24,7 @@ def generate_schema_card(dsn: str) -> dict[str, Any]:
             tables = [row[0] for row in cur.fetchall()]
             result = {}
             for t in tables:
-                cur.execute(f"""
+                cur.execute("""
                     SELECT column_name, data_type, is_nullable
                     FROM information_schema.columns
                     WHERE table_schema = 'public' AND table_name = %s
@@ -33,7 +37,8 @@ def generate_schema_card(dsn: str) -> dict[str, Any]:
 
 
 if __name__ == "__main__":
-    import json, os
+    import json
+    import os
     dsn = os.getenv("DATABASE_URL", "postgresql://nusalens:nusalens@localhost:55433/nusalens")
     card = generate_schema_card(dsn)
     print(json.dumps(card, indent=2, default=str))

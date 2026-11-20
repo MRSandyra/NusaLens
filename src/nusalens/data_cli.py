@@ -1,5 +1,3 @@
-import json
-import time
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -16,7 +14,7 @@ def ingest(
     run_id: str | None = typer.Option(None, help="Override run identifier"),
 ) -> None:
     """Run bronze ingestion for the requested sources and emit silver/gold Parquet."""
-    from .ingest.base import BaseConnector, append_manifest, sha256_file
+    from .ingest.base import BaseConnector, append_manifest
     from .ingest import worldbank, wikipedia
 
     requested = [s.strip() for s in sources.split(",") if s.strip()]

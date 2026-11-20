@@ -1,4 +1,8 @@
+import pytest
+
 from nusalens.pipeline import Pipeline
+
+pytestmark = pytest.mark.integration
 
 
 def test_sql_route_returns_high_confidence_and_sql_rows():
